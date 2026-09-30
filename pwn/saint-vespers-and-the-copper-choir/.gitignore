@@ -1,0 +1,11 @@
+# Regenerable build artifacts
+/handout/
+*-handout.tar.gz
+dist/vespers_debug
+src/vespers_debug
+src/vespers
+
+# Local scratch
+*.o
+core
+core.*

@@ -1,0 +1,8 @@
+services:
+  vespers:
+    build:
+      context: ..
+      dockerfile: build/Dockerfile
+    ports:
+      - "5000:5000"
+    restart: unless-stopped

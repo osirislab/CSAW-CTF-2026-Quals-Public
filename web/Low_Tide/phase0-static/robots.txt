@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /internal-monitor/
+Disallow: /relay-status/
+# StationSync-Agent/2.1
+# FieldSync-Client/3.0
+# MonitorAgent/2.2
+# StationSync-Agent/2.0
+# RelayCheck-Bot/1.9

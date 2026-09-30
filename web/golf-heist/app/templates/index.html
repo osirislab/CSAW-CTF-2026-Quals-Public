@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avispa Country Club</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@200;300;400&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>
+    :root{
+      --cream:#f4efe6;--forest:#1a2a18;--gold:#b49a5e;--sand:#c9b99a;
+      --ink:#0c140c;--white:#fafaf7;--mid:#4a5e48;--text:#1a2a18;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    html{scroll-behavior:smooth;}
+
+    /* ── Custom crosshair cursor ── */
+    body{
+      background:var(--white);color:var(--text);
+      font-family:'Montserrat',sans-serif;font-weight:300;letter-spacing:.05em;
+      overflow-x:hidden;
+      cursor:none;
+    }
+    #cursor{
+      position:fixed;z-index:9999;pointer-events:none;
+      width:28px;height:28px;
+      transform:translate(-50%,-50%);
+      transition:transform .08s ease,opacity .2s;
+    }
+    #cursor svg{width:100%;height:100%;}
+    #cursor-dot{
+      position:fixed;z-index:10000;pointer-events:none;
+      width:4px;height:4px;background:var(--gold);border-radius:50%;
+      transform:translate(-50%,-50%);
+      transition:transform .04s ease;
+    }
+    body:not(:hover) #cursor{opacity:0;}
+    /* links/buttons get slightly larger cross */
+    body.cursor-hover #cursor{transform:translate(-50%,-50%) scale(1.4);}
+    a,button,[onclick]{cursor:none;}
+
+    /* NAV */
+    nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:1.3rem 4vw;background:rgba(250,250,247,.97);backdrop-filter:blur(12px);border-bottom:1px solid rgba(26,42,24,.1);}
+    .nav-logo{text-decoration:none;display:flex;flex-direction:column;}
+    .nav-logo-main{font-family:'IM Fell English SC',serif;font-size:1.1rem;color:var(--forest);letter-spacing:.12em;line-height:1;}
+    .nav-logo-sub{font-size:.5rem;letter-spacing:.35em;color:var(--gold);text-transform:uppercase;margin-top:3px;}
+    .nav-links{display:flex;gap:2.5rem;list-style:none;align-items:center;}
+    .nav-links>li{position:relative;}
+    .nav-links>li>a,.nav-links>li>span{
+      font-size:.65rem;letter-spacing:.22em;text-transform:uppercase;
+      color:var(--forest);text-decoration:none;
+      display:flex;align-items:center;gap:.3rem;transition:color .2s;
+    }
+    .nav-links>li>a:hover,.nav-links>li>span:hover{color:var(--gold);}
+    .chevron{font-size:.45rem;transition:transform .25s;display:inline-block;}
+    .nav-links>li.open .chevron{transform:rotate(180deg);}
+    .dropdown{
+      display:none;position:absolute;top:calc(100% + .6rem);left:50%;transform:translateX(-50%);
+      background:var(--white);border:1px solid rgba(26,42,24,.12);
+      min-width:190px;padding:.4rem 0;box-shadow:0 8px 32px rgba(0,0,0,.1);z-index:300;
+    }
+    .dropdown::before{content:'';position:absolute;top:-.7rem;left:0;right:0;height:.7rem;}
+    .nav-links>li.open .dropdown{display:block;}
+    .dropdown a{
+      display:block;padding:.65rem 1.4rem;
+      font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;
+      color:var(--forest);text-decoration:none;transition:background .15s,color .15s;
+    }
+    .dropdown a:hover{background:var(--cream);color:var(--gold);}
+    .dropdown .sep{height:1px;background:rgba(26,42,24,.08);margin:.3rem 0;}
+
+    /* HERO */
+    .hero{height:100vh;min-height:580px;display:grid;grid-template-columns:1fr 1fr;}
+    .hero-left{
+      background:var(--forest);display:flex;flex-direction:column;
+      justify-content:flex-end;padding:8vh 5vw;position:relative;overflow:hidden;
+    }
+    .hero-left::before{
+      content:'';position:absolute;inset:0;
+      background:url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.015'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+    }
+    .hero-tag{
+      font-size:.58rem;letter-spacing:.4em;text-transform:uppercase;
+      color:var(--gold);margin-bottom:1.2rem;
+      display:flex;align-items:center;gap:.8rem;position:relative;
+    }
+    .hero-tag::before{content:'';width:28px;height:1px;background:var(--gold);}
+    .hero-h1{
+      font-family:'Cormorant Garamond',serif;
+      font-size:clamp(2.6rem,4.5vw,4.8rem);font-weight:300;line-height:1.07;
+      color:var(--cream);margin-bottom:1.6rem;position:relative;
+    }
+    .hero-h1 em{font-style:italic;color:var(--gold);}
+    .hero-desc{
+      font-size:.73rem;line-height:2.2;color:rgba(201,185,154,.75);
+      max-width:36ch;margin-bottom:2.8rem;position:relative;
+    }
+    .btn-outline{
+      display:inline-block;padding:.85rem 2.1rem;
+      border:1px solid var(--gold);color:var(--gold);
+      text-decoration:none;font-size:.6rem;letter-spacing:.3em;text-transform:uppercase;
+      transition:all .3s;
+    }
+    .btn-outline:hover{background:var(--gold);color:var(--ink);}
+    .hero-right{background:var(--cream);display:grid;grid-template-rows:1fr 1fr;}
+    .hero-img{
+      position:relative;overflow:hidden;
+      display:flex;align-items:center;justify-content:center;
+      border-bottom:1px solid rgba(26,42,24,.07);
+    }
+    .hero-img:last-child{border-bottom:none;}
+    .hero-img img{
+      width:100%;height:100%;object-fit:cover;
+      transition:transform .6s ease;
+      -webkit-user-drag:none;user-select:none;pointer-events:none;
+    }
+    .hero-img:hover img{transform:scale(1.04);}
+    .hero-img-overlay{
+      position:absolute;inset:0;
+      background:linear-gradient(to top,rgba(12,20,12,.55) 0%,transparent 60%);
+    }
+    .img-label{
+      position:absolute;bottom:1.4rem;left:1.8rem;
+      font-size:.58rem;letter-spacing:.28em;text-transform:uppercase;color:var(--cream);
+      text-shadow:0 1px 4px rgba(0,0,0,.4);
+    }
+    .img-price{
+      position:absolute;bottom:1.4rem;right:1.8rem;
+      font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--cream);
+      text-shadow:0 1px 4px rgba(0,0,0,.4);
+    }
+    .img-tag{
+      position:absolute;top:1.2rem;right:1.4rem;
+      font-size:.48rem;letter-spacing:.22em;text-transform:uppercase;
+      padding:.2rem .5rem;background:var(--gold);color:var(--ink);
+    }
+
+    /* MARQUEE */
+    .marquee-wrap{overflow:hidden;background:var(--forest);padding:.9rem 0;}
+    .marquee-track{display:flex;gap:2.5rem;white-space:nowrap;animation:marquee 24s linear infinite;}
+    .marquee-item{font-size:.58rem;letter-spacing:.35em;text-transform:uppercase;color:var(--sand);flex-shrink:0;}
+    .mdot{color:var(--gold);}
+    @keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+    /* FEATURED 3-UP */
+    .featured{display:grid;grid-template-columns:repeat(3,1fr);border-bottom:1px solid rgba(26,42,24,.1);}
+    .fi{
+      padding:4.5rem 3.5vw;border-right:1px solid rgba(26,42,24,.08);
+      transition:background .25s;
+    }
+    .fi:last-child{border-right:none;}
+    .fi:hover{background:var(--cream);}
+    .fi-num{font-family:'Cormorant Garamond',serif;font-size:3.2rem;color:rgba(26,42,24,.08);line-height:1;font-weight:300;}
+    .fi-title{font-size:.62rem;letter-spacing:.25em;text-transform:uppercase;color:var(--forest);margin-top:-1.3rem;margin-bottom:.8rem;}
+    .fi-desc{font-size:.7rem;line-height:1.95;color:var(--mid);}
+    .fi-link{display:inline-block;margin-top:1.2rem;font-size:.58rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);text-decoration:none;}
+
+    /* SECTION HEADER */
+    .sec-hdr{
+      display:flex;align-items:baseline;justify-content:space-between;
+      padding:3.8rem 4vw 1.8rem;border-bottom:1px solid rgba(26,42,24,.08);
+    }
+    .sec-h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.7rem,2.8vw,2.6rem);font-weight:300;color:var(--forest);}
+    .sec-h2 em{font-style:italic;}
+    .view-all{font-size:.58rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);text-decoration:none;}
+
+    /* PRODUCT GRID (index teaser) */
+    .prod-grid{display:grid;grid-template-columns:repeat(4,1fr);}
+    .pc{
+      border-right:1px solid rgba(26,42,24,.08);border-bottom:1px solid rgba(26,42,24,.08);
+      padding:2.2rem 2vw;transition:background .2s;
+      text-decoration:none;display:flex;flex-direction:column;overflow:hidden;
+    }
+    .pc:nth-child(4n){border-right:none;}
+    .pc:hover{background:var(--cream);}
+    .pc-img{
+      height:180px;overflow:hidden;margin-bottom:1rem;background:var(--cream);
+    }
+    .pc-img img{
+      width:100%;height:100%;object-fit:cover;transition:transform .5s ease;
+      -webkit-user-drag:none;pointer-events:none;user-select:none;
+    }
+    .pc:hover .pc-img img{transform:scale(1.05);}
+    .pc-cat{font-size:.5rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-bottom:.25rem;}
+    .pc-name{font-family:'Cormorant Garamond',serif;font-size:.98rem;color:var(--forest);margin-bottom:.2rem;}
+    .pc-price{font-size:.68rem;color:var(--mid);margin-top:auto;padding-top:.6rem;}
+
+    /* VAULT CTA */
+    .vault-cta{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid rgba(26,42,24,.08);}
+    .vc-l{background:var(--forest);padding:5.5rem 5vw;display:flex;flex-direction:column;justify-content:center;gap:1.4rem;}
+    .vc-eyebrow{font-size:.56rem;letter-spacing:.4em;text-transform:uppercase;color:rgba(180,154,94,.6);}
+    .vc-h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3vw,3rem);font-weight:300;color:var(--cream);line-height:1.1;}
+    .vc-h2 em{font-style:italic;color:var(--gold);}
+    .vc-p{font-size:.7rem;line-height:2.1;color:rgba(212,197,169,.7);max-width:36ch;}
+    .vc-r{background:var(--cream);padding:5.5rem 5vw;display:flex;flex-direction:column;justify-content:center;gap:2.2rem;}
+    .step-num{font-family:'Cormorant Garamond',serif;font-size:2.8rem;color:rgba(26,42,24,.09);line-height:1;}
+    .step-txt{font-size:.62rem;letter-spacing:.15em;color:var(--mid);margin-top:-.9rem;}
+
+    /* FITTING */
+    .fitting{border-top:1px solid rgba(26,42,24,.08);padding:6rem 4vw;background:var(--cream);}
+    .fitting-inner{max-width:960px;margin:0 auto;}
+    .fit-eyebrow{font-size:.56rem;letter-spacing:.4em;text-transform:uppercase;color:var(--gold);margin-bottom:.9rem;}
+    .fit-h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3vw,2.8rem);font-weight:300;color:var(--forest);margin-bottom:1.3rem;}
+    .fit-p{font-size:.72rem;line-height:2.2;color:var(--mid);max-width:58ch;margin-bottom:2.8rem;}
+    .fit-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;}
+    .fit-card{border:1px solid rgba(26,42,24,.12);padding:2rem;}
+    .fit-card.dark{background:var(--forest);}
+    .fit-card-label{font-size:.58rem;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;}
+    .fit-card-price{font-family:'Cormorant Garamond',serif;font-size:1.8rem;margin-bottom:.5rem;}
+    .fit-card:not(.dark) .fit-card-price{color:var(--forest);}
+    .fit-card.dark .fit-card-price{color:var(--cream);}
+    .fit-card-desc{font-size:.62rem;line-height:1.8;}
+    .fit-card:not(.dark) .fit-card-desc{color:var(--mid);}
+    .fit-card.dark .fit-card-desc{color:rgba(201,185,154,.65);}
+
+    /* MAP / CONTACT */
+    .map-section{border-top:1px solid rgba(26,42,24,.08);}
+    .map-inner{display:grid;grid-template-columns:1fr 1.7fr;}
+    .map-info{
+      padding:4.5rem 4vw;background:var(--white);
+      border-right:1px solid rgba(26,42,24,.08);
+      display:flex;flex-direction:column;gap:1.8rem;
+    }
+    .map-h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.6rem,2.3vw,2.2rem);font-weight:300;color:var(--forest);}
+    .map-h2 em{font-style:italic;}
+    .md-label{font-size:.53rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:.3rem;}
+    .md-val{font-size:.72rem;line-height:1.9;color:var(--mid);}
+    #sa-map{height:500px;}
+    .leaflet-control-attribution{display:none!important;}
+    .leaflet-container{background:#1a2e1a!important;}
+
+    /* FOOTER */
+    footer{
+      background:var(--forest);padding:3rem 4vw;
+      display:grid;grid-template-columns:1fr 1fr 1fr;gap:2rem;
+    }
+    .fc-head{font-size:.56rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:.9rem;}
+    .fc a,.fc p{display:block;font-size:.62rem;line-height:2.4;color:rgba(201,185,154,.55);text-decoration:none;}
+    .fc a:hover{color:var(--gold);}
+    .foot-bar{
+      background:var(--ink);padding:.9rem 4vw;
+      display:flex;justify-content:space-between;align-items:center;
+    }
+    .foot-bar span{font-size:.56rem;letter-spacing:.18em;color:rgba(201,185,154,.35);}
+    .foot-bar a{color:rgba(180,154,94,.3);text-decoration:none;font-size:.7rem;}
+    .foot-bar a:hover{color:var(--gold);}
+
+    @keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+    .hero-tag{animation:fadeUp .7s ease .1s both}
+    .hero-h1{animation:fadeUp .7s ease .25s both}
+    .hero-desc{animation:fadeUp .7s ease .4s both}
+    .btn-outline{animation:fadeUp .7s ease .52s both}
+  </style>
+</head>
+<body>
+
+<!-- Custom cursor -->
+<div id="cursor">
+  <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <line x1="14" y1="2" x2="14" y2="10" stroke="#b49a5e" stroke-width="1.2"/>
+    <line x1="14" y1="18" x2="14" y2="26" stroke="#b49a5e" stroke-width="1.2"/>
+    <line x1="2" y1="14" x2="10" y2="14" stroke="#b49a5e" stroke-width="1.2"/>
+    <line x1="18" y1="14" x2="26" y2="14" stroke="#b49a5e" stroke-width="1.2"/>
+    <circle cx="14" cy="14" r="4" stroke="#b49a5e" stroke-width="1"/>
+  </svg>
+</div>
+<div id="cursor-dot"></div>
+
+<nav>
+  <a href="/" class="nav-logo">
+    <span class="nav-logo-main">Avispa Country Club</span>
+    <span class="nav-logo-sub">Where par meets the bar</span>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li data-menu="collection">
+      <span>Collection <span class="chevron">▾</span></span>
+      <div class="dropdown">
+        <a href="/collection?cat=apparel" data-fetch>Apparel</a>
+        <a href="/collection?cat=clubs" data-fetch>Clubs</a>
+        <a href="/collection?cat=balls" data-fetch>Balls</a>
+      </div>
+    </li>
+    <li><a href="#fitting">Fitting</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <p class="hero-tag">SS 2025 · San Fierro</p>
+    <h1 class="hero-h1">Where <em>Par</em><br>meets<br>the Bar.</h1>
+    <p class="hero-desc">Avispa Country Club — southern tip of San Fierro since 1921. Where 18 holes end and the evening begins.</p>
+    <a href="/collection?cat=apparel" class="btn-outline">Explore Collection</a>
+  </div>
+  <div class="hero-right">
+    <div class="hero-img" onclick="location.href='/collection?cat=apparel'">
+      <img src="/static/collection/1.png" alt="Apparel" onerror="this.style.display='none'">
+      <div class="hero-img-overlay"></div>
+      <span class="img-tag">New</span>
+      <span class="img-label">Apparel Collection</span>
+      <span class="img-price">From $68</span>
+    </div>
+    <div class="hero-img" onclick="location.href='/collection?cat=clubs'">
+      <img src="/static/collection/16.png" alt="Clubs" onerror="this.style.display='none'">
+      <div class="hero-img-overlay"></div>
+      <span class="img-label">Tour Equipment</span>
+      <span class="img-price">From $168</span>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span class="marquee-item">Avispa Country Club</span><span class="marquee-item mdot">✦</span>
+    <span class="marquee-item">Where Par Meets the Bar</span><span class="marquee-item mdot">✦</span>
+    <span class="marquee-item">Est. 1921 · San Fierro</span><span class="marquee-item mdot">✦</span>
+    <span class="marquee-item">18 Holes · Full Cellar</span><span class="marquee-item mdot">✦</span>
+    <span class="marquee-item">Missionary Hill · Southern Tip</span><span class="marquee-item mdot">✦</span>
+    <span class="marquee-item">Avispa Country Club</span><span class="marquee-item mdot">✦</span>
+    <span class="marquee-item">Where Par Meets the Bar</span><span class="marquee-item mdot">✦</span>
+    <span class="marquee-item">Est. 1921 · San Fierro</span><span class="marquee-item mdot">✦</span>
+    <span class="marquee-item">18 Holes · Full Cellar</span><span class="marquee-item mdot">✦</span>
+    <span class="marquee-item">Missionary Hill · Southern Tip</span><span class="marquee-item mdot">✦</span>
+  </div>
+</div>
+
+<!-- FEATURED -->
+<div class="featured">
+  <div class="fi" onclick="document.getElementById('fitting').scrollIntoView({behavior:'smooth'})">
+    <div class="fi-num">01</div>
+    <div class="fi-title">Club Fitting</div>
+    <div class="fi-desc">Private sessions on our championship course. Every swing analysed, every club calibrated to your game.</div>
+    <a class="fi-link" href="#fitting">Book a session →</a>
+  </div>
+  <div class="fi" onclick="location.href='/collection?cat=apparel'">
+    <div class="fi-num">02</div>
+    <div class="fi-title">Apparel</div>
+    <div class="fi-desc">From the first tee to the 19th hole. Performance fabrics that hold their line long after the round ends.</div>
+    <a class="fi-link" href="/collection?cat=apparel">Shop now →</a>
+  </div>
+  <div class="fi" onclick="location.href='/vault'">
+    <div class="fi-num">03</div>
+    <div class="fi-title">The Vault</div>
+    <div class="fi-desc">Reserved for those who know what they're looking for. Three words open what no keycard can.</div>
+    <a class="fi-link" href="/vault">Enter the vault →</a>
+  </div>
+</div>
+
+<!-- NEW ARRIVALS -->
+<div>
+  <div class="sec-hdr">
+    <h2 class="sec-h2">New <em>Arrivals</em></h2>
+    <a href="/collection" class="view-all">View all →</a>
+  </div>
+  <div class="prod-grid">
+    <a class="pc" href="/collection?cat=apparel">
+      <div class="pc-img"><img src="/static/collection/1.png" alt="Performance Polo" onerror="this.parentElement.style.background='var(--cream)'"></div>
+      <div class="pc-cat">Apparel</div><div class="pc-name">Performance Polo</div><div class="pc-price">$98</div>
+    </a>
+    <a class="pc" href="/collection?cat=apparel">
+      <div class="pc-img"><img src="/static/collection/2.png" alt="Quilted Vest" onerror="this.parentElement.style.background='var(--cream)'"></div>
+      <div class="pc-cat">Apparel</div><div class="pc-name">Quilted Vest</div><div class="pc-price">$145</div>
+    </a>
+    <a class="pc" href="/collection?cat=clubs">
+      <div class="pc-img"><img src="/static/collection/16.png" alt="Forged Iron Set" onerror="this.parentElement.style.background='var(--cream)'"></div>
+      <div class="pc-cat">Clubs</div><div class="pc-name">Forged Iron Set</div><div class="pc-price">$2,400</div>
+    </a>
+    <a class="pc" href="/collection?cat=balls">
+      <div class="pc-img"><img src="/static/collection/21.png" alt="Tour Velocity" onerror="this.parentElement.style.background='var(--cream)'"></div>
+      <div class="pc-cat">Balls</div><div class="pc-name">Tour Velocity · Dozen</div><div class="pc-price">$54</div>
+    </a>
+  </div>
+</div>
+
+<!-- VAULT CTA -->
+<div class="vault-cta">
+  <div class="vc-l">
+    <p class="vc-eyebrow">Members Only</p>
+    <h2 class="vc-h2"><em>Enter</em><br>the Vault</h2>
+    <p class="vc-p">Certain acquisitions are reserved for those who know what they're looking for. Three words open what no key can.</p>
+    <a href="/vault" class="btn-outline" style="width:fit-content">Enter the Vault</a>
+  </div>
+  <div class="vc-r">
+    <div><div class="step-num">01</div><div class="step-txt">Find the three teapots in the inventory</div></div>
+    <div><div class="step-num">02</div><div class="step-txt">Decode their signals through the machine</div></div>
+    <div><div class="step-num">03</div><div class="step-txt">Three words. Golf lexicon. Open the vault.</div></div>
+  </div>
+</div>
+
+<!-- FITTING -->
+<section id="fitting" class="fitting">
+  <div class="fitting-inner">
+    <p class="fit-eyebrow">Bespoke Service</p>
+    <h2 class="fit-h2">Club Fitting</h2>
+    <p class="fit-p">Every golfer's swing is a fingerprint. Our PGA-certified fitters use launch monitor data, lie angle boards, and shaft profiling to build the precise configuration your game demands.</p>
+    <div class="fit-cards">
+      <div class="fit-card">
+        <div class="fit-card-label">Standard Fitting</div>
+        <div class="fit-card-price">$150</div>
+        <div class="fit-card-desc">Iron fitting · 60 min · Launch monitor included</div>
+      </div>
+      <div class="fit-card dark">
+        <div class="fit-card-label">Full Bag</div>
+        <div class="fit-card-price">$350</div>
+        <div class="fit-card-desc">All clubs · 90 min · Follow-up session included</div>
+      </div>
+      <div class="fit-card">
+        <div class="fit-card-label">Member Rate</div>
+        <div class="fit-card-price">Complimentary</div>
+        <div class="fit-card-desc">Platinum members · 2× per season</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT + MAP -->
+<section id="contact" class="map-section">
+  <div class="map-inner">
+    <div class="map-info">
+      <h2 class="map-h2">Find Us <em>On the Course</em></h2>
+      <div>
+        <div class="md-label">Address</div>
+        <div class="md-val">Avispa Country Club<br>Southern Tip, Missionary Hill<br>San Fierro, SA</div>
+      </div>
+      <div>
+        <div class="md-label">Neighbourhood</div>
+        <div class="md-val">Bordered by Ocean Flats to the north,<br>Foster Valley to the east,<br>Pacific shoreline to the west.</div>
+      </div>
+      <div>
+        <div class="md-label">Hours</div>
+        <div class="md-val">Pro Shop: 7:00 AM – 7:00 PM daily<br>Bar & Grill: 11:00 AM – 10:00 PM<br>Vault: By appointment only</div>
+      </div>
+      <div>
+        <div class="md-label">Phone</div>
+        <div class="md-val">(929) 555-1201</div>
+      </div>
+    </div>
+    <div id="sa-map"></div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="fc">
+    <div class="fc-head">Avispa Country Club</div>
+    <p>Where par meets the bar.</p>
+    <p>Est. 1921, San Fierro.</p>
+  </div>
+  <div class="fc">
+    <div class="fc-head">Shop</div>
+    <a href="/collection?cat=apparel">Apparel</a>
+    <a href="/collection?cat=clubs">Clubs</a>
+    <a href="/collection?cat=balls">Balls</a>
+    <a href="/pro-shop/inventory/clubs">Pro Shop</a>
+  </div>
+  <div class="fc">
+    <div class="fc-head">Club</div>
+    <a href="#fitting">Club Fitting</a>
+    <a href="#contact">Contact</a>
+    <a href="/vault">The Vault</a>
+    <a href="/engineer" style="color:transparent;font-size:.1rem">·</a>
+  </div>
+</footer>
+<div class="foot-bar">
+  <span>© 1921–2025 Avispa Country Club. All rights reserved.</span>
+  <a href="/engineer" title="">⚙</a>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+// ── Custom cursor ─────────────────────────────────────────────────────────────
+(function(){
+  const cur = document.getElementById('cursor');
+  const dot = document.getElementById('cursor-dot');
+  let mx=0,my=0,cx=0,cy=0;
+  document.addEventListener('mousemove',e=>{
+    mx=e.clientX; my=e.clientY;
+    dot.style.left=mx+'px'; dot.style.top=my+'px';
+  });
+  function animateCursor(){
+    cx+=(mx-cx)*.18; cy+=(my-cy)*.18;
+    cur.style.left=cx+'px'; cur.style.top=cy+'px';
+    requestAnimationFrame(animateCursor);
+  }
+  animateCursor();
+  // enlarge on interactive elements
+  document.querySelectorAll('a,button,[onclick]').forEach(el=>{
+    el.addEventListener('mouseenter',()=>document.body.classList.add('cursor-hover'));
+    el.addEventListener('mouseleave',()=>document.body.classList.remove('cursor-hover'));
+  });
+})();
+
+// ── No right-click on images ──────────────────────────────────────────────────
+document.addEventListener('contextmenu',e=>{
+  if(e.target.tagName==='IMG') e.preventDefault();
+});
+
+// ── Dropdown with 1.5s close delay ───────────────────────────────────────────
+(function(){
+  const items=document.querySelectorAll('#navLinks>li[data-menu]');
+  items.forEach(li=>{
+    let t=null;
+    const open=()=>{clearTimeout(t);items.forEach(o=>{if(o!==li)o.classList.remove('open');});li.classList.add('open');};
+    const sched=()=>{t=setTimeout(()=>li.classList.remove('open'),1500);};
+    li.addEventListener('mouseenter',open);
+    li.addEventListener('mouseleave',sched);
+    const dd=li.querySelector('.dropdown');
+    if(dd){dd.addEventListener('mouseenter',()=>clearTimeout(t));dd.addEventListener('mouseleave',sched);}
+  });
+  document.addEventListener('click',e=>{if(!e.target.closest('#navLinks'))items.forEach(li=>li.classList.remove('open'));});
+})();
+
+// ── Pro Shop teapot links: fire fetch so 418 shows in Network tab ─────────────
+document.querySelectorAll('[data-teapot]').forEach(a=>{
+  a.addEventListener('click',function(e){
+    e.preventDefault();
+    const url=this.href;
+    fetch(url).catch(()=>{});
+    setTimeout(()=>window.location.href=url,80);
+  });
+});
+
+const OSM_URL = 'https://raw.githubusercontent.com/OpenGameMaps/gtasagit/refs/heads/master/sanandreas.osm';
+
+// Avispa CC coordinates derived from OSM node cluster in SW San Fierro
+const ACC_LAT = -0.01555;
+const ACC_LON =  0.00605;
+
+// Colour palette matching the site theme
+const STYLE = {
+  road:     { color:'#3a4e38', weight:1.2, opacity:0.7 },
+  building: { color:'#2e3e2c', weight:0.8, fillColor:'#243322', fillOpacity:0.5, opacity:0.6 },
+  leisure:  { color:'#b49a5e', weight:1,   fillColor:'#27622a', fillOpacity:0.35, opacity:0.8 },
+  water:    { color:'#1a3040', weight:1,   fillColor:'#1e3d52', fillOpacity:0.6,  opacity:0.7 },
+  default:  { color:'#3a4e38', weight:0.8, opacity:0.4 },
+};
+
+function styleForWay(tags) {
+  if (!tags) return STYLE.default;
+  if (tags.leisure === 'golf_course' || tags.leisure === 'park' || tags.landuse === 'grass') return STYLE.leisure;
+  if (tags.building) return STYLE.building;
+  if (tags.waterway || tags.natural === 'water' || tags.landuse === 'reservoir') return STYLE.water;
+  if (tags.highway) return STYLE.road;
+  return STYLE.default;
+}
+
+// Init map — standard CRS (OSM coords are real lat/lon)
+const map = L.map('sa-map', {
+  center: [ACC_LAT, ACC_LON],
+  zoom: 14,
+  minZoom: 11,
+  maxZoom: 17,
+  attributionControl: false,
+  zoomSnap: 0.5,
+});
+
+// Dark base so the OSM vectors pop against it
+const mapEl = document.getElementById('sa-map');
+mapEl.style.background = '#111a10';
+
+// Loading indicator
+const loadDiv = document.createElement('div');
+loadDiv.style.cssText = 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#111a10;z-index:500;font-family:Montserrat,sans-serif;font-size:.6rem;letter-spacing:.25em;text-transform:uppercase;color:#5a6e5a;pointer-events:none;';
+loadDiv.textContent = 'Loading Map…';
+mapEl.style.position = 'relative';
+mapEl.appendChild(loadDiv);
+
+// Parse OSM XML and render to Leaflet
+fetch(OSM_URL)
+  .then(r => r.text())
+  .then(xml => {
+    const parser = new DOMParser();
+    const doc    = parser.parseFromString(xml, 'application/xml');
+
+    // Build node index: id → [lat, lon]
+    const nodes = {};
+    doc.querySelectorAll('node').forEach(n => {
+      nodes[n.getAttribute('id')] = [
+        parseFloat(n.getAttribute('lat')),
+        parseFloat(n.getAttribute('lon')),
+      ];
+    });
+
+    // Render ways
+    doc.querySelectorAll('way').forEach(way => {
+      const refs = [...way.querySelectorAll('nd')].map(nd => nodes[nd.getAttribute('ref')]).filter(Boolean);
+      if (refs.length < 2) return;
+
+      // collect tags
+      const tags = {};
+      way.querySelectorAll('tag').forEach(t => { tags[t.getAttribute('k')] = t.getAttribute('v'); });
+
+      const style = styleForWay(tags);
+      const closed = refs[0][0]===refs[refs.length-1][0] && refs[0][1]===refs[refs.length-1][1];
+      const name   = tags.name || tags['name:en'] || '';
+
+      if (closed && (tags.building || tags.leisure || tags.landuse || tags.natural==='water' || tags.waterway==='riverbank')) {
+        // Render as polygon
+        const poly = L.polygon(refs, { ...style, interactive: !!name });
+        if (name) poly.bindTooltip(name, { sticky:true, className:'sa-tooltip' });
+        poly.addTo(map);
+      } else {
+        // Render as polyline
+        const line = L.polyline(refs, { ...style, interactive: !!name });
+        if (name) line.bindTooltip(name, { sticky:true, className:'sa-tooltip' });
+        line.addTo(map);
+      }
+    });
+
+    // Remove loading indicator
+    loadDiv.remove();
+
+    // Avispa CC golf course highlight polygon
+    // Nodes from the OSM file around the Avispa CC area (SW San Fierro, ~lat -0.0155, lon 0.006)
+    L.polygon([
+      [-0.01620, 0.00580],
+      [-0.01620, 0.00720],
+      [-0.01430, 0.00730],
+      [-0.01430, 0.00580],
+    ], {
+      color: '#b49a5e',
+      fillColor: '#27622a',
+      fillOpacity: 0.25,
+      weight: 1.5,
+      dashArray: '5 4',
+    }).addTo(map).bindPopup('Avispa Country Club Golf Course');
+
+    // ACC marker
+    const accIcon = L.divIcon({
+      html: `<div style="
+        background:rgba(22,60,28,0.92);
+        border:1px solid #b49a5e;
+        padding:5px 11px 5px 9px;
+        font-family:'Montserrat',sans-serif;
+        font-size:9px;letter-spacing:.18em;text-transform:uppercase;
+        color:#f4efe6;white-space:nowrap;
+        box-shadow:0 2px 14px rgba(0,0,0,.6);
+        display:flex;align-items:center;gap:6px;
+      ">⛳ <span>Avispa CC</span></div>`,
+      iconSize:   [108, 26],
+      iconAnchor: [54, 13],
+      className:  '',
+    });
+
+    L.marker([ACC_LAT, ACC_LON], { icon: accIcon })
+      .addTo(map)
+      .bindPopup(`
+        <div style="font-family:'Montserrat',sans-serif;font-size:11px;line-height:1.9;min-width:200px;">
+          <strong style="font-size:12px;letter-spacing:.06em;display:block;margin-bottom:3px;">Avispa Country Club</strong>
+          Southern Tip, Missionary Hill<br>
+          San Fierro, SA<br>
+          <span style="color:#888;font-size:10px;">Est. 1921 · 18 Holes · Par 72</span>
+        </div>
+      `)
+      .openPopup();
+  })
+  .catch(() => {
+    loadDiv.textContent = 'Map unavailable — visit us at Missionary Hill, San Fierro';
+  });
+
+// Tooltip style injected into head
+const saStyle = document.createElement('style');
+saStyle.textContent = '.sa-tooltip{background:#111a10;border:1px solid #3a4e38;color:#c8d4c0;font-family:Montserrat,sans-serif;font-size:10px;letter-spacing:.1em;padding:3px 8px;border-radius:0;box-shadow:none;}';
+document.head.appendChild(saStyle);
+</script>
+</body>
+</html>

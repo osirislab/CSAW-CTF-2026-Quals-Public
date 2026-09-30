@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Order {{ order.id }} | CSALE{% endblock %}
+{% block content %}
+<article class="detail">
+    <img src="/orders/{{ order.id }}/image" alt="">
+    <div>
+        <small>Order {{ order.id }}</small>
+        <h1>{{ order.title_snapshot }}</h1>
+        <p>{{ order.description_snapshot }}</p>
+        <p>Seller: {{ order.seller }}<br>Buyer: {{ order.buyer }}<br>Price: ${{ "%.2f"|format(order.unit_price_cents / 100) }}<br>Quantity: {{ order.quantity }}</p>
+        {% if order.fulfillment_note %}<pre>{{ order.fulfillment_note }}</pre>{% endif %}
+        <a href="/orders/{{ order.id }}/image">Download image</a>
+    </div>
+</article>
+<form class="panel" method="post" action="/orders/{{ order.id }}/export.osrs">
+    <h2>Export</h2>
+    {% if request.args.get('error') %}<p class="error">Export failed.</p>{% endif %}
+    <button>Download .osrs</button>
+</form>
+{% endblock %}

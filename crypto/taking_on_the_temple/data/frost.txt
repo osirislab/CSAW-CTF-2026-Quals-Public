@@ -1,0 +1,6 @@
+BRAILLE: ⠊⠉⠑
+INSCRIPTION: WHAT IS PRESERVED REMEMBERS WHERE IT CAME FROM.
+PAYLOAD: frost.bin
+The copper plate has no algorithm name. Its edges are stamped with:
+  COPIED / IN / EIGHTS
+A maintenance mark reads: ORIGIN > SHAPE > LABEL, but the trail was mirrored before storage.

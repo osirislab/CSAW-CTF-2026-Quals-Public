@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /atrium/
+
+# the obedient have been answered.

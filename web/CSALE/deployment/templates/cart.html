@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Cart | CSALE{% endblock %}
+{% block content %}
+<header><h1>Cart</h1><p>Balance: ${{ "%.2f"|format(balance / 100) }}</p></header>
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+<section class="list">
+    {% for item in items %}
+        <article>
+            <div>
+                <small>{{ item.seller }}</small>
+                <h2><a href="/listings/{{ item.listing_id }}">{{ item.title }}</a></h2>
+                <p>Price: ${{ "%.2f"|format(item.price_cents / 100) }} · Quantity: {{ item.quantity }}</p>
+            </div>
+            <form method="post" action="/cart/items/{{ item.id }}/remove"><button>Remove</button></form>
+        </article>
+    {% else %}
+        <p>Your cart is empty.</p>
+    {% endfor %}
+</section>
+{% if items %}
+    <aside class="panel summary">
+        <h2>Total: ${{ "%.2f"|format(total / 100) }}</h2>
+        <form method="post" action="/cart/checkout"><button>Place order</button></form>
+    </aside>
+{% endif %}
+{% endblock %}

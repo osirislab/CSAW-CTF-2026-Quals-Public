@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}CSALE{% endblock %}
+{% block content %}
+<header>
+    <div>
+        <h1>Marketplace</h1>
+        <p>Balance: ${{ "%.2f"|format(balance / 100) }} · Cart: {{ cart_count }}</p>
+    </div>
+    <form class="search">
+        <input name="q" value="{{ query }}" placeholder="Search">
+        <button>Search</button>
+    </form>
+</header>
+
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+
+<section class="grid">
+    {% for listing in listings %}
+        <article class="card">
+            {% if listing.image_filename %}<img src="/listings/{{ listing.id }}/image" alt="">{% endif %}
+            <small>{{ listing.owner }} · ${{ "%.2f"|format(listing.price_cents / 100) }}</small>
+            <h3>{{ listing.title }}</h3>
+            <p>{{ listing.description }}</p>
+            <a href="/listings/{{ listing.id }}">View</a>
+            {% if listing.owner != current_user.username %}
+                <form method="post" action="/cart/items">
+                    <input type="hidden" name="listing_id" value="{{ listing.id }}">
+                    <button>Add to cart</button>
+                </form>
+            {% endif %}
+        </article>
+    {% else %}
+        <p>No listings found.</p>
+    {% endfor %}
+</section>
+{% endblock %}

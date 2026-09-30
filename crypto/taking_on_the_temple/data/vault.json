@@ -1,0 +1,15 @@
+{
+  "braille": "\u2827\u2801\u2825\u2807\u281e",
+  "poem": [
+    "Three fragments sleep beneath the frost,",
+    "Each guards the piece the others lost.",
+    "Stone keeps memory, frost keeps time,",
+    "Iron joins the broken line.",
+    "Set all three where old locks meet;",
+    "The buried hoard will yield its seat."
+  ],
+  "nonce_b64": "MVkUtEVStYjMO9kT",
+  "aad": "NORTHERN-RELIQUARY-V1",
+  "ciphertext_b64": "rSQkWp7HFEbxSXWVxIyz1BR4utkB2JeRcW/Cd2P5zye0mq910ZKc9l+4a8/v4sAzJHaN7Ha0==g7",
+  "hint": "The altar does not invent a cipher. It asks you to assemble what the wardens guarded after the seal was copied in pieces."
+}

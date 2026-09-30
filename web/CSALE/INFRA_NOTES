@@ -1,0 +1,13 @@
+# Deployment
+
+## There is a `deployment` folder. Use it, it has everything you need, `docker compose up --build` and you're good
+## There is also a folder called `player`. zip it and give it to them. That is all they need to solve the challenge. 
+
+## Challenge Difficulty: Medium
+## Challenge Name: CSALE
+## Challenge Description: 
+## Alias: Garlic
+## Release: Initial wave
+*Welcome to the CSAW Store, we have a special CSALE going on. Enjoy the deals... and bugs...!*
+## flag: csaw{Th4t3_R0ugH_Bud1y}
+

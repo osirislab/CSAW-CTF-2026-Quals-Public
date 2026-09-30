@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Log in | CSALE{% endblock %}
+{% block content %}
+<form class="panel narrow" method="post">
+    <h1>Log in</h1>
+    {% if error %}<p class="error">{{ error }}</p>{% endif %}
+    <label>Username<input name="username" required autofocus></label>
+    <label>Password<input type="password" name="password" required></label>
+    <button>Log in</button>
+    <a href="/signup">Create account</a>
+</form>
+{% endblock %}

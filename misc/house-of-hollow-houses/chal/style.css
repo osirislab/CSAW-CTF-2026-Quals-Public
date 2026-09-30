@@ -1,0 +1,77 @@
+/* ─── the house: shared base ─── */
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Cinzel&family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300&family=Cormorant+Unicase&family=Crimson+Text:ital,wght@0,400;1,400&family=EB+Garamond:ital,wght@0,400;1,400&family=IM+Fell+English:ital@0;1&family=MedievalSharp&family=Old+Standard+TT:ital@0;1&family=Pirata+One&family=Special+Elite&family=UnifrakturCook:wght@700&display=swap');
+
+html,body{margin:0;padding:0;}
+body{font-size:17px;line-height:1.72;}
+main{max-width:660px;margin:0 auto;padding:7vh 6vw 16vh;position:relative;}
+hr{border:0;border-top:1px solid currentColor;opacity:.15;margin:4vh 0;}
+
+/* ─── headings ─── */
+h1{font-weight:700;font-size:54px;letter-spacing:.02em;margin:0 0 .5vh;text-align:center;line-height:1;text-transform:lowercase;}
+h1 + .sub{display:block;text-align:center;font-size:11px;letter-spacing:.45em;margin:0 0 7vh;text-transform:lowercase;}
+h2{font-weight:300;font-style:italic;font-size:28px;margin:5vh 0 2vh;letter-spacing:.02em;}
+h3{font-size:13px;letter-spacing:.4em;text-transform:lowercase;margin:4vh 0 1.5vh;}
+p{margin:0 0 1.4em;}
+
+/* ─── prose mods ─── */
+.tight{line-height:1.35;}
+.wide{letter-spacing:.16em;}
+.tiny{font-size:11px;line-height:1.5;opacity:.55;}
+.huge{font-size:46px;line-height:1.05;}
+.faint{opacity:.45;}
+.faintest{opacity:.05;}
+.center{text-align:center;}
+.right{text-align:right;}
+.indent{padding-left:3em;}
+.tilt-l{display:inline-block;transform:rotate(-1.4deg);}
+.tilt-r{display:inline-block;transform:rotate(1.6deg);}
+.tilt-2{display:inline-block;transform:rotate(-3.2deg);}
+.tilt-3{display:inline-block;transform:rotate(4.5deg);}
+.reflected{display:inline-block;transform:scaleX(-1);}
+.upend{display:inline-block;transform:rotate(180deg);}
+.tiny-text{font-size:9px;}
+.big-text{font-size:28px;}
+.smear{filter:blur(.6px);}
+.smear2{filter:blur(1.4px);opacity:.6;}
+.cols{column-count:2;column-gap:2.2em;column-rule:1px solid currentColor;}
+.cols p{break-inside:avoid;}
+.cols3{column-count:3;column-gap:1.6em;}
+.dropcap::first-letter{font-size:62px;float:left;line-height:.85;padding:6px 10px 0 0;}
+
+/* ─── links blend into prose ─── */
+a{text-decoration:none;border-bottom:1px dotted transparent;cursor:pointer;}
+a:hover{border-bottom-color:currentColor;}
+a:visited{color:inherit;}
+a.bare{border-bottom:none;}
+
+/* ─── hidden / near-bg text ─── */
+.h{opacity:.07;}
+.hh{opacity:0;}
+.flicker{animation:fl 7s steps(1) infinite;}
+@keyframes fl{0%,7%,12%,18%,30%,55%,80%,100%{opacity:1;}8%,11%{opacity:.2;}19%,29%{opacity:.4;}56%,79%{opacity:.7;}}
+.breathe{animation:br 9s ease-in-out infinite;}
+@keyframes br{0%,100%{opacity:.55;}50%{opacity:1;}}
+.driftL{animation:dr 22s ease-in-out infinite;display:inline-block;}
+@keyframes dr{0%,100%{transform:translateX(0);}50%{transform:translateX(-7px);}}
+.shake{animation:sh 8s ease-in-out infinite;display:inline-block;}
+@keyframes sh{0%,90%,100%{transform:translate(0,0);}91%{transform:translate(1px,-1px);}93%{transform:translate(-1px,1px);}95%{transform:translate(2px,0);}97%{transform:translate(-1px,-1px);}}
+
+/* ─── glyphs / blocks ─── */
+.glyph{display:block;text-align:center;font-size:42px;letter-spacing:.5em;margin:4vh 0 5vh;opacity:.4;}
+.glyph.l{font-size:62px;}
+.eye{display:block;margin:5vh auto;opacity:.5;}
+.rite{display:block;margin:5vh auto;padding:2em 1.4em;border-top:1px solid currentColor;border-bottom:1px solid currentColor;
+      font-family:"Special Elite",monospace;font-size:14px;text-align:center;letter-spacing:.06em;word-break:break-all;opacity:.7;}
+pre.rite{text-align:center;letter-spacing:.18em;word-break:normal;white-space:pre;font-size:16px;line-height:2.2;}
+.flag{display:inline-block;margin:5vh 0;padding:1.6em 2.2em;border:1px solid currentColor;
+      font-family:"Special Elite",monospace;font-size:18px;letter-spacing:.05em;}
+
+/* ─── overlays ─── */
+.scan{position:fixed;inset:0;pointer-events:none;
+      background:repeating-linear-gradient(to bottom,rgba(255,255,255,.012) 0 1px,transparent 1px 3px);
+      mix-blend-mode:overlay;z-index:9;}
+.vignette{position:fixed;inset:0;pointer-events:none;
+          background:radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,.6) 100%);
+          z-index:8;}
+.noise{position:fixed;inset:0;pointer-events:none;opacity:.08;z-index:7;
+       background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='1.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");}

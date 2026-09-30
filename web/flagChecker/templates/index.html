@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flag Checker</title>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: monospace;
+            background: #111;
+            color: #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            text-align: center;
+            padding: 2rem 3rem;
+            border: 1px solid #2a2a2a;
+            background: #1a1a1a;
+        }
+        h1 { color: #00ff88; margin-bottom: 1.5rem; letter-spacing: 2px; }
+        input[type="text"] {
+            width: 280px;
+            padding: 8px 10px;
+            background: #222;
+            border: 1px solid #333;
+            color: #ccc;
+            font-family: monospace;
+            font-size: 0.95rem;
+            outline: none;
+        }
+        input[type="text"]:focus { border-color: #00ff88; }
+        button {
+            padding: 8px 16px;
+            background: #00ff88;
+            color: #111;
+            border: none;
+            font-family: monospace;
+            font-size: 0.95rem;
+            cursor: pointer;
+            margin-left: 6px;
+        }
+        button:hover { background: #00cc6a; }
+        #result { margin-top: 1.2rem; font-size: 1rem; min-height: 1.2rem; }
+        .correct { color: #00ff88; }
+        .wrong { color: #ff4444; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Flag Checker</h1>
+        <form id="form">
+            <input type="text" name="flag" placeholder="csaw{...}" autocomplete="off" spellcheck="false">
+            <button type="submit">Check</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script>
+        document.getElementById('form').addEventListener('submit', async e => {
+            e.preventDefault();
+            const data = new FormData(e.target);
+            const res = await fetch('/check', { method: 'POST', body: data });
+            const json = await res.json();
+            const el = document.getElementById('result');
+            el.textContent = json.correct ? 'Correct!' : 'Wrong flag.';
+            el.className = json.correct ? 'correct' : 'wrong';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+services:
+  trustdinoidc:
+    build: .
+    init: true
+    restart: unless-stopped
+    depends_on: [paleoid, strataid]
+    ports:
+      - "${TRUSTDINOIDC_BIND:-0.0.0.0}:${TRUSTDINOIDC_PORT:-8990}:8990"
+    environment:
+      FLAG: "${FLAG:?Set FLAG in .env}"
+      PUBLIC_BASE_URL: "${PUBLIC_BASE_URL:-}"
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    pids_limit: 128
+    mem_limit: 512m
+    cpus: 1.0
+
+  paleoid:
+    build: .
+    init: true
+    restart: unless-stopped
+    command: ["gunicorn", "--workers", "1", "--bind", "0.0.0.0:8991", "idp:app"]
+    environment:
+      ISSUER: paleoid.example.com
+      ACCENT: "#b98a3d"
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    pids_limit: 64
+    mem_limit: 256m
+    cpus: 0.5
+
+  strataid:
+    build: .
+    init: true
+    restart: unless-stopped
+    command: ["gunicorn", "--workers", "1", "--bind", "0.0.0.0:8992", "idp:app"]
+    environment:
+      ISSUER: strataid.example.com
+      ACCENT: "#3d9bb9"
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    pids_limit: 64
+    mem_limit: 256m
+    cpus: 0.5

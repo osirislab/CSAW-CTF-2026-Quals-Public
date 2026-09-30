@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Sell | CSALE{% endblock %}
+{% block content %}
+<form class="panel" method="post" action="/listings" enctype="multipart/form-data">
+    <h1>Create listing</h1>
+    {% if error %}<p class="error">{{ error }}</p>{% endif %}
+    <label>Title<input name="title" required></label>
+    <label>Description<textarea name="description" rows="6" maxlength="446" required></textarea></label>
+    <label>Price<input type="number" name="price" min="0" step=".01" required></label>
+    <label>Image<input type="file" name="attachment" accept=".png,.jpg,.jpeg" required></label>
+    <button>Publish listing</button>
+</form>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Drafts | CSALE{% endblock %}
+{% block content %}
+<header><h1>Drafts</h1><a href="/listings/new">New draft</a></header>
+<section class="list">
+    {% for draft in drafts %}
+        <article>
+            <img src="/{{ draft.slug }}/preview" alt="">
+            <div>
+                <small>${{ "%.2f"|format(draft.price_cents / 100) }}</small>
+                <h2>{{ draft.title }}</h2>
+                <p>{{ draft.description }}</p>
+            </div>
+            <a href="/{{ draft.slug }}/unlock">Open</a>
+        </article>
+    {% else %}
+        <p>No drafts.</p>
+    {% endfor %}
+</section>
+{% endblock %}

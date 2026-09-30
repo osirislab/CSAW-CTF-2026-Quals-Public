@@ -1,0 +1,20 @@
+{
+  "name": "vantage-job-fingerprint-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "description": "Discord /fingerprint slash command bot for The Vantage Job OSINT CTF. Runs as a Vercel serverless function.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "register": "node register-commands.js"
+  },
+  "dependencies": {
+    "discord-interactions": "^3.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

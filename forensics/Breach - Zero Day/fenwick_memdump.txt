@@ -1,0 +1,3200 @@
+7ff6000d4d85 C:\Windows\SysWOW64\shell32.dll
+7ff6000d4dee MsMpEng.exe
+7ff6000d4e25 C:\W
+7ff6000d4e55 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff6000d4f20 PDQ=SXrPVed5HjrAoV-rtyzpnVs+i4K9gVVk9j
+7ff6000d4f3d C:\Windows\SysWOW64\oleaut32.dll
+7ff6000d5018 connect
+7ff6000d5098 https://graph.microsoft.com/v1.0/me
+7ff6000d50d9 C:\ProgramData\Microsoft\Windows Defender\Scans\History
+7ff6000d514b C:\Users\d.reyes\
+7ff6000d51b0 https://fenwick-intranet.local/api/status
+7ff6000d5219 C:\Windows\System32\propsys.dll
+7ff6000d5305 C:\Windows\System32\config\SYSTEM
+7ff6000d5344 C:\Users\d.reyes\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+7ff6000d534e C:\Windows\System32\lsass.exe
+7ff6000d53c3 ag2+b2tfU2=A=wO+c7vlO,TDDXG_7QacpvSoNa66Ckif
+7ff6000d547c SeAssignPrimaryTokenPrivilege
+7ff6000d555b RRJTJvMD4Xi0ZVY,4zR
+7ff6000d563d C:\Win
+7ff6000d572c STATUS_INVALID_HANDLE
+7ff6000d579a C:\Windows\System32\propsys.dll
+7ff6000d5887 WSAStartup
+7ff6000d58be Error 0x%08X in module %s
+7ff6000d58ca Fq7zVQSp3cct/Nk-ebjmHW5K62RoJLQNfcRAp/C
+7ff6000d593a NT AUTHORITY\NETWORK SERVICE
+7ff6000d59ed h.H4_7LFT6Znhia33n=Bei3P85CrBgiev45Go+v/rR
+7ff6000d5a22 im5DCjJwPWi.Q
+7ff6000d5abb LPWi.kAK.99N,Eec7c
+7ff6000d5ba1 OUTLOOK.EXE-3F2A1B90.pf
+7ff6000d5c4e C:\Windows\System32\config\SOFTWARE
+7ff6000d5c88 \System32\sechost.dll
+7ff6000d5d78 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6000d5e36 wscsvc
+7ff6000d5e9b Local\MSCTF.Shared.MUTEX.SFM
+7ff6000d5f39 [%04d-%02d-%02d %02d:%02d:%02d]
+7ff6000d5f70 s\afd.sys
+7ff6000d605c McB5K5PBs2sD6crsh2d6OQm79+o3
+7ff6000d60d8 C:\Windows\System32\shcore.dll
+7ff6000d6190 C:\Windows\System32\wintrust.dll
+7ff6000d6245 0=gHtNRu/d4j1/PMhDn,z1inu-9Z,4MGyAKE/bs
+7ff6000d6287 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff6000d62fb C:\Windows\System32\userenv.dll
+7ff6000d630c HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff6000d637d STATUS_INVALID_HANDLE
+7ff6000d63d5 System32\shlwapi.dll
+7ff6000d645d SeDebugPrivilege
+7ff6000d6518 C:\Windows\System32\bcrypt.dll
+7ff6000d65bc Toulouse
+7ff6000d6609 %s (0x%08lX)
+7ff6000d66eb C:\Windows\System32\gdi32.dll
+7ff6000d674f HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6000d67b1 BUILTIN\Administrators
+7ff6000d680f C:\Windows\System32\rpcrt4.dll
+7ff6000d68da MsSense.exe
+7ff6000d699e https://graph.microsoft.com/v1.0/me
+7ff6000d69e7 C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df
+7ff6000d6aa3 C:\Windows\System32\bcryptprimitives.dll
+7ff6000d6b7f +WF0GzPC5riP
+7ff6000d6bc7 k0q+yE6u=AMNABFiOg
+7ff6000d6cab https://ctldl.windowsupdate.com/msdownload/update
+7ff6000d6d1d C:\Windows
+7ff6000d6ddc C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2410.7-0
+7ff6000d6e94 fenwick.local
+7ff6000d6f08 C:\Windows\System32\wbem\wmiprvse.exe
+7ff6000d6fc3 http://ocsp.digicert.com
+7ff6000d6fcf [%04d-%02d-%02d %02d:%02d:%02d]
+7ff6000d6ff9 r9-q,cRFlMNCSigV44lGS/GRn8gOvXr7Ci6m-38CvN8
+7ff6000d70d5 dows\System32\ole32.dll
+7ff6000d71ad ItqFNGUIX8pLcraot05NkFEolV,hnH/zocbrk6,I
+7ff6000d71fa 6y2ytiICPd-IyMF_B9ATDSAann+BwY
+7ff6000d7207 d.reyes
+7ff6000d72e2 DIHWTROXP
+7ff6000d73cd Access is denied. (0x%X)
+7ff6000d74b2 C:\Windows\SysWOW6
+7ff6000d7545 https://login.microsoftonline.com/common/oauth2/authorize
+7ff6000d758c F06eS8E9fHSTpaJZ=LpkmfcAKYXI+Ju
+7ff6000d766e C:\Windows\System32\combase.dll
+7ff6000d7735 Global\CLR_CASYNCPIPE_MUTEX
+7ff6000d77fb C:\Windows\System32\psapi.dll
+7ff6000d78d8 FNW-WKS047
+7ff6000d78f7 C:\Windows\System32\msvcrt.dll
+7ff6000d799c DJcy-PC,1V_ymjQviVlqkT4cst4
+7ff6000d7a6e [%04d-%02d-%02d %02d:%02d:%02d]
+7ff6000d7b14 wM,6I6,=x.89QYHX=RRHBUAyUv8gePaJ0
+7ff6000d7b94 TGCPAQYTAH
+7ff6000d7beb BUILTIN\Administrators
+7ff6000d7c5c .dll
+7ff6000d7ca2 C:\Windows\SysWOW64\KERNEL
+7ff6000d7cd2 SecurityHealthService
+7ff6000d7d14 HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff6000d7d80 ftrvbqAEik
+7ff6000d7dce C:\Windows\System32\p
+7ff6000d7e7b https://fenwick-intranet.local/api/status
+7ff6000d7ed9 SeTcbPrivilege
+7ff6000d7f1a h5t/8+Gx.DN_suTg4-pP,UlqRTSX,
+7ff6000d7f23 C:\Windows\System32\cfgmgr32.dll
+7ff6000d7f97 C:\Windows\System32\profapi.dll
+7ff6000d7fb1 hp4L=Ky6fy,qyvDFNsJJ3U+Y
+7ff6000d7fd2 HJKSYJGAM
+7ff6000d8016 https://outlook.office365.com/owa/
+7ff6000d808c z8B.JPRcxH+Wm98RflCSW3,yGxrfP-H5ST,32cBM0sMLg
+7ff6000d8157 HKEY
+7ff6000d8237 hlp.dll
+7ff6000d82ba https://ctldl.windowsupdate.com/msdownload/update
+7ff6000d82d8 nMdRH6Zm5yWw-+Q+n
+7ff6000d83c1 C:\Windows\Syst
+7ff6000d8437 SeAssignPrimaryTokenPrivilege
+7ff6000d8443 4o3nBh0xWxc0X0+DaNOnY8IN4
+7ff6000d844f https://ctldl.windowsupdate.com/msdownload/update
+7ff6000d8502 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff6000d8543 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6000d8555 WinDefend
+7ff6000d8629 C:\Windows\SysWOW64\m
+7ff6000d86df a0.RSg7MS6Z8+TBQ2oWVRMFpZlLqsVwBAf
+7ff6000d8723 C:\Windows\SysWOW64
+7ff6000d87db 32\config\SOFTWARE
+7ff6000d8839 C:\Windows\System32\gdi32.dll
+7ff6000d8859 i8VNUP.l9SmEEoWL-2HyY5fTbryObD3b5574yRp
+7ff6000d88c0 C:\Windows\SysWOW64\kernel32.dll
+7ff6000d898a =0ZrXOlf/Ukc-
+7ff6000d8a3e d.reyes
+7ff6000d8a60 0x%p
+7ff6000d8a9a NT AUTHORITY\SYSTEM
+7ff6000d8b20 C:\Windows\System32\user32.dll
+7ff6000d8b7c https://teams.microsoft.com/api/mt/part
+7ff6000d8c43 Local\MSCTF.Shared.MUTEX.SFM
+7ff6000d8c6e WSASocketW
+7ff6000d8c7b C:\Windows\System32\clbcatq.dll
+7ff6000d8cb6 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6000d8d3c m32\clbcatq.dll
+7ff6000d8e04 tem32\drivers\netio.sys
+7ff6000d8ed4 STATUS_ACCESS_VIOLATION
+7ff6000d8f36 C:\Users\d.reyes\AppData\Local\Temp\~DF3A21.tmp
+7ff6000d901c HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff6000d905a I_vsi0dz
+7ff6000d90ad C:\Windows\System32\crypt32.dll
+7ff6000d9133 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff6000d91f8 ok.office365.com/owa/
+7ff6000d9293 HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff6000d92cc qsh27DZ6uy-+3eq
+7ff6000d93ae HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6000d941f NCryptOpenStorageProvider
+7ff6000d942c https://settings-win.data.microsoft.com/settings
+7ff6000d9514 Global\CLR_CASYNCPIPE_MUTEX
+7ff6000d955f Local\MSCTF.Shared.MUTEX.SFM
+7ff6000d961f Sd3qyuBuj4t-CFcwnKGKovHj.bG
+7ff6000d96b8 C:\
+7ff6000d9722 rivers\tcpip.sys
+7ff6000d9808 wX4A,ClP5Hq.n
+7ff6000d9858 WinDefend
+7ff6000d9887 C:\Windows\System32\gd
+7ff6000d98fb HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff6000d9960 http://ocsp.digicert.com
+7ff6000d99da HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+7ff6000d99f1 http://ocsp.digicert.com
+7ff6000d9a9d C:\Windows\SysWOW64\sh
+7ff6000d9ac6 C:\Windows\System
+7ff6000d9afa CryptImportKey
+7ff6000d9bd0 Local\MSCTF.Shared.MUTEX.SFM
+7ff6000d9c87 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff6000d9d67 https://outlook.office365.co
+7ff6000d9d98 RPC_S_SERVER_UNAVAILABLE
+7ff6000d9dda 52b=-hXNaaitBo4pQG8Xw7pqVYfQsEGHSgTHQ1iyp9j
+7ff6000d9e97 WAPUVVXBIA
+7ff6000d9ed3 onfig\SYSTEM
+7ff6000d9f76 C:\Windows\System32\drivers\tcpip.sys
+7ff6000d9f98 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff6000d9ff0 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff6000da0e0 .com/msdownload/update
+7ff6000da179 https://outlook.office365.com/owa/
+7ff6000da1dd ows\SysWOW64\ole32.dll
+7ff6000da2b8 MsMpEng.exe
+7ff6000da2e0 M/hhu04=UMgPJWy_RWYomlI
+7ff6000da2ee kd4w97WFJf4yHrCk_k
+7ff6000da3a3 C:\Windows\System32\kernel32.dll
+7ff6000da3d3 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff6000da4a2 HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff6000da4fe NtQuerySystemInformation
+7ff6000da537 C:\Windows\SysWOW64\ws2_32.dll
+7ff6000da592 MAj9.PrJ,0Wvf,k3RnPB6kFi
+7ff6000da658 FNW-WKS047
+7ff6000da66c STATUS_ACCESS_VIOLATION
+7ff6000da71b C:\Windows\System32\combase.
+7ff6000da7ce The parameter is incorrect.
+7ff6000da8b3 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff6000da8ee Z_l++Y-QD,jTy-nl4AG77hy484CZehX=1=
+7ff6000da96f Thread 0x%X exited with code %d
+7ff6000da9d0 JU_QMc/M2Ci_oe-Qrboo.u1GqMO
+7ff6000daa63 STATUS_ACCESS_VIOLATION
+7ff6000dab0a shcore.dll
+7ff6000dabc1 C:\Windows\Sys
+7ff6000dac42 The parameter is incorrect.
+7ff6000dacbb SeImpersonatePrivilege
+7ff6000dad33 XXANaeT6TnMH=fVMcnF0KanBdQ0nTXGww=1F0
+7ff6000dadbd FNW-WKS047
+7ff6000dae04 C:\Windows\System32\bcryptprimitives.dll
+7ff6000dae1b connect
+7ff6000dae3c C:\Windows\SysWOW64\KERNELBASE.dll
+7ff6000dae94 C:\Windows\System3
+7ff6000daf72 C:\Windows\System32\oleaut32.dll
+7ff6000dafff https://login.microsoftonline.com/common/oauth2/authorize
+7ff6000db0ed ZH4HP5=hAE2.MSApxzI8Au7JAfy
+7ff6000db173 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff6000db1e1 https://fenwick-intranet.local/api/status
+7ff6000db2b5 C:\Windows\System32\gdi32full.dll
+7ff6000db318 C:\Windows\System32\ms
+7ff6000db37e C:\Users\d.reyes\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+7ff6000db3f1 C:\Windows\SysWOW64\user32.dll
+7ff6000db450 HKEY_
+7ff6000db480 Sense
+7ff6000db48e TQ/5mYSxKcHZ0,8fXK+j9b.gxC
+7ff6000db56c C:\Windows\System32\profapi.dll
+7ff6000db5b4 C:\Window
+7ff6000db662 C:\Windows\Sys
+7ff6000db703 C:\Windows\SysWOW64\shell32.dll
+7ff6000db7b4 C:\Windows\System32\shell32.dll
+7ff6000db824 C:\Windows\SysWOW64\oleaut32.
+7ff6000db8a7 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff6000db8bc te.com/msdownload/update
+7ff6000db8cc NtQuerySystemInformation
+7ff6000db993 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff6000dba6c TD2QVn0PhL9tnQfmBRHo5mUgj24hZ
+7ff6000dbab2 https://www.microsoft.com/pkiops/certs/Microsoft%
+7ff6000dbae4 https://ctldl.windowsupdate.com/msdownload/update
+7ff6000dbbcf C:\Windows\System32\KERNELBASE.dll
+7ff6000dbc96 0x%p
+7ff6000dbce7 WSAStartup
+7ff6000dbd42 C:\Windows\System32\crypt32.dll
+7ff6000dbd72 C:\Windows\System32\wintrust.dll
+7ff6000dbe1e InternetOpenW
+7ff6000dbea8 Sense
+7ff6000dbeca HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff6000dbf4f C:\Windows\System32\ws2_32.dll
+7ff6000dc03a SeTcbPrivilege
+7ff6000dc0d2 %s (0x%08lX)
+7ff6000dc0f5 https://settings-win.data.microsoft.com/settings
+7ff6000dc152 C:\Windows\System32\gdi32full.dll
+7ff6000dc1b3 tem32\powrprof.dll
+7ff6000dc1e3 %s (0x%08lX)
+7ff6000dc24f tem32\dnsapi.dll
+7ff6000dc2eb XsH7x2iZ7
+7ff6000dc357 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6000dc3c9 NT AUTHORITY\SYSTEM
+7ff6000dc3f7 dll
+7ff6000dc494 InternetOpenW
+7ff6000dc50b WSASocketW
+7ff6000dc5e4 \wininet.dll
+7ff6000dc6b7 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff6000dc6d2 Dt73QKcc61rS7GC_4NVqdf,bXuzrmbS7GCKYTTD6+n1Adn
+7ff6000dc7a5 https://teams.microsoft.com/api/mt/part
+7ff6000dc880 https://graph.microsoft.com/v1.0/me
+7ff6000dc96f C:\Windows\SysWOW64\msvcrt.dll
+7ff6000dca2c DuplicateTokenEx
+7ff6000dcace https://fenwick-intranet.local/api/status
+7ff6000dcb06 C:\Windows\SysWOW64\ntdll.dll
+7ff6000dcb50 C:\Windows\System32\user32.dll
+7ff6000dcc15 C:\Windows\System32\gdi32full.dll
+7ff6000dcc93 cjt2gdPMXgaab5O858TXDoK6K
+7ff6000dccfe Users\d.reyes\AppData\Local\Temp\~DF3A21.tmp
+7ff6000dcd91 RPC_S_SERVER_UNAVAILABLE
+7ff6000dcdad NCryptOpenStorageProvider
+7ff6000dce0f Sessions\1\BaseNamedObjects
+7ff6000dce61 ANawHP1lLdFz6
+7ff6000dcf30 C:\Windows\SysWOW64\ws2_32.dll
+7ff6000dcfe1 YjUeXAYPxmQ83Ex0rK+i
+7ff6000dd09d https://settings-win.data.microsoft.com/settings
+7ff6000dd10b SeTcbPrivilege
+7ff6000dd1a5 Sessions\1\BaseNamedObjects
+7ff6000dd1c2 e.dll
+7ff6000dd22e C:\Windows\System32\rpcrt4.dll
+7ff6000dd2c8 CryptAcquireContextW
+7ff6000dd34e https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6000dd3be JrJuZqWH2=
+7ff6000dd41d WriteProcessMemory
+7ff6000dd42d ers\afd.sys
+7ff6000dd4cf https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6000dd59b Toulouse
+7ff6000dd621 indows\SysWOW64\kernel32.dll
+7ff6000dd66c HINE\SOFTWARE\Microsoft\Cryptography
+7ff6000dd6a3 Error 0x%08X in module %s
+7ff6000dd6be NRryBjSpiW-wY.v_q0_r2Fn+-f2LMMMjHR=GsW7h+t2
+7ff6000dd702 Thread 0x%X exited with code %d
+7ff6000dd79e MsMpEng.exe
+7ff6000dd7c9 SeImpersonatePrivilege
+7ff6000dd837 /8gXQqyw60GW3wabFnS_nz+Hc_FJp.yEa/8RPA
+7ff6000dd891 C:\
+7ff6000dd952 The parameter is incorrect.
+7ff6000dd9d6 Microsoft\Windows Defender
+7ff6000dda9c CreateRemoteThread
+7ff6000ddae7 ll
+7ff6000ddb7e Thread 0x%X exited with code %d
+7ff6000ddc6b C:\Windows\SysWOW64\
+7ff6000ddd04 Thread 0x%X exited with code %d
+7ff6000ddde9 SeAssignPrimaryTokenPrivilege
+7ff6000dde7d C:\Windows\System32\wininet.dll
+7ff6000ddece \ws2_32.dll
+7ff6000ddf76 [%04d-%02d-%02d %02d:%02d:%02d]
+7ff6000ddfb8 C:\Windows\System3
+7ff6000de041 Error 0x%08X in module %s
+7ff6000de06f HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff6000de0c1 9Sol4GJ3uTN0GAww220.65,ouV2
+7ff6000de170 supdate.com/msdownload/update
+7ff6000de245 C:\Windows\System32\drivers\ndis.sys
+7ff6000de250 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6000de2b2 DuplicateTokenEx
+7ff6000de2bf http://ocsp.digicert.com
+7ff6000de39e C:\Windows\System32\shcore.dll
+7ff6000de464 C:\Windows\System32\lsass.exe
+7ff6000de520 gFiteALDD1A/w4Dog2IMG=p8TsJWO_OI=BFu5LAQ=7
+7ff6000de5b1 setupapi.dll
+7ff6000de5fe AdjustTokenPrivileges
+7ff6000de67c _g2WXkC3t8/86lAWXEN1
+7ff6000de756 ndows\System32\MsMpEng.exe
+7ff6000de7fa HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff6000de8ba HttpSendRequestW
+7ff6000de8f7 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+7ff6000de93a d.reyes
+7ff6000dea20 C:\Windows\System32\windows.storage.dll
+7ff6000dead1 0/PPstgrXIvb.GE_l3VMibgJK=0=q87rn0Z
+7ff6000debbc 0x%p
+7ff6000debe8 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6000deca7 Windows\SysWOW64\user32.dll
+7ff6000decc4 wd37+5dCgjw3y-3tL=34ycT=
+7ff6000ded4d owrprof.dll
+7ff6000dee3d HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6000def2d https://login.microsoftonline.com/common/oauth2/authorize
+7ff6000defd7 CryptAcquireContextW
+7ff6000df01d LZAK9UUF
+7ff6000df03f HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6000df084 Thread 0x%X exited with code %d
+7ff6000df10c C:\Windows\SysWOW64\shell32.dll
+7ff6000df168 connect
+7ff6000df17d J5QfhneY=m8
+7ff6000df1f6 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff6000df225 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6000df2f3 Access is denied. (0x%X)
+7ff6000df3c6 .,MQsifZDo,/qCKotoAg7toPsXN/dZeQEu9XTx
+7ff6000df438 https://crl.microsoft.com/pki/crl/prod
+7ff6000df46c HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff6000df4e8 DuplicateTokenEx
+7ff6000df539 https://login.microsoftonline.com/common/oauth2/authorize
+7ff6000df5d0 STATUS_INVALID_HANDLE
+7ff6000df601 C:\Users\d.reyes\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+7ff6000df672 https://crl.microsoft.com/pki/crl/pr
+7ff6000df6fd C:\Windows\SysW
+7ff6000df73a C:\Windows\System32\ucrtbase.dll
+7ff6000df7ee FNW-WKS047
+7ff6000df80c SeDebugPrivilege
+7ff6000df8b5 Ie7Re0aHQxMSKFfG03b5p.Xv.1
+7ff6000df91c ,Bh+L=Em=d,w.,3eKvVK1l5Wj0PG1Ac
+7ff6000df985 jPEnS2dFN54ifoM9Kf-X
+7ff6000dfa69 C:\Window
+7ff6000dfb02 oHe./kO5,qvSM7pUGcE9zRsYt40K.JoiY
+7ff6000dfb11 d.reyes
+7ff6000dfb28 https://graph.microsoft.com/v1.0/me
+7ff6000dfb40 C:\Windows\System32\userenv.
+7ff6000dfc08 C:\Windows\System32\sechost.dll
+7ff6000dfcce C:\Windows\System32\wintrust.d
+7ff6000dfd32 WriteProcessMemory
+7ff6000dfd66 dows\CurrentVersion\Run
+7ff6000dfd9a cLWXfHWs.7//wzSYgKl
+7ff6000dfdd3 Sense
+7ff6000dfe57 ,,U9PAhDeivf4LHcw8Ta/-6Ld
+7ff6000dff0a https://fenwick-intranet.local/api/status
+7ff6000dff2e bS+vO2K4ZfA+9UP28TBE4TRvFoaIWwdB7bw+O6
+7ff6000dff74 C:\Windows\System32\advapi32.dll
+7ff6000dffb6 FNW-WKS047
+7ff6000e008d 5Ic_Xkd6tY0d16+Wj,wzRq-5On
+7ff6000e0098 Error 0x%08X in module %s
+7ff6000e010f C:\Windows\System32\drivers\tcpip.sys
+7ff6000e0166 NT AUTHORITY\SYSTEM
+7ff6000e023b RPC_S_SERVER_UNAVAILABLE
+7ff6000e0287 C:\Windows\System32\clbcatq.dll
+7ff6000e036f C:\Windows\System32\urlmon.dll
+7ff6000e03ec WSAStartup
+7ff6000e04ad STATUS_ACCESS_VIOLATION
+7ff6000e0548 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6000e05eb SeImpersonatePrivilege
+7ff6000e0683 https://fenwick-intranet.local/api/status
+7ff6000e0728 HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff6000e0798 C:\Window
+7ff6000e0878 C:\Windows\System32\imagehlp.dll
+7ff6000e0951 C:\Windows\System32\psapi.dll
+7ff6000e09b8 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff6000e09de ola=ccB+u4mMhzfkJi/Kz=R8VdH3F0,pFS1230uk
+7ff6000e0a85 ws\System32\ntdll.dll
+7ff6000e0abb MpCmdRun.exe
+7ff6000e0b80 C:\Win
+7ff6000e0b8c https://fenwick-intranet.local/api/status
+7ff6000e0ba6 dnaNk3NNokiS-me8DLe
+7ff6000e0bba C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df
+7ff6000e0c2f C:\Users\d.reyes\AppData\L
+7ff6000e0d0e onfig\SOFTWARE
+7ff6000e0d56 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff6000e0e19 ndows\System32\wininet.dll
+7ff6000e0e55 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff6000e0eba HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff6000e0f04 SeTcbPrivilege
+7ff6000e0fbd tem32\svchost.exe
+7ff6000e106d [%04d-%02d-%02d %02d:%02d:%02d]
+7ff6000e10c4 urrentVersion
+7ff6000e1129 Xvt5h04BB/geTJ5XlI2wV8d/hFCj_-.FEuGQjFX
+7ff6000e11e2 NT AUTHORITY\SYSTEM
+7ff6000e1204 C:\Windo
+7ff6000e12e4 TonVtfiFkk7V+t
+7ff6000e13cf PCzlsGIype6vqSnINH0V66/Uj1x5zqhuTNf6W7JMnr
+7ff6000e14bc %s\%s.dll
+7ff6000e15aa https://teams.microsoft.com/api/mt/part
+7ff6000e1694 https://fenwick-intranet.local/api/status
+7ff6000e1770 HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff6000e1817 zASiIel_+ImL--8+-Sh5t/t7AuGUjVAs47+_xmqSKtIX
+7ff6000e189d dows\System32\mswsock.dll
+7ff6000e1952 SecurityHealthService
+7ff6000e19dd BUILTIN\Administrators
+7ff6000e1a3a https://ctldl.windowsupdate.com/msdownload/update
+7ff6000e1b22 b+Fm=CGP-apFG9vz.d.WEg88f,Cy.-7o9aQYy7R
+7ff6000e1be9 HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff6000e1c8d HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6000e1cc8 C:\Users\d.reyes\AppData\Local\Microsoft\Windows\INetCache
+7ff6000e1d7f /moWU/aUt4o/ZIa=j-UXZeKfmyFqcl9LlzWnImWeSOqeVB
+7ff6000e1e6f eFnn5=MZwSOv+ZSJ4
+7ff6000e1f52 C:\Windows\System32\services.exe
+7ff6000e2027 0Hs-wQmmt=jTbihTBDyNrd3hd,4rGHf_vr6SYzczzrh
+7ff6000e206f x=KsPd9DoXNoE.68ml1ik1GzXQG9m9+eYm=o
+7ff6000e2159 H6Av-K+UFo5ejdRSi7_qfd5/
+7ff6000e2236 0.pf
+7ff6000e22de 32\gdi32full.dll
+7ff6000e22f8 C:\Windows\System32\driv
+7ff6000e2314 vNbE0,/tm,knQPzBqIDgp2sx0.vOQHlmmoE7xdnW804
+7ff6000e23b4 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff6000e245e BUILTIN\Administrators
+7ff6000e2480 C:\Windows\System32\config\SYS
+7ff6000e24e6 1vTSOYs.Jy
+7ff6000e2565 0x%p
+7ff6000e25cf C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df
+7ff6000e269d C:\Windows\System3
+7ff6000e26f1 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff6000e2787 KvUrf0+vWkD1p_Nw5nD4sr4r
+7ff6000e27c8 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff6000e2802 C:\Windows\System32\bcrypt.dll
+7ff6000e28de KUqQ=5pCm
+7ff6000e2967 iAfKI8qvVrlPip4DZ6HsVag3hQXsTbL
+7ff6000e29cc 2f79sP5240pvf2UcGm7Yq
+7ff6000e2a61 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff6000e2af6 stem32\oleaut32.dll
+7ff6000e2bc4 STATUS_INVALID_HANDLE
+7ff6000e2c51 C:\Windows\System32\ws2_32.dll
+7ff6000e2d3a http://ocsp.digicert.com
+7ff6000e2d64 STATUS_ACCESS_VIOLATION
+7ff6000e2d91 https://ctldl.windowsupdate.com/msdownload/update
+7ff6000e2df8 http://ocsp.digicert.com
+7ff6000e2e34 svchost.exe -k netsvcs
+7ff6000e2e7b C:\Windows\System32\crypt32.dll
+7ff6000e2ea2 C:\Windows\SysWOW64\shlwapi.dll
+7ff6000e2eeb OpenProcessToken
+7ff6000e2f7f C:\Windows\System32\netapi32.dll
+7ff6000e2fa5 OFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff6000e305f Sessions\1\BaseNamedObjects
+7ff6000e306b C:\
+7ff6000e30b0 TJ-RPz0,u8k69QpC8AQS92xJPXloDURH5s0L/
+7ff6000e30bb no+mUWG1QDP62eTqJTdkG1d3pzb5/p7NP7mBdOvEf
+7ff6000e3176 Error 0x%08X in module %s
+7ff6000e31f0 C:\Windows\System32\shlwapi.dll
+7ff6000e3272 C:\Users\d.reyes\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+7ff6000e329a connect
+7ff6000e330a C:\Windows\SysWOW64\gdi32.dll
+7ff6000e3399 SeDebugPrivilege
+7ff6000e3425 C:\Windows\System32\svchost.exe
+7ff6000e3502 http://ocsp.digicert.com
+7ff6000e3534 ook
+7ff6000e35b4 https://login.microsoftonline.com/common/oauth2/authorize
+7ff6000e3673 https://teams.microsoft.com/api/mt/part
+7ff6000e3731 SysWOW64\KERNELBASE.dll
+7ff6000e37de ElQvLdDYA=XmG2V1n9yqh5UaEgZrscNjGsji,35_
+7ff6000e387d The parameter is incorrect.
+7ff6000e3917 2\bcryptprimitives.dll
+7ff6000e39c0 OpenProcessToken
+7ff6000e3a5e NT AUTHORITY\NETWORK SERVICE
+7ff6000e3b3c C:\Users\d.reyes\AppData\Local\Temp\~DF7C90.tmp
+7ff6000e3be0 C:\Windows\System32\wininet.dll
+7ff6000e3c4a STATUS_ACCESS_VIOLATION
+7ff6000e3ca6 https://ctldl.windowsupdate.com/msdownload/update
+7ff6000e3d7b .sys
+7ff6000e3e4d C:\Windows\System32\netapi32.dll
+7ff6000e3efd trolSet\Services\WinDefend
+7ff6000e3f12 https://ctldl.windowsupdate.com/msdownload/update
+7ff6000e3ff2 1aM4o_H2kThH8p=YlBGV8E4JUOLhIuq
+7ff6000e4009 C:\Users\d.reyes\AppData\Local\Temp\~DF3A21.tmp
+7ff6000e404f \drivers\tcpip.sys
+7ff6000e40bc S2hTg=m6743l1gb5v-QfcQw0TrD=gxMzW
+7ff6000e419e CryptAcquireContextW
+7ff6000e4205 d.reyes
+7ff6000e426d crosoftonline.com/common/oauth2/authorize
+7ff6000e433e C:\Windows\System32\drivers\afd.sys
+7ff6000e43cb C:\Windows\System32\SecurityHealthService.exe
+7ff6000e4464 CreateRemoteThread
+7ff6000e44d2 _xJojBAbHHSgDk,2C,0x9nQz+ox0zg_m
+7ff6000e45b4 SeAssignPrimaryTokenPrivilege
+7ff6000e4686 MJ5JLX=wRMfmImfYDVLwfjE1ls
+7ff6000e4759 C:\Windows\System32\ole32.dll
+7ff6000e47c7 Sense
+7ff6000e485d SeAssignPrimaryTokenPrivilege
+7ff6000e492a Thread 0x%X exited with code %d
+7ff6000e49b9 https://login.microsoftonline.com/common/oauth2/authorize
+7ff6000e4a92 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\S
+7ff6000e4ace [%04d-%02d-%02d %02d:%02d:%02d]
+7ff6000e4b49 WSASocketW
+7ff6000e4b63 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6000e4beb CryptImportKey
+7ff6000e4c08 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff6000e4c6d 0qAPB=IqB5Q7ZmdseddlkZ_aqHioBV2P_oCqtcEYh
+7ff6000e4d2d Access is denied. (0x%X)
+7ff6000e4d66 C:\Users\d.reyes\AppData
+7ff6000e4e00 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+7ff6000e4e21 https://ctldl.windowsup
+7ff6000e4ea3 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff6000e4f4f C:\Windows\System32\urlmon.dll
+7ff6000e4ffc svchost.exe -k netsvcs
+7ff6000e5012 CAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff6000e509f f0=9m9zKNpwyp6-wKSC.95fQc6EefXxyI0E
+7ff6000e5168 HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff6000e51d6 .TMaNOjArUc-jGfT0jca3WMax,iP
+7ff6000e52a2 https://www.microsoft.com/pkiops/certs/Microsoft%20RS
+7ff6000e530a C:\Windows\SysWOW64\gdi32.dll
+7ff6000e53af NMHZA
+7ff6000e53f0 Error 0x%08X in module %s
+7ff6000e5454 HcqWphx18vJSy1m_.yyXYtwZMNnM2
+7ff6000e54d9 C:\Windows
+7ff6000e550e +y1xCB_iTKYaz5xN-xGpN5O_0voc/TJ7
+7ff6000e553c CryptImportKey
+7ff6000e55c2 C:\Wind
+7ff6000e569f HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff6000e56aa ows\SysWOW64\kernel32.dll
+7ff6000e5730 L_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6000e57df IMNiCUGN3t9PmQGBb9Gyua9I6
+7ff6000e58ad C:\Windows\System32\profapi.dll
+7ff6000e5986 %s\%s.dll
+7ff6000e5a40 C:\Windows\System32\sechost.dll
+7ff6000e5a6e \System32\drivers\netio.sys
+7ff6000e5adb uiujoPAAU_LnnYL3ADYcEU62.wbOaPXzfpBO
+7ff6000e5ae9 NtQuerySystemInformation
+7ff6000e5b4e cal\Temp\~DF7C90.tmp
+7ff6000e5bea C:\Windows\SysWOW64\s
+7ff6000e5c74 Epuj2h7=xMiemEIEb--S1YhQV0Q6MQA6-vLXfF/ctaJ9-U
+7ff6000e5d59 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff6000e5df0 WE+CBxIZ4tIUc0HVSBmHMC,8iInh/dmaHZ-yNNwYCqI3RTZ7
+7ff6000e5e9e HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff6000e5f3e 8+X7F7b2ImrUu3CAJqmC7H=GaQ3h,4mIzCT+=xuK_v_yvM
+7ff6000e5f69 C:\Windows\System32\svchost.exe
+7ff6000e5fe4 tem32\kernel32.dll
+7ff6000e60c8 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff6000e611b OpenProcessToken
+7ff6000e61fe HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+7ff6000e62c8 9HgCIe5RAGhiC9HjA+J6
+7ff6000e62fd C:\Users\d
+7ff6000e6369 C:\Windows\SysWOW64\advapi32.dll
+7ff6000e644b Thread 0x%X exited with code %d
+7ff6000e651b https://settings-win.data.microsoft.com/settings
+7ff6000e6538 C:\Windows\System32\config\SOFTWARE
+7ff6000e660b WriteProcessMemory
+7ff6000e66ea http://ocsp.digicert.com
+7ff6000e67c1 https://teams.microsoft.com/api/mt/part
+7ff6000e680c HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff6000e6868 https://outlook.office365.com/owa/
+7ff6000e689a https://login.microsoftonline.com/common/oauth2/authorize
+7ff6000e68fe %d.%d.%d.%d
+7ff6000e6962 C:\Windows\System32\bcryptprimitives
+7ff6000e6996 ffD.8s4Xfkuze10BzdYcPH4x4Fj
+7ff6000e69e1 C:\Users\d.reyes\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+7ff6000e6a08 STATUS_ACCESS_VIOLATION
+7ff6000e6ae4 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff6000e6b96 HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff6000e6ba8 krSHTh+JVMsOOgNnKZaTS-7TeUV0c9dsQmccj
+7ff6000e6c0d C:\Windows\System32\shell32.dll
+7ff6000e6c1f DjF9RXOr_BlL,c4gfXd
+7ff6000e6c5b Access is denied. (0x%X)
+7ff6000e6c95 0x%p
+7ff6000e6c9e C:\Windows\System32\ker
+7ff6000e6ccc 1T1hOiRMZgN
+7ff6000e6da9 C:\Windows\System32\msvcrt
+7ff6000e6e42 %s\%s.dll
+7ff6000e6ec8 VirtualAllocEx
+7ff6000e6f0b C:\Windows\System32\drivers\fltmgr.sys
+7ff6000e6f43 n4/Kw,D2-NFlNyjj43A1jRrJ9qY5ZJBLLhRkf
+7ff6000e6f82 MsMpEng.exe
+7ff6000e7033 dows\System32\drivers\afd.sys
+7ff6000e7098 C:\Windows\SysWOW64\ole32.dll
+7ff6000e70a3 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff6000e70af renv.dll
+7ff6000e7114 NT AUTHORITY\NETWORK SERVICE
+7ff6000e7166 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff6000e71f4 WriteProcessMemory
+7ff6000e720a HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff6000e72df wscsvc
+7ff6000e738d C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df
+7ff6000e7442 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff6000e746c HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff6000e74ec C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df
+7ff6000e7571 QjHaa0ALj-DujUr/UB3ykclQpEAlU+Vl,ng
+7ff6000e7600 BUILTIN\Administrators
+7ff6000e7684 https://graph.microsoft.com/v1.0/me
+7ff6000e7767 C:\Users\d.reyes\AppData\Local\Temp\~DF3A21.tmp
+7ff6000e7843 yW-71xUU
+7ff6000e785d HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff6000e7921 HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff6000e7a06 d.reyes
+7ff6000e7a61 https://teams.microsoft.com/api/mt/part
+7ff6000e7ab2 Error 0x%08X in module %s
+7ff6000e7adc 98Zwv7LaMFyhU14+mCq5u84o2mw_kebfQAu4OzsihT
+7ff6000e7b9d C:\Users\d.reyes\AppData\Local\Temp\~DF3A21.tmp
+7ff6000e7bbd https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6000e7be5 mwlqVr63YCxZc/QvX4EWluslMMFzLYejt2BLoxjLswidYb_+
+7ff6000e7c3b C:\Windows\System32\drivers\Wdf01000.sys
+7ff6000e7cde Local\MSCTF.Shared.MUTEX.SFM
+7ff6000e7d28 MsSense.exe
+7ff6000e7df4 Thread 0x%X exited with code %d
+7ff6000e7e69 SeAssignPrimaryTokenPrivilege
+7ff6000e7eea rivers\fltmgr.sys
+7ff6000e7f61 C:\Windows\System32\winhttp.dll
+7ff6000e803c MsSense.exe
+7ff6000e8120 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6000e81b2 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6000e8210 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff6000e8282 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6000e82ec vlesLmBBtnyzoqI+k4
+7ff6000e83c2 http://ocsp.digicert.com
+7ff6000e83f1 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff6000e8432 Local\MSCTF.Shared.MUTEX.SFM
+7ff6000e8515 BUILTIN\Administrators
+7ff6000e859e https://settings-win.data.microsoft.com/settings
+7ff6000e8682 SeTcbPrivilege
+7ff6000e8754 Sessions\1\BaseNamedObjects
+7ff6000e877d http://ocsp.digicert.com
+7ff6000e87ef C:\Windows\System32\userenv.dll
+7ff6000e88b1 WSAStartup
+7ff6000e8998 [%04d-%02d-%02d %02d:%02d:%02d]
+7ff6000e8a61 https://ctldl.win
+7ff6000e8aaa C:\Windows\System32\powrprof.dll
+7ff6000e8b51 C:\Windows\Sys
+7ff6000e8b98 Toulouse
+7ff6000e8c44 C:\Windows\System32\svchost.exe
+7ff6000e8c7a \System32\sechost.dll
+7ff6000e8cdf ndows\System32\oleaut32.dll
+7ff6000e8d36 C:\Windows\SysWOW64\shell32.dll
+7ff6000e8d8a C:\Windows\System32\rpcrt4.dll
+7ff6000e8e79 C:\Windows\SysWOW64\msvcrt.dll
+7ff6000e8f2c NT AUTHORITY\SYSTEM
+7ff6000e8fcb https://teams.microsoft.com/api/mt/part
+7ff6000e9051 ll
+7ff6000e90a9 https://ctldl.windowsupdate.com/msdownload/update
+7ff6000e90d0 SO4IFHVO_P/E6s33DSqGvkzhNZ2v
+7ff6000e90d8 C:\Windows\System32\drivers\netio.sys
+7ff6000e90fd .dll
+7ff6000e913d https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6000e9191 rolSet\Control\Lsa
+7ff6000e924d DuplicateTokenEx
+7ff6000e9313 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff6000e931f C:\Windows\SysWOW64\oleaut32.dll
+7ff6000e934c d.reyes
+7ff6000e939b HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff6000e943a _UNBVlah/_fMJbbaQd96I/8/vtGH+Ri40
+7ff6000e946f sERNB_Ok0d8kF2VZnaV+0yeZ9VB
+7ff6000e94d0 connect
+7ff6000e9504 G2N7TpkbJOx9o
+7ff6000e9521 are\Microsoft\Office\16.0\Outlook
+7ff6000e95f9 C:\Windows\System32\ntdll.dll
+7ff6000e966a HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff6000e96e0 9kayLxMi2qQ07seRZSppYzJhMhTRS7x/zQzVZ=zx2X9Sp68
+7ff6000e973a uH-LQshyV2/8iLqdKQe+pj_HmBO9NvTbYFLIBcOsrDj/ko
+7ff6000e97a1 C:\Windows\SysWOW64\gdi32.dll
+7ff6000e9867 STATUS_ACCESS_VIOLATION
+7ff6000e9937 d1Jfb0koo-XExSlGZ9yB1z8+OpWfqTxllZ=Dl1/cBfbT4/
+7ff6000e99cf BUILTIN\Administrators
+7ff6000e9a92 aMLVXxsqOngCqStcCH3HW7-8pa80Z4BKF7WPy5gl-1Asvwnt
+7ff6000e9af2 C:\W
+7ff6000e9bdc https://teams.microsoft.com/api/mt/part
+7ff6000e9c19 C:\Windows\System32\propsys.dll
+7ff6000e9c2c C:\Windows\System32\combase.dll
+7ff6000e9ce6 C:\Windows\explorer.exe
+7ff6000e9dd5 C:\Windows\SysWOW64\ntdll.dll
+7ff6000e9de7 https://login.microsoftonline.com/common/oauth2/authorize
+7ff6000e9e07 %d.%d.%d.%d
+7ff6000e9e7f Y7=iug.IZSPO0NsDYZKH
+7ff6000e9ec0 LHJKPSDM
+7ff6000e9f90 Error 0x%08X in module %s
+7ff6000e9fbb C:\Windows\System32\ws2_32.dll
+7ff6000e9fd5 https://login.microsoftonline.com/common/oauth2/authorize
+7ff6000ea03f dows\System32\crypt32.dll
+7ff6000ea0a0 C:\Windows\System32\clbcatq.dll
+7ff6000ea17f CryptAcquireContextW
+7ff6000ea1e1 -y2pz+MYcUAso1GTyoqYPKG+4DrqYfBA6
+7ff6000ea2cf MsMpEng.exe
+7ff6000ea34b 5=7Uffvuqic
+7ff6000ea36e fenwick.local
+7ff6000ea413 [%04d-%02d-%02d %02d:%02d:%02d]
+7ff6000ea46a https://graph.microsoft.com/v1.0/me
+7ff6000ea4a1 9wWzi92e/cN.y7zbJ2A1OyEUdpwRGSm4If5Vl9puQIzb_LZ
+7ff6000ea4d6 TdVJAIRCn2l2VweCgMW
+7ff6000ea52f HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff6000ea5d5 r/o2e5adE76q=MuQJ_+C2LNY,6bfJvVo+NKwbTHk
+7ff6000ea639 FNW-WKS047
+7ff6000ea68e BOmpWi+9=Z9iOGi
+7ff6000ea6ed ows\System32\windows.storage.dll
+7ff6000ea758 %s\%s.dll
+7ff6000ea76c STATUS_ACCESS_VIOLATION
+7ff6000ea84a C:\Windows\SysWOW64\shlwapi.dll
+7ff6000ea911 http://ocsp.digicert.com
+7ff6000ea952 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff6000ea9e9 %s\%s.dll
+7ff6000eaa4a WriteProcessMemory
+7ff6000eaa74 C:\Windows\System32\wininet.dll
+7ff6000eab23 C:\Windows\SysWOW64\kernel32.dll
+7ff6000eab85 C:\Windows\SysWOW64\user32.dll
+7ff6000eac48 C:\Windows\System32
+7ff6000ead0a ://ocsp.digicert.com
+7ff6000eaddf 9mKX/cc5Cu.tM/P79Bii,BYLqpYA1K32cwqzBq0OH
+7ff6000eaeb6 C:\Windows\SysWOW64\ntdll.dll
+7ff6000eaf57 https://login.microsoftonline.com/common/oauth2/authorize
+7ff6000eb00b C:\Windows\System32\ser
+7ff6000eb067 AdjustTokenPrivileges
+7ff6000eb084 https://login.microsoftonline.com/common/oauth2/authorize
+7ff6000eb0b8 SeTcbPrivilege
+7ff6000eb0e8 D5MdF53G
+7ff6000eb15d HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff6000eb214 SeTcbPrivilege
+7ff6000eb27f WSASocketW
+7ff6000eb357 Sessions\1\BaseNamedObjects
+7ff6000eb42f https://outlook.office365.com/owa/
+7ff6000eb479 BUILTIN\Administrators
+7ff6000eb4c3 LVaDiU30l,HvXvraPUj5f-xQf
+7ff6000eb558 C:\Windows\System32\win32u.dll
+7ff6000eb5b9 ownload/update
+7ff6000eb6a5 _9kPvAG1N6gG1rhkeHw-eUlc0YBAh6v+v
+7ff6000eb703 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff6000eb786 C:\Windows\System32\urlmon.dll
+7ff6000eb80e Fd8vaBQ1aeEw9XnXnf,SOL
+7ff6000eb839 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\E
+7ff6000eb8ca 6.0\Outlook
+7ff6000eb907 NT AUTHORITY\NETWORK SERVICE
+7ff6000eb916 C:\Windows\System32\se
+7ff6000eb9e2 DuplicateTokenEx
+7ff6000eba62 Y.UGIq2S3MacUEUs+OHGk+Oj7Hkdqm92O3
+7ff6000eba75 HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff6000ebb4f %d.%d.%d.%d
+7ff6000ebb66 HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff6000ebbbe htt
+7ff6000ebc01 32\gdi32.dll
+7ff6000ebc77 ndows\System32\user32.dll
+7ff6000ebc8e RCZSIQJOGJV
+7ff6000ebd42 FKRu31hn0dgC+MaFH/QSrKsq0X8ti6Q9=uZCA
+7ff6000ebdbf HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff6000ebe2f C:\Windows\System32
+7ff6000ebe88 C:\Windows\System32\imagehlp.dll
+7ff6000ebebd https://fenwick-intranet.local/api/status
+7ff6000ebf94 EWWDRKZYJ
+7ff6000ebfcc wscsvc
+7ff6000ec05a https://ctldl.windowsupdate.com/msdownload/update
+7ff6000ec091 C:\Windows\SysWOW64\user32.dll
+7ff6000ec09a IefzX/-lqhRODSZbE
+7ff6000ec16c SeTcbPrivilege
+7ff6000ec1a4 HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff6000ec28b HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff6000ec321 HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff6000ec40c C:\Windows\SysWOW64\KERNELBASE.dll
+7ff6000ec46d a8ZJIGoU/YZ3YUKqZHlM.Tju6rPU=lPl.dw=Gr,6m=r
+7ff6000ec52e SeImpersonatePrivilege
+7ff6000ec601 cPEntPENOb
+7ff6000ec6cc https://ctldl.windowsupdate.com/msdownload/update
+7ff6000ec73b HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff6000ec77f https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff6000ec859 C:\Wind
+7ff6000ec87c C:\W
+7ff6000ec8da [%04d-%02d-%02d %02d:%02d:%02d]
+7ff6000ec9ad Prlg9/99nXGmtBRtvpgEdIrU
+7ff6000eca67 .Gacq-YTunrMmw5JMsJ77me2qbjl+JAkW0qW_chd
+7ff6000ecb4b NCryptOpenStorageProvider
+7ff6000ecbd0 C:\Windows\System32\urlmon.dll
+7ff6000ecbe0 Toulouse
+7ff6000ecc08 Global\CLR_CASYNCPIPE_MUTEX
+7ff6000eccaa HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff6000ecd5c KOK16HXQwX/wDTd2okmhOfYWui,+vZr
+7ff6000ecdec HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff6000ecdf7 2\advapi32.dll
+7ff6000eceb4 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff6000ecf50 Error 0x%08X in module %s
+7ff6000ecf9d STATUS_INVALID_HANDLE
+7ff6000ecfc3 kFl8HcwWaX1o7FGaRib
+7ff6000ed087 HKE
+7ff6000ed10e HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff6000ed137 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+7ff6000ed1e5 Z2q3oAAHy3uFuZ8u,ajZ
+7ff6000ed2b9 C:\Windows\System32\drive
+7ff6000ed2e8 %s\%s.dll
+7ff6000ed37b HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff6000ed3bf tqUbBPyogXb+0jnWKusKmFuJ,LnF/Tpeu_i0i+54Pi./
+7ff6000ed3d8 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff6000ed449 C:\Windows
+7ff6000ed4ba HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6000ed56f C:\Windows\SysWOW64\ntdll.d
+7ff6000ed646 _7RCLCAZefJTo0T0Bx,bJzKuN8cjepB1yDk0gZ9K/=dEP5
+7ff6000ed68e STATUS_INVALID_HANDLE
+7ff6000ed760 C:\Windows\SysWOW64\ole32.d
+7ff6000ed7ea AL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff6000ed82a C:\Windows\System32\msvcrt.dll
+7ff6000ed835 Thread 0x%X exited with code %d
+7ff6000ed875 Error 0x%08X in module %s
+7ff6000ed8e5 tem32\propsys.dll
+7ff6000ed90f gsBek/bPbVWkmB5qNckkvEy8ai6kZw15W
+7ff6000ed91a WSASocketW
+7ff6000ed9b0 HttpSendRequestW
+7ff6000eda3e uOeO89alfmRrjtT,vkbBBbucU/,OL
+7ff6000edb08 RPC_S_SERVER_UNAVAILABLE
+7ff6000edb2e wscsvc
+7ff6000edb3a CryptAcquireContextW
+7ff6000edb7c C:\Windows\System32\clbcatq.dll
+7ff6000edc03 %d.%d.%d.%d
+7ff6000edc91 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\
+7ff6000edca0 https://teams.microsoft.com/api/mt/part
+7ff6000edcc7 https://settings-win.data.microsoft.com/settings
+7ff6000eddab http://ocsp.digicert.com
+7ff6000eddf9 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6000ede0e MsMpEng.exe
+7ff6000edecf 0LImd1owWK3Pgf
+7ff6000edf3d UXBEDMIGVO
+7ff6000edfc9 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6000ee09a C:\
+7ff6000ee0b9 rol\SecurityProviders
+7ff6000ee180 WinDefend
+7ff6000ee228 MsSense.exe
+7ff6000ee2f1 pt.dll
+7ff6000ee3a7 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6000ee3b3 BUILTIN\Administrators
+7ff6000ee468 C:\Windows\System32\combase.dll
+7ff6000ee53e RPC_S_SERVER_UNAVAILABLE
+7ff6000ee5c0 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff6000ee63c C:\Windows\System32\svchost.exe
+7ff6000ee6ba _B3p1NgBj+qw1sm1C-Uy5k-g+qPygUYaapB.8E
+7ff6000ee751 AdjustTokenPrivileges
+7ff6000ee812 l8_p5QZWwtFTSFYJ9noiliIE0HjtI-86NP.D1=XwB2bZHz
+7ff6000ee8a7 bcrypt.dll
+7ff6000ee8ba https://graph.microsoft.com/v1.0/me
+7ff6000ee9a1 Local\MSCTF.Shared.MUTEX.SFM
+7ff6000ee9d5 Error 0x%08X in module %s
+7ff6000eeab3 Sessions\1\BaseNamedObjects
+7ff6000eeb71 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6000eebd3 C:\Windows\System32\dnsapi.dll
+7ff6000eec87 C:\Windows\System32\MsMpEng.exe
+7ff6000eed0c HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6000eede1 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff6000eee9f http
+7ff6000eef10 C:\Users\d.reyes\AppData\Local\Temp\~DF7C90.tmp
+7ff6000eefb9 NtQuerySystemInformation
+7ff6000ef068 vnQH63.eZide+sKgvNG-OEdI/B91la5Fm6M/cV3n
+7ff6000ef086 tA5Im9+d8lSbv36kulbXxeZ7TH.xmbN_oMM5
+7ff6000ef10f HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff6000ef1bf C:\Windows\Prefetch\OUTLOOK.EXE-3F2A1B90.pf
+7ff6000ef1fd Sense
+7ff6000ef219 aJcPd-w7AIaLMt/Bupt-rx+rqVJ22B0sMc45hme4VjVL8W
+7ff6000ef268 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff6000ef2b4 OpenProcessToken
+7ff6000ef32b 1iePQ9,CD1SXgL4KjAGkPFdW
+7ff6000ef371 \SysWOW64\advapi32.dll
+7ff6000ef38c MpCmdRun.exe
+7ff6000ef396 WSAStartup
+7ff6000ef46a C:\Windows\System32\MsMpEng.exe
+7ff6000ef54c Local\MSCTF.Shared.MUTEX.SFM
+7ff6000ef620 Y_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff6000ef6ce HttpSendRequestW
+7ff6000ef700 HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff6000ef729 SeImpersonatePrivilege
+7ff6000ef7cc OpenProcessToken
+7ff6000ef7df \System32\shlwapi.dll
+7ff6000ef85a C:\Windows\System32\cfgmgr32.dll
+7ff6000ef92e InternetOpenW
+7ff6000ef9a8 uJwahP.+Lt,DWMKKvDq99SFKf,o/PUsCHmn
+7ff6000efa98 3uDv/Wfo2iR,X4.IgaM/bmRR+zTXzg9dRTEJpmAhCoA,c
+7ff6000efb50 Rmz+n8rUUfAbLVUY/oT6eNw_Ag5+cH7D,I89fEb5f8gHZp21
+7ff6000efb84 em32\wininet.dll
+7ff6000efbc1 https://ctldl.windowsupdate.com/msdownload/update
+7ff6000efc80 C:\Windows\System32\propsys
+7ff6000efd6b http://ocsp.digicert.com
+7ff6000efda8 GQVdEE9sjaP2fHZ.ccrWxT_hEalqddBae,
+7ff6000efe01 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6000efeca HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Sec
+7ff6000effa6 +BuUqNZtfDp/AGx8aK+zivaRr=MYxQ1i
+7ff6000effd0 +nqaYmpmslPubcT9Gf,iNXi,zCWViqdR5-eWnMTfZ
+7ff6000efff8 WSASocketW
+7ff6000f0052 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff6000f008c C:\Windows\System32\powrprof.dll
+7ff6000f00b2 Local\MSCTF.Shared.MUTEX.SFM
+7ff6000f0122 rkG-CuKn9=
+7ff6000f0134 STATUS_INVALID_HANDLE
+7ff6000f01d6 ndows\System32\wintrust.dll
+7ff6000f0222 C:\Windows\
+7ff6000f02a2 Thread 0x%X exited with code %d
+7ff6000f02c7 C:\Windows\System32\gdi32full.dll
+7ff6000f02ed REGIT
+7ff6000f0306 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff6000f031b C:\Windows\System32\drivers\fltmgr.sys
+7ff6000f0359 T=pXccLZZHXJ2vFG-0-vx
+7ff6000f03f9 hsvLq3GFKJzXK_Qi=E2SLI_S6mCR=5kBTj0nmlq
+7ff6000f0476 ukmWtW+b=N9p7h1BOthrnYc6fbG
+7ff6000f052a https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff6000f05a1 C:\Windows\System32\S
+7ff6000f05d9 C:\Windows\Prefetch\CHROME.EX
+7ff6000f06c2 InternetOpenW
+7ff6000f0787 BUILTIN\Administrators
+7ff6000f07fc C:\Windows\System32\gdi32full.dll
+7ff6000f08c3 gnIVXqUFCbqX6
+7ff6000f0970 \Windows Defender
+7ff6000f09a9 Thread 0x%X exited with code %d
+7ff6000f0a0c C:\
+7ff6000f0aa7 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6000f0b8c HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6000f0bee C:\Windows\System32\config\SYSTEM
+7ff6000f0c9a C:\Windows\System32
+7ff6000f0d13 BUILTIN\Administrators
+7ff6000f0d22 HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff6000f0d64 https://teams.microsoft.com/api/mt/part
+7ff6000f0d6f C:\Windows\System32\urlmon.dll
+7ff6000f0e0c C:\Windows\System32\win32u.dll
+7ff6000f0e19 dows\System32\drivers\afd.sys
+7ff6000f0e9c C:\Windows\System32\wininet
+7ff6000f0eb3 The parameter is incorrect.
+7ff6000f0ef6 STATUS_ACCESS_VIOLATION
+7ff6000f0fd8 akCvH61s0lsqFw9ufA64LYsCnJIViWU8LZ
+7ff6000f10c0 C:\Windows\System32\r
+7ff6000f1144 %s\%s.dll
+7ff6000f115d HttpSendRequestW
+7ff6000f11f7 SeAssignPrimaryTokenPrivilege
+7ff6000f1217 MpCmdRun.exe
+7ff6000f12b9 C:\Windows\SysWOW64\oleaut32.dll
+7ff6000f1353 WinDefend
+7ff6000f1381 C:\Windows\System32\drivers\afd.sys
+7ff6000f13a7 rH35jrRAPqC7EO
+7ff6000f1416 yy.da3MjMNmVv+XRF3f6XPY
+7ff6000f14b7 C:\Windows\System32\setupapi.dll
+7ff6000f1586 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff6000f15db NtQuerySystemInformation
+7ff6000f16a9 https://ctldl.windowsupdate.com/msdownload/update
+7ff6000f1774 C:\Windows\System32\crypt32.dll
+7ff6000f17fa STATUS_ACCESS_VIOLATION
+7ff6000f18e7 C:\Windows\System32\shell32.dll
+7ff6000f1973 HttpSendRequestW
+7ff6000f19ab crosoft\Windows Defender
+7ff6000f19f9 wscsvc
+7ff6000f1a56 C:\Windows\SysWOW64\gdi32.dll
+7ff6000f1a8c irkpzvphQRBYrxubd.IjZ-eVIy1itek/cKhP_
+7ff6000f1b34 DuplicateTokenEx
+7ff6000f1b46 https://settings-win.data.microsoft.com/settings
+7ff6000f1ba7 C:\Users\d.reyes\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+7ff6000f1c58 C:\Windows\SysWOW64\ntdll.dll
+7ff6000f1d03 =kgVHQpy7.B=qnGHd/0-zNuMhDkOqU_.xug,RZ,-M3JI
+7ff6000f1d77 NT AUTHORITY\LOCAL SERVICE
+7ff6000f1dc5 0x%p
+7ff6000f1e9e C:\Windows\System32\SecurityHealthService.exe
+7ff6000f1f79 C:\
+7ff6000f2066 0qvK,kdCbrj5X4MriTuzc
+7ff6000f2134 NPPu,zuMFRfXQyhNvlfaid,gT++nP14WY
+7ff6000f2148 HttpSendRequestW
+7ff6000f21ce HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff6000f22b4 V+yFZ1pjRtH-30.7O5Ad.3MH
+7ff6000f2395 https://graph.microsoft.com/v1.0/me
+7ff6000f23d4 connect
+7ff6000f24b3 svchost.exe -k netsvcs
+7ff6000f257f C:\Windows\System32\drivers\ndis.sys
+7ff6000f2589 VirtualAllocEx
+7ff6000f2611 /api/status
+7ff6000f26b4 %s\%s.dll
+7ff6000f2713 d.reyes
+7ff6000f27e2 C:\Windows\System32\sechost.dll
+7ff6000f2886 wAajvOyo8WmsXNOUZCP/TDzX5u
+7ff6000f28f3 Access is denied. (0x%X)
+7ff6000f29c7 HttpSendRequestW
+7ff6000f2a11 https://fenwick-intranet.local/api/status
+7ff6000f2acf pEng.exe
+7ff6000f2b08 C:\Windows\SysWOW64\ws2_32.dll
+7ff6000f2ba1 MsSense.exe
+7ff6000f2bb7 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff6000f2c79 %s\%s.dll
+7ff6000f2d0a C:\Windows\System32\svchost.exe
+7ff6000f2d8d C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df
+7ff6000f2e71 RPC_S_SERVER_UNAVAILABLE
+7ff6000f2e98 C:\Windows\System32\shell32.dll
+7ff6000f2ede dows\System32\SecurityHealthService.exe
+7ff6000f2f27 https://graph.microsoft.com/v1.0/me
+7ff6000f2fe7 NT AUTHORITY\SYSTEM
+7ff6000f3086 0lmAr6ze8V7Xcr6qXwy_K7=pHpySSkL6efSc0GOe5Xa
+7ff6000f3149 https://settings-win.data.microsoft.com/settings
+7ff6000f31c8 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff6000f327c Sessions\1\BaseNamedObjects
+7ff6000f32da https://ctldl.windowsupdate.com/msdownload/update
+7ff6000f330a Access is denied. (0x%X)
+7ff6000f3324 CaUX2hUu4aDLh.sjmWI/n,-zL-.9e3LKsn
+7ff6000f335f HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff6000f3416 HKEY_LOCAL_MACHINE\SYSTEM\Cu
+7ff6000f3502 C:\Windows\SysWOW64\oleaut32.dll
+7ff6000f357c NCryptOpenStorageProvider
+7ff6000f3591 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff6000f35c1 C:\Windows\System32\bcrypt.dll
+7ff6000f35db HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff6000f3698 NtQuerySystemInformation
+7ff6000f3739 C:\Windows\System32\rpcrt4.dll
+7ff6000f378b NT AUTHORITY\NETWORK SERVICE
+7ff6000f3841 NEpw1xPdDK
+7ff6000f38cd /9MR9RgblvSStNgk4cJwsZMEHD9kKv9_bUxU
+7ff6000f3984 NT AUTHORITY\SYSTEM
+7ff6000f39b1 C:\Windows\SysWOW64\ntdll.dll
+7ff6000f39ed HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff6000f3a48 C:\Windows\System32\iphlpapi.dll
+7ff6000f3a5b C:\Windows\SysWOW64\s
+7ff6000f3ac5 MsSense.exe
+7ff6000f3baa OpenProcessToken
+7ff6000f3c3f C:\Windows\S
+7ff6000f3c6d WriteProcessMemory
+7ff6000f3c7c C:\Window
+7ff6000f3d28 MsMpEng.exe
+7ff6000f3d73 https://settings-win.data.microsoft.com/settings
+7ff6000f3dd0 https:/
+7ff6000f3e6f http://ocsp.digicert.com
+7ff6000f3f20 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6000f3f58 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff6000f3fb7 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff6000f404b C:\Windows\System32\lsass.exe
+7ff6000f40f4 C:\Windows\System32\propsys.dll
+7ff6000f41be SeDebugPrivilege
+7ff6000f4227 C:\Windows\SysWOW64\kernel32.dll
+7ff6000f423b Local\MSCTF.Shared.MUTEX.SFM
+7ff6000f42be https://ctldl.windowsupdate.com/msdownload/update
+7ff6000f434d C:\Windows\System32\MsMpEng.exe
+7ff6000f4404 C:\Windows\System32\shlw
+7ff6000f44b8 SeTcbPrivilege
+7ff6000f459b HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\C
+7ff6000f4646 OpenProcessToken
+7ff6000f46cc HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff6000f4738 ndows\System32\SecurityHealthService.exe
+7ff6000f47a0 C:\Windows\System32\psapi.dll
+7ff6000f47d8 CryptImportKey
+7ff6000f486b C:\Windows\System32\SecurityHealthService.exe
+7ff6000f48ed 2V7EqKWY8ShB,cggpj7.KnHT
+7ff6000f490f NT AUTHORITY\LOCAL SERVICE
+7ff6000f4966 C:\Windows\System32\svchost.exe
+7ff6000f49b0 stem32\svchost.exe
+7ff6000f4a6c https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff6000f4ae6 rS/Tdt4XfZ6HOzyI
+7ff6000f4bc1 tiMtf=04_QY-Pur2JcURm6vZoK
+7ff6000f4c82 C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2410.7-0
+7ff6000f4d61 explorer.exe
+7ff6000f4e0a C:\Windows\System32\userenv.dll
+7ff6000f4e6e Local\MSCTF.Shared.MUTEX.SFM
+7ff6000f4ec9 C:\Windows\System32\winhttp.dll
+7ff6000f4f9c dll
+7ff6000f4fe7 2.dll
+7ff6000f5067 https://teams.microsoft.com/api/mt/part
+7ff6000f5093 WSASocketW
+7ff6000f515d C:\Windows\System32\ole32.dll
+7ff6000f5241 CryptImportKey
+7ff6000f5308 https://login.microsoftonline.com/common/oauth2/authorize
+7ff6000f5321 https://outlook.office365.com/owa/
+7ff6000f5335 C:\Windows\System32\drivers\Wdf01000.sys
+7ff6000f5419 SeAssignPrimaryTokenPrivilege
+7ff6000f54b5 C:\Windows\System32\sechost.dll
+7ff6000f54ec papi.dll
+7ff6000f5521 %s\%s.dll
+7ff6000f554f [%04d-%02d-%02d %02d:%02d:%02d]
+7ff6000f559a C:\Windows\System32\powrprof.dll
+7ff6000f55e5 .,v626c+EFxnLPs98HAj1
+7ff6000f5642 Global\CLR_CASYNCPIPE_MUTEX
+7ff6000f5658 BUILTIN\Administrators
+7ff6000f5712 C:\Windows\System32\drivers\ndis.sys
+7ff6000f57d0 Data\Microsoft\Windows Defender\Scans\History
+7ff6000f585a https://
+7ff6000f58e9 C:\Windows\System32\gdi32full.dll
+7ff6000f5917 STATUS_ACCESS_VIOLATION
+7ff6000f59aa NT AUTHORITY\LOCAL SERVICE
+7ff6000f5a9a C:\Windows\System32\bcryptprimitives.dll
+7ff6000f5b0c SeImpersonatePrivilege
+7ff6000f5b40 YU3qrcZ9Y+rz2VA0_SAi3
+7ff6000f5ba0 C:\Windows\System32\wi
+7ff6000f5bba wHqIU.DnAH5XW2bWdK+leM5aPEb_cBNbZSy
+7ff6000f5c70 HKEY_CURREN
+7ff6000f5d39 C:\Windows\System32\drivers\netio.sys
+7ff6000f5dcb http://ocsp.digicert.com
+7ff6000f5dea NT AUTHORITY\NETWORK SERVICE
+7ff6000f5eba q2QNd,yOJF.Ju1s-2W5T8P
+7ff6000f5edb CreateRemoteThread
+7ff6000f5f5c AncillaryDynamics_TechnicalAssessment
+7ff6000f5fa8 C:\Windows\System32\user
+7ff6000f6080 =H0yQh2q83tLnm
+7ff6000f6156 STATUS_ACCESS_VIOLATION
+7ff6000f61d4 m32\rpcrt4.dll
+7ff6000f61fc j+Y_SjcbApmuZlGw6XZfcL4uUHS
+7ff6000f6213 NT AUTHORITY\SYSTEM
+7ff6000f62d0 v4GKpSCcKij+5m/K7Fbj7u
+7ff6000f62fb HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff6000f63e6 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+7ff6000f643c C:\Windows\System32\windows.storage.dll
+7ff6000f64f5 https://teams.microsoft.com/api/mt/part
+7ff6000f6575 VirtualAllocEx
+7ff6000f665c WZDOR
+7ff6000f670a m32\services.exe
+7ff6000f676c C:\Windows\System32\drivers\tcpip.sys
+7ff6000f67e9 P8-0-PdBX1mRjD73UGzF2
+7ff6000f684b WriteProcessMemory
+7ff6000f68fd Toulouse
+7ff6000f6933 C:\Windows\System32\wintrust.dll
+7ff6000f694e n/3yomk/G9E0
+7ff6000f6a18 VirtualAllocEx
+7ff6000f6a44 VnmuhY0+60y8x2Wy4bY55xG
+7ff6000f6ada https://settings-win.data.microsoft.com/settings
+7ff6000f6af5 Global\CLR_CASYNCPIPE_MUTEX
+7ff6000f6b2c %d.%d.%d.%d
+7ff6000f6b5a C:\Windows\System32\wintrust.dll
+7ff6000f6b93 SeAssignPrimaryTokenPrivilege
+7ff6000f6bd7 vsou7.ChzikZk8HidZGng3C5b4swxRWvR_XUzdt2CsbeZb
+7ff6000f6c63 https://outlook.office365.com/owa/
+7ff6000f6d52 Bi1=-ez08jHzZNqc,48EjC1Q
+7ff6000f6e16 dVxTRVDL4LqNA
+7ff6000f6ef8 C:\Windows\System32\clbcatq.dll
+7ff6000f6fd2 wqB50xUdDeXcMd.QYNWSxR,_zlNOoJ4JF5
+7ff6000f6fea MpCmdRun.exe
+7ff6000f7040 %s (0x%08lX)
+7ff6000f70cc https://login
+7ff6000f7156 OpenProcessToken
+7ff6000f71e8 SeDebugPrivilege
+7ff6000f7208 NT AUTHORITY\SYSTEM
+7ff6000f72b9 2dmDqaCV_SfnPkodBMU/upnqJ8kCVkdWKaluJ//
+7ff6000f73a1 C:\Windows\System
+7ff6000f73af Chq,Lf4O
+7ff6000f73df C:\Windows\SysWOW64\kernel32.dll
+7ff6000f73ea http://ocsp.digicert.com
+7ff6000f744d C:\Windows\Sys
+7ff6000f7474 NT AUTHORITY\NETWORK SERVICE
+7ff6000f7529 /Uf+JZp1piGL1gFrKZFxVFrW7Nb5-yauq
+7ff6000f7535 scq,ITPek/YfYPlZfK4NhZxGxGZS-jZcJ/r5
+7ff6000f75a3 C:\Windows\System32\drivers\ndis.sys
+7ff6000f75cb HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff6000f7694 HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff6000f76ce 21.tmp
+7ff6000f7731 C:\Windows\System32\config\SOFTWARE
+7ff6000f7757 C:\Windo
+7ff6000f77c1 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff6000f7884 C:\Windows\Prefetch\OUTLOOK.EXE-3F2A1B90.pf
+7ff6000f7953 The parameter is incorrect.
+7ff6000f796e C:\Windows\SysWOW64\ntdll.dll
+7ff6000f7a44 mRjiDo+Hjrx2_7=Og9GwyZkwD3zh+SXHLmG.s
+7ff6000f7ad1 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff6000f7b85 C:\Windows\Syste
+7ff6000f7b95 C:\Windows\System32\mswsock.dll
+7ff6000f7bb0 RPC_S_SERVER_UNAVAILABLE
+7ff6000f7c89 CixBrIWTb1XQKb0o8fFE.NWQT.Fpn
+7ff6000f7cfb %s\%s.dll
+7ff6000f7d08 Access is denied. (0x%X)
+7ff6000f7d6c https://graph.microsoft.com/v1.0/me
+7ff6000f7d8c https://graph.
+7ff6000f7e7a HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo
+7ff6000f7efc C:\Windows\System32\ntdll.dll
+7ff6000f7f7e /d1ORfeBx3qj1Usa08Owc/RrEabp
+7ff6000f7fd6 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff6000f8030 https://login.microsoftonline.com/common/oauth2/authorize
+7ff6000f80ad HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff6000f8186 C:\Windows\System32\config\SOFTWARE
+7ff6000f8205 C:\Windows\System32\dr
+7ff6000f8221 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff6000f830b HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff6000f83bf UFF=v.4gQj
+7ff6000f847e ld=R28VEb/MvXK35v/UaEtt2zcp
+7ff6000f84fd 32.dll
+7ff6000f85de ws\System32\mswsock.dll
+7ff6000f85f3 SeAssignPrimaryTokenPrivilege
+7ff6000f8687 K=ufg/epxy3jaTzuHkIDDsR,
+7ff6000f8768 5_qEyDn1yL1cQPp,BkxHI
+7ff6000f87e4 C:\Windows\SysWOW64\ws2_
+7ff6000f8895 09taxrxWP8tF
+7ff6000f88c1 C:\Windows\System32\bcrypt.dll
+7ff6000f899b https://ctldl.windowsupdate.com/msdownload/update
+7ff6000f89d0 erlE.H+hXqj6wo_gGFMbnFn+-uGnfsYP2+
+7ff6000f89e1 .sys
+7ff6000f8a7e C:\Users\d.reyes\AppData\Local\Temp\~DF3A21.tmp
+7ff6000f8b43 C:\Windows\SysWOW64\oleaut32.dll
+7ff6000f8bf7 RrtN6naqZOA-h.QuzWHL/JkKTvDUf30rfV4AlgiGzC
+7ff6000f8cb9 C:\Windows\Sy
+7ff6000f8d0f RPC_S_SERVER_UNAVAILABLE
+7ff6000f8d17 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff6000f8d4e FNW-WKS047
+7ff6000f8d85 LJ5DMBGzcRcWHbpw6UuV8xiw9IKZcMCCK
+7ff6000f8df7 C:\Windows\System32\iphlpapi.dll
+7ff6000f8ec3 https://graph.microsoft.com/v1.0/me
+7ff6000f8f37 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff6000f8fe7 DuplicateTokenEx
+7ff6000f90aa C:\Windows\System32\clbcatq.dll
+7ff6000f9130 XabJ3pl-Zj2F-3PKgLkJmZ5SQdF=OdWk
+7ff6000f91e2 s\System32\windows.storage.dll
+7ff6000f9234 C:\Windows\
+7ff6000f9301 C:\Windows\Sy
+7ff6000f9328 C:\Window
+7ff6000f9359 C:\Windows\SysWOW64\KERNELBASE.dll
+7ff6000f9389 imagehlp.dll
+7ff6000f93ff C:\Windows\System32\iphlpapi.dll
+7ff6000f9462 SecurityHealthService
+7ff6000f94dd https://fenwick-intranet.local/api/status
+7ff6000f957f MPFt=CYt_IdTOE/HaC0WmhJ
+7ff6000f95ed HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff6000f96d3 Sense
+7ff6000f96f9 Sense
+7ff6000f974a C:\Windows\System32\svchost.exe
+7ff6000f9794 https://outlook.office365.com/owa/
+7ff6000f9846 C:\Windows\System32\
+7ff6000f98ce KNUG6CWoB/C65R5_7GeKwEmSNtWNAJQZ13TwU3yvP
+7ff6000f9969 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff6000f9a0f http://ocsp.digicert.com
+7ff6000f9a35 yb+MVME17oCOLkI_bJ1EdS=W0toZWvhT2Fyox
+7ff6000f9af5 \Shell Folders
+7ff6000f9b28 https://outlook.office365.com/owa/
+7ff6000f9bf8 C:\Windows\System32\psapi.dll
+7ff6000f9c5b QvanqcAKUVZZr7fUZHE0XXOqlpHikyi,BhB_G81gbOmaACf
+7ff6000f9ca8 SeDebugPrivilege
+7ff6000f9ce1 SeImpersonatePrivilege
+7ff6000f9da7 %s (0x%08lX)
+7ff6000f9dcc ndows\System32\bcryptprimitives.dll
+7ff6000f9e94 MpCmdRun.exe
+7ff6000f9f2a C:\Windows\SysWOW64\msvcrt.dll
+7ff6000fa004 s\SysWOW64\ole32.dll
+7ff6000fa064 wscsvc
+7ff6000fa0f3 t\Services\WinDefend
+7ff6000fa15a HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSe
+7ff6000fa1d4 CreateRemoteThread
+7ff6000fa29d NtQuerySystemInformation
+7ff6000fa36a HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6000fa3fa RPC_S_SERVER_UNAVAILABLE
+7ff6000fa49f HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff6000fa4f7 %d.%d.%d.%d
+7ff6000fa551 Thread 0x%X exited with code %d
+7ff6000fa5bd /teams.microsoft.com/api/mt/part
+7ff6000fa671 oKiXamPL0FnwtpDl
+7ff6000fa6fe SeImpersonatePrivilege
+7ff6000fa70e InternetOpenW
+7ff6000fa78d HttpSendRequestW
+7ff6000fa863 _jBAm7e.z
+7ff6000fa8ae vtLbbarxPY=a67zYOsDP=
+7ff6000fa8d6 v+6oi5Iws3qcW+
+7ff6000fa934 Toulouse
+7ff6000fa9e1 BUILTIN\Administrators
+7ff6000faa4b [%04d-%02d-%02d %02d:%02d:%02d]
+7ff6000faa65 Error 0x%08X in module %s
+7ff6000faa98 C:\Windows\System32\windows.s
+7ff6000faacb C:\Windows\System32\winhttp.dll
+7ff6000fab0e C:\Windows\System32\ole
+7ff6000faba5 I34M7DRdFAsZV-dL
+7ff6000fac52 C:\Windows\Syst
+7ff6000facf8 WinDefend
+7ff6000fadb2 NCryptOpenStorageProvider
+7ff6000fadf2 C:\Windows\System32\gdi32.dll
+7ff6000fadfe C:\Windows\System32\profapi.dll
+7ff6000fae7f C:\Windows\System32\bcryptprimitives.dll
+7ff6000faf37 WSAStartup
+7ff6000faf4a 6PYqO=F1aKAtZepaOmtsWDVO_MV9xwn0Rv6
+7ff6000fb02c C:\Windows\SysWOW64\ntdll.dll
+7ff6000fb098 /KB26x_B_v6E3j2i/UbJ
+7ff6000fb0ef Local\MSCTF.Shared.MUTEX.SFM
+7ff6000fb1a1 C:\Wind
+7ff6000fb22c GZNLIZAD
+7ff6000fb27e AMMTJG
+7ff6000fb2a5 -R3Tokxj8W7aEO3
+7ff6000fb378 https://settings-win.data.microsoft.com/settings
+7ff6000fb3fc HKEY_
+7ff6000fb406 AdXPuJhp-
+7ff6000fb45a https://settings-win.data.microsoft.com/settings
+7ff6000fb46b HttpSendRequestW
+7ff6000fb493 BQL1==tJ_+oMhLu1_Fs/eR,d9Ysuyca-1AHCZ9.1x
+7ff6000fb4de https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6000fb5b5 NT AUTHORITY\NETWORK SERVICE
+7ff6000fb663 Error 0x%08X in module %s
+7ff6000fb6d0 https://settings-win.data.microsoft.com/settings
+7ff6000fb6f2 t_sI5Di/pr_psgDLGH22DscDxvtoBs84QZ4LooXVGKICqj+
+7ff6000fb748 NT AUTHORITY\LOCAL SERVICE
+7ff6000fb7a0 NtQuerySystemInformation
+7ff6000fb7cb st.dll
+7ff6000fb812 C:\Windows\System32\advapi32.dll
+7ff6000fb888 tem32\ucrtbase.dll
+7ff6000fb8c5 %s (0x%08lX)
+7ff6000fb95d HKEY_LOCAL_MACHINE\SYSTEM\CurrentCont
+7ff6000fba28 https://teams.
+7ff6000fba9a C:\Windows\Sy
+7ff6000fbb1e C:\Windows\System32\shcore.dll
+7ff6000fbb66 C:\Windows\System32\SecurityHealthService.exe
+7ff6000fbbec 2P+D4IjJsmq+pkk-vQUcdBoC=Gj8BRDem
+7ff6000fbbfd mdXdV6gKTmeTBK/.rl
+7ff6000fbc4c C:\Windows\System32\kernel32.dll
+7ff6000fbc91 C:\Windows\System32\win32u.dll
+7ff6000fbcbf C:\Windows\System32\powrprof.dll
+7ff6000fbd91 HWGNXE
+7ff6000fbdf6 %s\%s.dll
+7ff6000fbece C:\Windows\System32\clbcatq.dll
+7ff6000fbf75 9mkFbVvPp2c_b0
+7ff6000fc056 pi32.dll
+7ff6000fc08b C:\Windows\Prefetch\OUTLOOK.EXE-
+7ff6000fc0cb C:\Window
+7ff6000fc13b http://ocsp.digicert.com
+7ff6000fc14c https://ctldl.windowsupdate.com/msdownload/update
+7ff6000fc1ec .exe
+7ff6000fc29c HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff6000fc384 [%04d-%02d-%02d %02d:%02d:%02d]
+7ff6000fc3ce C:\Windo
+7ff6000fc4a6 C:\ProgramData\Microsoft\Windows Defender\Scans\History
+7ff6000fc4b9 2\drivers\ndis.sys
+7ff6000fc50a https://outlook.office365.com/owa/
+7ff6000fc59d 2\shcore.dll
+7ff6000fc5d5 C:\Windows\System32\clbcatq.dll
+7ff6000fc693 C:\Windows\System32\services.exe
+7ff6000fc719 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff6000fc759 E8_5RkPaCd02Qj2Hz..b,pw
+7ff6000fc83b em32\iphlpapi.dll
+7ff6000fc90e C:\Windows\System32\ucrtbase.dll
+7ff6000fc9ae MsSense.exe
+7ff6000fc9ff C:\W
+7ff6000fca69 C:\Windows\System32\bcrypt.dll
+7ff6000fcb26 HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff6000fcbe0 svchost.exe -k netsvcs
+7ff6000fcc5c C:\Windows\System32\advapi32.dll
+7ff6000fcd05 C:\Wind
+7ff6000fcd2c NCryptOpenStorageProvider
+7ff6000fcdbf The parameter is incorrect.
+7ff6000fcea7 =xSCWTa+Fjxh,v9E
+7ff6000fcf85 C:\Windows\System32\propsys.dll
+7ff6000fcfea AncillaryDynamics_TechnicalAssessment
+7ff6000fd07b http://ocsp.digicert.com
+7ff6000fd0f3 C:\Users\d.reyes\AppData\Local\Microsoft\Windo
+7ff6000fd10d RPC_S_SERVER_UNAVAILABLE
+7ff6000fd1a1 8Hhtuu2W
+7ff6000fd23c zl=gh,JP84bofJe
+7ff6000fd277 STATUS_ACCESS_VIOLATION
+7ff6000fd33b StLo5FgTKD.L+09tl+=dFlN.QI,G6
+7ff6000fd385 C:\Windows\System32\iphlpapi.dll
+7ff6000fd413 FNW-WKS047
+7ff6000fd42d =sQTVgdhnYdmm/z_ITNZHB8KZzg/v-3
+7ff6000fd4be C:\Windows\SysWOW64\shell32.dll
+7ff6000fd4f5 3W82UrBbmbb5eAJmspLwKaZnF2
+7ff6000fd5de C:\Windows\System32\msvcrt.dll
+7ff6000fd623 8,ae8dMZhgrCaJu5Bay=337Dfjr2RwcG+5l
+7ff6000fd6af WSAStartup
+7ff6000fd75d connect
+7ff6000fd7ac Access is denied. (0x%X)
+7ff6000fd803 ZgDJRGrmwykAMSIfyT_UTcEEkivx_iORSE7=m,PTW.V
+7ff6000fd8f2 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff6000fd978 C:\Windows\System32\shlwapi.dll
+7ff6000fda50 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff6000fdab3 RsLPUGmBIiyKeJJA,y_Kfsb
+7ff6000fdb9f C:\Users\d.reyes\AppData\Local\Microsoft\Windows\INetCache
+7ff6000fdc6c z+qcIe=8O=TgBf=9q3r
+7ff6000fdd4a WriteProcessMemory
+7ff6000fdddf ojJz2ey,LfKpSOc2
+7ff6000fde78 AourxnE/zz78-g6T8b9QOcJ+Qaf
+7ff6000fdf2e huDc7Z41,MPq9FqFdXIzzO1m-Xvbrxo
+7ff6000fe00c C:\Windows\SysWOW64\ol
+7ff6000fe05d C:\Windows\System32\m
+7ff6000fe131 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff6000fe1e0 NMZLSHYLPDZ
+7ff6000fe290 tem32\drivers\afd.sys
+7ff6000fe358 hGb2r-QnS1RbI.ctRig7b72T7Q7_DrbNjo6uhGnnMsXVKoGD
+7ff6000fe3b1 Thread 0x%X exited with code %d
+7ff6000fe485 ndows\System32\sechost.dll
+7ff6000fe54b \Office\16.0\Outlook
+7ff6000fe5cf https://www.microsoft.com/pkiops/certs/Micr
+7ff6000fe6a6 C:\Windows\Sys
+7ff6000fe75f tYEt-ErKZFjzd6yZUoP8KjN..L
+7ff6000fe836 System32\drivers\netio.sys
+7ff6000fe8b8 Gqeef8zD8gJ9fah0VlL/fP-2jsey+TE.i=ga6tAhPCkeA
+7ff6000fe93f RPC_S_SERVER_UNAVAILABLE
+7ff6000fe981 C:\Users\d.reyes\AppData\Local\Temp\~DF3A21.tmp
+7ff6000fea36 [%04d-%02d-%02d %02d:%02d:%02d]
+7ff6000feadf C:\Windows\System32\sechost.dll
+7ff6000feae8 Global\CLR_CASYNCPIPE_MUTEX
+7ff6000feaf7 C:\Users\d.reyes\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+7ff6000feb10 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+7ff6000feb72 FNW-WKS047
+7ff6000fec0d Windows\System32\shell32.dll
+7ff6000fec5d BUILTIN\Administrators
+7ff6000fecb3 NT AUTHORITY\SYSTEM
+7ff6000fed94 SecurityHealthService
+7ff6000fedd5 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff6000fee86 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff6000fef60 HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff6000fef95 Access is denied. (0x%X)
+7ff6000ff00a CryptAcquireContextW
+7ff6000ff0ef C:\
+7ff6000ff188 NTLindDd4+gXx1XYBFIsbSc3c3OTHLbzsP+FoRsTu36jk5a
+7ff6000ff1db =+__MzKueSqHUk.omovVhKR2-f7J7K
+7ff6000ff262 svchost.exe -k netsvcs
+7ff6000ff29b C:\Windows\System32\clbcatq.dll
+7ff6000ff2ea HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff6000ff37d gK.Tff,SdY5ahQGe.fy+VGI2
+7ff6000ff41f OpenProcessToken
+7ff6000ff436 %s (0x%08lX)
+7ff6000ff46b Thread 0x%X exited with code %d
+7ff6000ff4e8 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff6000ff576 VirtualAllocEx
+7ff6000ff62e BUILTIN\Administrators
+7ff6000ff66a =7V+v9S2X//_ZE=+4h_/6S06N2BESLW
+7ff6000ff6c9 /xuOKm4.REs8mg4s+PIvG+2QHwK9
+7ff6000ff7a5 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff6000ff889 yI2LMDx=waxGY,lX02352Y4=-EziIMSXjHU9CTgeUo
+7ff6000ff91b WZ-df3WY1kz8fRTlMRwE.zf
+7ff6000ff98c C:\Windows\System32\combase.dll
+7ff6000ff9a0 WSASocketW
+7ff6000ffa79 svchost.exe -k netsvcs
+7ff6000ffa99 fenwick.local
+7ff6000ffb23 C:\ProgramDat
+7ff6000ffb6c 1kd.-dh5of/rLt=E_cHGxxbynTYlZFvoKKm2F
+7ff6000ffc35 C:\Windows\System32\advapi32.dll
+7ff6000ffd23 https://graph.microsoft.com/v1.0/me
+7ff6000ffdd4 ndows\System32\windows.storage.dll
+7ff6000ffe51 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff6000ffee5 LYHmttptGWV0ysKzxIg4lMfrGlDZ,prOOSpt2mkGl
+7ff6000fffd0 _IFbc-xZF-ycZ/ND4FJJBJF137VE+cgxGBhLbIm0
+7ff600100093 KgiAzPPOL=Rpsa6vaG3M1ZyzdE/m4viCf//d
+7ff6001000dd C:\Windows\System32\lsass.exe
+7ff6001001a9 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff60010024c HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff60010027c HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff600100331 FNW-WKS047
+7ff6001003dc 0x%p
+7ff60010046f https://outlook.office365.com/owa/
+7ff600100495 BUILTIN\Administrators
+7ff600100561 NtQuerySystemInformation
+7ff600100592 3-N.SM6VVx8PZuY
+7ff60010061c C:\Windows\SysWOW64\shlwapi.dll
+7ff600100707 \CurrentControlSet\Control\Lsa
+7ff600100752 Access is denied. (0x%X)
+7ff600100770 C:\Windows\System32\wintrust.dll
+7ff6001007ee AncillaryDynamics_TechnicalAssessment
+7ff600100831 C:\Users\d.reyes\AppDat
+7ff600100851 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff600100918 C:\Windows\System32\win32u.dll
+7ff6001009c7 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff600100a2f l32.dll
+7ff600100a9b C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df
+7ff600100af3 C:\Windows\System32\mswsock.dll
+7ff600100b08 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff600100b3e C:\Windows\System32\psapi.dll
+7ff600100c29 ELUDOMDUF
+7ff600100c31 Error 0x%08X in module %s
+7ff600100c5d CryptAcquireContextW
+7ff600100d43 cal\Temp\~DF3A21.tmp
+7ff600100dc6 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff600100e5a C:\Windows\System32\gdi32.dll
+7ff600100f0e Windows\System32\cfgmgr32.dll
+7ff600100f8b https://outlook.office365.com/owa/
+7ff600101074 \SYSTEM\CurrentControlSet\Services\Afd
+7ff6001010d8 G9ScH7dHhJGxFXUxie9wTMMc./b
+7ff600101146 Ax57SLCGmAE
+7ff600101235 C:\Windows\SysWOW64\ntdll.dll
+7ff600101319 C:\Windows\System32\wininet.dll
+7ff6001013f7 BUILTIN\Administrators
+7ff60010144a Access is denied. (0x%X)
+7ff600101491 nHduBpD36vvurHlkD+orxwrJUjhHmBrpDHx/-gt
+7ff600101501 lMxXZ-Sg8Um.6=4a/dzv,HVaE=d
+7ff60010155e https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff60010156b Xwjt7-2=cs
+7ff600101626 RPC_S_SERVER_UNAVAILABLE
+7ff60010167b [%04d-%02d-%02d %02d:%02d:%02d]
+7ff60010168d RPC_S_SERVER_UNAVAILABLE
+7ff60010169d C:\Windows\SysWOW64\ntdll.dll
+7ff600101754 C:\Windows\explorer.exe
+7ff600101801 7w7Zy58/jFv415ac3LI0Bm
+7ff600101876 HKEY_LOCAL_MACHINE\SYSTEM\
+7ff6001018ed https://ctldl.windowsupdate.com/msdownload/update
+7ff600101943 8sks3O_PCBP8AVieq
+7ff600101991 C:\Windows\System32\combase.dll
+7ff600101a0d Toulouse
+7ff600101a24 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff600101a3b uqv4J89_dP+o,NYyizaiMi
+7ff600101af3 VirtualAllocEx
+7ff600101b75 [%04d-%02d-%02d %02d:%02d:%02d]
+7ff600101be3 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff600101ccc SeTcbPrivilege
+7ff600101cd4 WinDefend
+7ff600101cf0 Y1.Kru4Yl-
+7ff600101d95 0x%p
+7ff600101e01 C:\Windows\System32\lsass.exe
+7ff600101e3d https://login.microsoftonline.com/common/oauth2/authorize
+7ff600101ec3 NtQuerySystemInformation
+7ff600101f0f https://graph.microsoft.com/v1.0/me
+7ff600101f63 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff600101fd2 C:\Windows\System32
+7ff6001020ad QQJRGvsX5n78TCl,cvv4dUG+k5tyiJ5LKrGm/JI
+7ff600102161 C:\Windows\SysWOW64\user32.dll
+7ff60010221a 9fI5+TeTW7zWks2zeo
+7ff600102292 0x%p
+7ff600102364 MsSense.exe
+7ff600102400 B4x5LysvT4Ns-
+7ff6001024f0 C:\Windows\SysWOW64
+7ff600102565 C:\Window
+7ff60010257c %s\%s.dll
+7ff600102632 Xf.OsyUnGjKzpPstwj0j2LweuU_Iq8-sQmVuI/hOePig/t
+7ff6001026f0 RPC_S_SERVER_UNAVAILABLE
+7ff6001027c2 VirtualAllocEx
+7ff6001028b2 https://fenwick-intranet.local/api/status
+7ff6001028e7 CDtAxeTOyCKKQq6vTw0-_PWNbc3n
+7ff600102912 C:\Windows\System32\wintrust.dll
+7ff60010292f %d.%d.%d.%d
+7ff600102955 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff600102986 BUILTIN\Administrators
+7ff600102a6f NT AUTHORITY\NETWORK SERVICE
+7ff600102b23 C:\Windows\SysWOW64\kernel32.dll
+7ff600102b69 [%04d-%02d-%02d %02d:%02d:%02d]
+7ff600102bd0 4X1P+Nd8v=dbw+NyV5I24g8EHL/IZAILNK_
+7ff600102c79 crosoft.com/settings
+7ff600102ca1 https://outlook.office365.com/owa/
+7ff600102d15 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff600102df6 C:\Windows\System32\drivers\Wdf01000.sys
+7ff600102e6d C:\Windows\System32\mswsock.dll
+7ff600102e8f C:\Windows\System32\windows.storage.dll
+7ff600102ec1 ystem32\msvcrt.dll
+7ff600102f89 Sessions\1\BaseNamedObjects
+7ff60010306c HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff6001030aa Local\MSCTF.Shared.MUTEX.SFM
+7ff600103192 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff6001031a3 ws\System32\gdi32full.dll
+7ff6001031b3 https://ctldl.windowsupdate.com/msdownload/update
+7ff60010320c NT AUTHORITY\SYSTEM
+7ff6001032d6 BUILTIN\Administrators
+7ff6001032ed https://graph.microsoft.com/v1.0/me
+7ff60010331c eWSU3FCQNmLOOh9NC,fBOg
+7ff600103336 AdjustTokenPrivileges
+7ff60010338f MsSense.exe
+7ff6001033c8 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff6001033eb C:\Wi
+7ff600103465 s\explorer.exe
+7ff60010348f 0lMzmV4ydY-.KXpdc452
+7ff6001034de C:\Windows\System32
+7ff60010356e C:\Windows\S
+7ff6001035b6 NT AUTHORITY\LOCAL SERVICE
+7ff6001035ec s Defender
+7ff600103642 du/b5YrY5gVQfJ01HcDWlueDCMlx4k=Rbt/_7+mBY
+7ff6001036b8 NtQuerySystemInformation
+7ff60010375a RPC_S_SERVER_UNAVAILABLE
+7ff600103791 AncillaryDynamics_TechnicalAssessment
+7ff600103835 https://fenwick-intranet.local/api/status
+7ff600103884 RPC_S_SERVER_UNAVAILABLE
+7ff6001038d2 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff6001039a5 C:\Windows\System32\wintrust.dll
+7ff6001039f5 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff600103a17 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff600103ac3 C:\Windows\System32\urlmon.dll
+7ff600103bae C:\Windows\System32\config\SYSTEM
+7ff600103c16 Local\MSCTF.Shared.MUTEX.SFM
+7ff600103c90 SeDebugPrivilege
+7ff600103cc8 HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff600103d2b C:\Windows\SysWOW64\kernel32.dll
+7ff600103db2 es.exe
+7ff600103e87 HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff600103f30 https://ctldl.windowsupdate.com/msdownload/update
+7ff600103fe0 C:\Windows\System32\wbem\wmiprvse.exe
+7ff600103ff0 svchost.exe -k netsvcs
+7ff600104081 C:\Windows\SysWOW64\shell32.dll
+7ff60010410a C:\Windows\System32\shlw
+7ff60010419b https://ctldl.windowsupdate.com/msdownload/update
+7ff6001041cf RPC_S_SERVER_UNAVAILABLE
+7ff600104249 C:\Windows\SysWOW6
+7ff6001042ce C:\Windows\System32\rpcrt4.dll
+7ff600104349 HttpSendRequestW
+7ff600104403 https://login.microsoftonline.com/common/oauth2/authorize
+7ff600104495 [%04d-%02d-%02d %02d:%02d:%02d]
+7ff60010453d HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff60010462c DRYUAWT
+7ff600104703 C:\Windows\SysWOW64\ntdll.dll
+7ff6001047bb SeDebugPrivilege
+7ff6001048a8 ws\System32\crypt32.dll
+7ff6001048d5 fenwick.local
+7ff600104923 HKEY_LO
+7ff600104a10 C:\Windows\Sy
+7ff600104ac5 C:\Windows\System32\drivers\tcpip.sys
+7ff600104b43 HFEKGL
+7ff600104b67 mxni9Gn7VuH+WTLoO.vGSTysrACzR1la5kBJtf=0Z./
+7ff600104c45 C:\Windows\
+7ff600104ce2 C:\Windows\System32\rpcrt4.dll
+7ff600104dc1 C:\Windows\SysWOW64
+7ff600104de0 C:\Windows\System32\services.exe
+7ff600104df7 C:\Windows\System32\MsMpEng.
+7ff600104ebf Toulouse
+7ff600104f04 C:\Windows\Prefetc
+7ff600104f15 WSAStartup
+7ff600104f31 C:\Windows\SysWOW64\ntdll
+7ff600104f7b C:\Windows\System32\clbcatq.dll
+7ff600104fbc s2_32.dll
+7ff60010508e OStik80hztk.5UE,IoYRlw.zdxs0uyF=L99o
+7ff600105133 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff60010520f C:\Users\d.reyes\AppData\Local\Microsoft\Windows\INetCache
+7ff600105221 9hYWiJVdVDuF3JBi9K6lS4cI2+
+7ff6001052c0 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff60010533e C:\Program
+7ff60010539c CryptImportKey
+7ff600105464 Error 0x%08X in module %s
+7ff60010546d C:\Windows\WinSx
+7ff600105554 C:\Windows\Sys
+7ff60010559a \System32\config\SOFTWARE
+7ff6001055b8 ,EdUTVYCrIah.tPl
+7ff600105607 wscsvc
+7ff600105676 C:\Windows\System32\sechost.dll
+7ff60010569c C:\Windows\System32\powrprof.dll
+7ff600105736 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff6001057e7 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff600105841 RPC_S_SERVER_UNAVAILABLE
+7ff6001058b6 cxvoWjXF
+7ff6001058f5 Global\CLR_CASYNCPIPE_MUTEX
+7ff6001059ca 0Lyzw,/sb+bq/FzdqjnFZxiTvLGQn99Iv_
+7ff6001059f5 System32\shcore.dll
+7ff600105a02 GIKKFLEPELF
+7ff600105a45 C:\Windows\Syst
+7ff600105a8b Thread 0x%X exited with code %d
+7ff600105af1 C:\Windows\System32\imagehlp.dll
+7ff600105b22 stem32\ws2_32.dll
+7ff600105b50 Toulouse
+7ff600105b94 ealthService.exe
+7ff600105bcf +iUtMnjVlWHbo=nuLYYF-mzCgK
+7ff600105c80 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff600105d03 dows\System32\ws2_32.dll
+7ff600105db3 VirtualAllocEx
+7ff600105dd2 CryptImportKey
+7ff600105ea5 =DKbUzVv_bc/T,o
+7ff600105f91 https://outlook.office365.com/owa/
+7ff600106009 CreateRemoteThread
+7ff60010609c https://fenwick-intranet.local/api/status
+7ff600106100 hbQS/.IZmUTRe0lEyMXSg4hOV5cdypjd=JMMr0_
+7ff600106192 XkJFCZTcZ+Gx67k
+7ff6001061cb NT AUTHORITY\SYSTEM
+7ff6001062b4 C:\Users\d.reyes\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+7ff60010639e svchost.exe -k netsvcs
+7ff6001063b6 combase.dll
+7ff600106468 WSASocketW
+7ff6001064bf CryptAcquireContextW
+7ff60010659e https://ctldl.windowsupdate.com/msdo
+7ff600106674 STATUS_INVALID_HANDLE
+7ff60010670f B.cu..4yIFrb.-y68wNl9Pr4HEL3e
+7ff600106771 BVW13eR381NitZIOA9LHhyO+r/wp7QqPjO
+7ff60010677b S1DNsjhkQKMT.urv70MSXV0tproK0LB+HhSzMTz.J
+7ff600106862 C:\Windows\SysWOW64\gdi32
+7ff60010689a HttpSendRequestW
+7ff6001068e5 %s\%s.dll
+7ff60010691e C:\Windows\System32\lsass.exe
+7ff600106995 i_NlAhe7.ICRei2
+7ff600106a35 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff600106b16 CryptAcquireContextW
+7ff600106bb7 C:\Windows\SysWOW64\nt
+7ff600106bc5 https://settings-win.data.microsoft.com/settings
+7ff600106c4f C:\Windows\Prefetch\OUTLOOK.EXE-3F2A1B90.pf
+7ff600106cbf DUPFMYL
+7ff600106daa WinDefend
+7ff600106de3 https://login.microsoftonline.com/common/oauth2/authorize
+7ff600106e8f C:\Windows\System32\ole32.dll
+7ff600106eee C:\Wi
+7ff600106f93 C:\Use
+7ff600107013 C:\Windows\System32\ip
+7ff600107097 C:\Windows\System32\KERNELBASE.dll
+7ff600107161 C:\Users\d.reyes\AppData\Roaming\Microsoft\Windows\Recent\Au
+7ff60010720d NlW53V=WcTyYt1,Lf.
+7ff6001072cf STATUS_INVALID_HANDLE
+7ff600107359 C:\Windows\SysWOW64\oleaut32.dll
+7ff6001073f9 SeAssignPrimaryTokenPrivilege
+7ff6001074ae C:\Windows\System32\cfgmgr32.dll
+7ff600107583 fenwick.local
+7ff600107610 SeDebugPrivilege
+7ff600107677 C:\Windows\Syst
+7ff600107692 C:\Windows\System32\win32u.dll
+7ff6001076f3 C:\Windows\Sy
+7ff600107797 connect
+7ff6001077c4 STATUS_INVALID_HANDLE
+7ff6001077db [%04d-%02d-%02d %02d:%02d:%02d]
+7ff60010789b NT AUTHORITY\NETWORK SERVICE
+7ff600107906 Global\CLR_CASYNCPIPE_MUTEX
+7ff6001079d5 NT AUTHORITY\SYSTEM
+7ff6001079fd C:\Windows\System32\dr
+7ff600107a0e %d.%d.%d.%d
+7ff600107a9c WinDefend
+7ff600107b87 http://ocsp.digicert.com
+7ff600107bdf svIi18OKNnr2_H.qEji6sAiIP,LdcibLc
+7ff600107bef ZPAPT7OOzte0JF3tz+dTtxWD4rxclcod8lMJndQI8ZH
+7ff600107c34 BACWHBOYMVU
+7ff600107c62 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff600107c7f WSAStartup
+7ff600107cb8 C:\Windows\System32\SecurityHealthService.exe
+7ff600107da3 CreateRemoteThread
+7ff600107e58 C:\Windows\System32\bcrypt.dll
+7ff600107f45 C:\Users\d.reyes\AppDat
+7ff600108020 +wbvuBU+JBZmWLelvr3N
+7ff6001080ab %s\%s.dll
+7ff6001080e4 C=EgS35.94Wd/i6.t0zn
+7ff6001081cc Error 0x%08X in module %s
+7ff600108241 fenwick.local
+7ff60010825f %d.%d.%d.%d
+7ff600108344 ERNELBASE.dll
+7ff6001083e2 Sessions\1\BaseNamedObjects
+7ff6001084ac C:\Windows\SysWOW6
+7ff600108500 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff600108561 C:\Windows\System32\dnsapi.dll
+7ff600108605 rwIdBdxE_uQkZv_AFZO,H=7ox97+
+7ff60010865e FDMBxiS5+wGAq+sncuQsoOATqkGZNtH
+7ff6001086fd ecent\AutomaticDestinations
+7ff6001087c1 EDKQPNUGGRY
+7ff600108823 VirtualAllocEx
+7ff600108881 https://teams.microsoft.com/api/mt/part
+7ff600108954 V=UYWgIi4P5ulAl/hS9YLO9fupaa.
+7ff6001089cd HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff6001089e9 YFQF-8f/5JN0F2+7Vpf5/vXsZKV510T.xI
+7ff600108aaa LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff600108ab8 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff600108b44 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff600108b75 C:\Windows\System32\windows.storage.dll
+7ff600108bab ws\SysWOW64\kernel32.dll
+7ff600108c8f i32full.dll
+7ff600108cb3 C:\Windo
+7ff600108d1b C:\Windows\System32\sechost.dll
+7ff600108dce Y6=pCyBrwH1E
+7ff600108e43 Sessions\1\BaseNamedObjects
+7ff600108e8b HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff600108f7a C:\Windows\System32\propsys.dll
+7ff600108fae The parameter is incorrect.
+7ff600108feb HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff6001090bc WinDefend
+7ff60010912f C:\Windows\System32\iph
+7ff600109160 0x%p
+7ff60010922e AncillaryDynamics_TechnicalAssessment
+7ff6001092b2 OFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff600109318 C:\Windows\SysWOW64\msvcrt.dll
+7ff6001093fb HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff6001094cd https://teams.microsoft.com/api/mt/part
+7ff6001094f6 OpenProcessToken
+7ff60010958c mt/part
+7ff60010961e HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff6001096d3 gyzLFP31Yf7,qo39i1ayN2PDc/lH2D-IQK6oX/
+7ff60010972f https://graph.microsoft.com/v1.0/me
+7ff6001097bc SeTcbPrivilege
+7ff6001098a0 C:\Windows\SysWOW64\shell32.dll
+7ff600109935 tbYKJq87/o5KOIc,Z+qyS
+7ff600109956 C:\Windows\System32\ntdll.dll
+7ff6001099ad m32\winhttp.dll
+7ff600109a13 https://fenwick-intranet.local/api/status
+7ff600109a85 C:\Windows\System32\lsass.exe
+7ff600109b56 %s\%s.dll
+7ff600109c10 \System32\setupapi.dll
+7ff600109c6e C:\
+7ff600109c8c FNW-WKS047
+7ff600109ceb C:\Windows\System32\shell32.dll
+7ff600109d1b L_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff600109de4 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff600109e75 C:\Users\d.reyes\AppData\Local\Temp\~DF7C90.tmp
+7ff600109ec2 ok.office365.com/owa/
+7ff600109f91 NT AUTHORITY\LOCAL SERVICE
+7ff600109fd5 %s (0x%08lX)
+7ff60010a07f HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff60010a0af C:\Windows\System32\
+7ff60010a197 https://fenwick-intranet.local/api/status
+7ff60010a27b https://login.microsoftonline.com/common/oauth2/authorize
+7ff60010a32e -bSSBBkPq6_Pu0.GzgSw0Fft
+7ff60010a377 The parameter is incorrect.
+7ff60010a431 Sense
+7ff60010a4ae https://ctldl.windowsupdate.com/msdownload/update
+7ff60010a4d0 H.4-XUaCEpyTUIEX2V
+7ff60010a542 MsSense.exe
+7ff60010a5e2 C:\Windows\SysWOW64\ntdll.dll
+7ff60010a6aa STATUS_INVALID_HANDLE
+7ff60010a74e HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff60010a7a5 CreateRemoteThread
+7ff60010a804 SeImpersonatePrivilege
+7ff60010a825 RPC_S_SERVER_UNAVAILABLE
+7ff60010a8e0 fgmgr32.dll
+7ff60010a94f C:\Windows\System32\win32u.dll
+7ff60010aa2e g/AbR3,Na=jWJMmHNuK+yuq/7s2tErDj
+7ff60010aaad HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff60010aad5 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff60010abc2 svchost.exe -k netsvcs
+7ff60010ac83 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff60010ac9b C:\Windows\System32\shell32.dll
+7ff60010ad69 STATUS_ACCESS_VIOLATION
+7ff60010adc9 ll
+7ff60010ae65 32\wininet.dll
+7ff60010ae75 The parameter is incorrect.
+7ff60010aef5 OpenProcessToken
+7ff60010af5f HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff60010affb HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff60010b02e C:\Windows\System32\drivers\W
+7ff60010b042 NT AUTHORITY\LOCAL SERVICE
+7ff60010b10d NT AUTHORITY\SYSTEM
+7ff60010b18a Global\CLR_CASYNCPIPE_MUTEX
+7ff60010b1d7 dows\System32\cfgmgr32.dll
+7ff60010b2b5 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo
+7ff60010b36f STATUS_ACCESS_VIOLATION
+7ff60010b383 CreateRemoteThread
+7ff60010b3a0 HKEY_LOC
+7ff60010b403 C:\Windows
+7ff60010b4b6 ystem32\lsass.exe
+7ff60010b4f0 em32\KERNELBASE.dll
+7ff60010b59d C:\Windows\System32\netapi32.dll
+7ff60010b68a cHQEwGXje,
+7ff60010b6ae rF+dqMLWD=L2-G3+Vl5i62-yPljCqx88hY.f
+7ff60010b738 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff60010b813 Toulouse
+7ff60010b89f 0x%p
+7ff60010b8eb HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff60010b916 ZBF+H6i=_nN8dJ6g-5xW+W8rG6qtxGFwKtRyd,z7L
+7ff60010b9cd C:\Windows\System32\setupapi.dll
+7ff60010ba02 C:\Windows\System32\bcryptprimiti
+7ff60010ba8f C:\Windows\System32\user32.dll
+7ff60010bb6b connect
+7ff60010bc1c SeTcbPrivilege
+7ff60010bcc2 BUILTIN\Administrators
+7ff60010bd69 CreateRemoteThread
+7ff60010bd99 ows\System32\drivers\fltmgr.sys
+7ff60010be64 https://ctldl.windowsupdate.com/msdownload/update
+7ff60010bee3 MApRBvnoc
+7ff60010bf70 %s\%s.dll
+7ff60010bfb1 nC4eoeR9xsFzagRR4s/nlGIUKe6Stj.o5pVW_zfztAUVO,
+7ff60010c039 C:\Wi
+7ff60010c04d C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b6
+7ff60010c092 C:\Windows\System32\drivers\afd.sys
+7ff60010c16c HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff60010c222 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff60010c2cc C:\Windows\System32\mswsock.dll
+7ff60010c32b %d.%d.%d.%d
+7ff60010c37d Thread 0x%X exited with code %d
+7ff60010c438 j4QaNKy5lxcrA-l0rG=2X1IfbupqpeWLUntR
+7ff60010c4b7 C:\Windows\System32\netapi32.dll
+7ff60010c534 ://ocsp.digicert.com
+7ff60010c54e 8vXrH=2u43lvU
+7ff60010c612 C:\Windows\System
+7ff60010c702 C:\Windows\Prefetch\OUTLOOK.EXE-3F2
+7ff60010c7ba https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff60010c88a Sense
+7ff60010c96d HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff60010ca02 C:\Windows\System32\profapi.dll
+7ff60010ca36 /ZiAwIGyRkF_5Ar_n_fQPU/yGK/vmA14dJE8P,J
+7ff60010cabf AdjustTokenPrivileges
+7ff60010caf8 C:\Windows\System32\crypt32.dll
+7ff60010cb0a com/settings
+7ff60010cb3b _c5=E.1sB
+7ff60010cba8 STATUS_ACCESS_VIOLATION
+7ff60010cbba LZo.jw2,7znSzlFv,p4
+7ff60010cca0 C:\Windows\Prefetch\OUTLOOK.EXE-3F2A1B90.pf
+7ff60010cca8 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff60010ccb3 PJGKPVZC.2IepMaka+3wRA.YG-QdAlam7fmO
+7ff60010cccb The parameter is incorrect.
+7ff60010cd81 C:\Windows\SysWOW64\gdi32.dll
+7ff60010cdcb C:\Windows\System32\bcryptprimi
+7ff60010cea3 CryptAcquireContextW
+7ff60010cf74 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff60010cf9c %d.%d.%d.%d
+7ff60010d04b HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff60010d0f6 https://outlook.office365.com/owa/
+7ff60010d1d7 The parameter is incorrect.
+7ff60010d227 C:\Windows\System32\drivers\afd.sys
+7ff60010d2c8 d.reyes
+7ff60010d381 C:\Windows\System32\ntdll.dll
+7ff60010d470 C:\Windows\Prefetch\CHROME.EXE-9D8E1204.pf
+7ff60010d4bb SecurityHealthService
+7ff60010d516 C:\Windows\System32\drivers\ndis.sys
+7ff60010d56c C:\Windows\System32
+7ff60010d5f1 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff60010d681 Access is denied. (0x%X)
+7ff60010d689 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff60010d6dd T,fTjiH4byKq_3bcDRKmtXTMP4lneyaq2nnptPj
+7ff60010d7c4 C:\Windows\System32\drivers\fltmgr.sys
+7ff60010d8ae hQ=NN,UOAm/KIU0/K7jP0KDvJbPVg16M95w_7f
+7ff60010d8b7 C:\Windows\System32\gdi32full.dll
+7ff60010d96a C:\Windows\System32\ole32.dll
+7ff60010d9c7 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+7ff60010d9d0 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+7ff60010da38 SeDebugPrivilege
+7ff60010da81 OpenProcessToken
+7ff60010da92 https://outlook.office365.com/owa/
+7ff60010db34 C:\Windows\System32\KERNELBASE.dll
+7ff60010db40 C:\Windows\SysWOW64
+7ff60010dbe0 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff60010dcb0 %s\%s.dll
+7ff60010dd29 C:\Users\d.reyes\AppData\Local\Temp\~DF7C90.tmp
+7ff60010dd8e C:\Windows\System32\shlwapi.dll
+7ff60010de05 C:\Windows\System32\advapi32.dll
+7ff60010de24 NT AUTHORITY\NETWORK SERVICE
+7ff60010de48 C:\Windows\Sys
+7ff60010deab Thread 0x%X exited with code %d
+7ff60010deed https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff60010df1d https://graph.microsoft.com/v1.0/me
+7ff60010dfb7 ZIJDPFH
+7ff60010e018 C:\Windows\SysWOW64\shlwapi.dll
+7ff60010e068 https://outlook.office365.com/owa/
+7ff60010e07f WT_ebZ_2YHzrkljhsbDy
+7ff60010e14b RPC_S_SERVER_UNAVAILABLE
+7ff60010e231 /8BFu/vLAqGbG-0KedljYg6url
+7ff60010e2e5 NtQuerySystemInformation
+7ff60010e357 %d.%d.%d.%d
+7ff60010e42b DuplicateTokenEx
+7ff60010e509 NT AUTHORITY\LOCAL SERVICE
+7ff60010e5d5 4kxajnSm8L.87mFx64.H,vGymaz,TJl1kkguB
+7ff60010e6a3 InternetOpenW
+7ff60010e788 C:\Windows\System32\windows.storage.dll
+7ff60010e813 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff60010e899 C:\Windows\Syste
+7ff60010e977 C:\Windows\System32\ole32.dll
+7ff60010e9a6 C:\Windows\SysWOW64\gdi32.dll
+7ff60010ea5c h/24DaYwk6nCWihMGyPqkAiy7i.CL-XMkdCcaHrEDsB
+7ff60010eb1c C:\Windows\System32\gdi32.dll
+7ff60010eb7b C:\Windows\System32\advapi32.dll
+7ff60010ec2b https://graph.microsoft.com/v1.0/me
+7ff60010ed0a https://fenwick-intranet.local/api/status
+7ff60010edc2 ndows\System32\config\SOFTWARE
+7ff60010eeae WSAStartup
+7ff60010eec2 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff60010ef92 MDMYF
+7ff60010f071 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff60010f10e C:\Windows\System32\urlmon.dll
+7ff60010f1ad HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+7ff60010f1ea C:\Windows\SysWOW64\ole32.dll
+7ff60010f2c9 HKEY_LOCAL_MACHI
+7ff60010f34e fenwick.local
+7ff60010f41c istory
+7ff60010f4c5 qK_rDQFgY-EWch1PQnd5D+KixKhM0DRPulpQ6KkBL,.
+7ff60010f526 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff60010f596 NqvnA_WFbX5VVBMy0tfYDng_
+7ff60010f633 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff60010f6e0 https://graph.microsoft.com/v1.0/me
+7ff60010f76d gKogCkU+O7RJCYnmpKyZHUA.dTbyu
+7ff60010f7ea HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff60010f8b7 n40IU63M.1W3JulDEiqkSfwZ.D3yt
+7ff60010f99e %d.%d.%d.%d
+7ff60010fa78 C:\Windows\System32\bcryptprimitives.dll
+7ff60010fabd C:\Windows\System32\propsy
+7ff60010faca HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff60010fb94 NRCYH
+7ff60010fc21 POOCUMUCUU
+7ff60010fd0a C:\Windows\Sys
+7ff60010fd8c /eq/u6MHDgTbc_8g
+7ff60010fe39 C:\Windows\System32\iphlpapi.dll
+7ff60010fe82 C:\
+7ff60010ff1b C:\Users\d.reyes\A
+7ff60010fffc WriteProcessMemory
+7ff600110020 stem32\services.exe
+7ff6001100f4 SeDebugPrivilege
+7ff60011018c C:\Users\d.reyes\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+7ff6001101cd cLpwSxT62JALVItfiwD_YycYIyiJeCAKQfADZ
+7ff6001102b8 C:\Windows\System32\cfgmgr32.dll
+7ff600110353 HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff60011042e The parameter is incorrect.
+7ff600110487 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff600110509 0l/b/ln5ieDwCyRI
+7ff600110547 http://ocsp.digicert.com
+7ff6001105c3 \KERNELBASE.dll
+7ff600110676 HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff6001106bf https://teams.microsoft.com/api/mt/part
+7ff600110773 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff6001107ca NT AUTHORITY\NETWORK SERVICE
+7ff600110837 C:\Windows\System32\urlmon.dll
+7ff600110897 K2zP+-yLVjnbuIckYXu9PknQ0l39T0tGv_mV
+7ff600110919 %s\%s.dll
+7ff6001109ff C:\Windows\System32\drivers\Wdf01000.sys
+7ff600110ac4 C:\Windows\System32\wbem\wmiprvse.exe
+7ff600110ae0 indows\INetCache
+7ff600110ba3 i6o-LGGMw6U4YHHJjrd-scxEfRqXpjjXgJM,t9
+7ff600110bb5 MpCmdRun.exe
+7ff600110c04 C:\Windows\System32\config\SOFTWARE
+7ff600110cd3 C:\Windows\System32\services.exe
+7ff600110db6 DuplicateTokenEx
+7ff600110e9c C:\Windows\System32\shlwapi.dll
+7ff600110ee7 FNW-WKS047
+7ff600110f33 Yq9g2Pn_y0xZPr4EzfZH_Tjxj2i.AbMi=I
+7ff600110f8a NCryptOpenStorageProvider
+7ff600111076 C:\Windows\System32\gdi32.dll
+7ff6001110d5 C:\Windows\System32\win32u.dll
+7ff600111175 r-rBMO+g.epYL84+TQjAWQ8=Ft5u4KXojbD,ttHs04/0
+7ff60011119e 8lgzx1FCymosN/DioQhuRzD,UrStuR3
+7ff6001111bb https://teams.microsoft.com/api/mt/part
+7ff600111273 ,NtBKx1cVZiE=-OikKG-efA-Ky
+7ff6001112b7 %d.%d.%d.%d
+7ff60011135a HKEY_CURRENT_USER\Software\Microsoft\Windows\Curren
+7ff6001113ba dBgc84U1tBL+mkE0=+73gJm7QCj8TO/yhUpziltY5ftx79
+7ff600111407 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+7ff600111436 bLt_Q,LkmU5szGOceVu2SHcX2NiJVibu
+7ff600111461 .local/api/status
+7ff6001114fa HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+7ff600111566 ystem32\kernel32.dll
+7ff6001115b3 31fuWoy/4AaDo
+7ff6001115f9 dll
+7ff600111643 C:\Windows\System32\config\SYST
+7ff600111665 Local\MSCTF.Shared.MUTEX.SFM
+7ff600111738 The parameter is incorrect.
+7ff60011181c EGDEHREPPOC
+7ff6001118bd CryptImportKey
+7ff6001118cb C:\Windows\SysWOW64\o
+7ff60011196c %s\%s.dll
+7ff600111995 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6001119ac C:\Windows\System32\propsys.dll
+7ff600111a68 C:\Windows\System32\dri
+7ff600111b4e Access is denied. (0x%X)
+7ff600111c37 dUK3b9s04/8_sdoe10QY_
+7ff600111d07 XKB67kOmDzjWL/+Cw-vIi2q
+7ff600111dee nn4j9J=LKSrbb_9BHH.Zj7BRQ7.,,qIzmHy4m+h8E/y
+7ff600111ec7 H/KxXfkvBJwswVtzvg
+7ff600111f1e https://teams.microsoft.com/api/mt/part
+7ff600111f83 .dll
+7ff600112062 4QCO.3yPdaE93s_Be3E1FsvPxgF
+7ff60011207c C:\Windows\System32\wbem\wmiprvse.exe
+7ff60011210c 0kvKugsI
+7ff6001121d5 C:\Windo
+7ff60011227f 3q/ovN2XYyu
+7ff6001122a3 em32\ucrtbase.dll
+7ff60011237f DuplicateTokenEx
+7ff60011241f Global\CLR_CASYNCPIPE_MUTEX
+7ff60011242c t7O73lDu8q2D,oOgn..X=hR7ppz9iekMDTz9M
+7ff6001124ac C:\Windows\System32\iphlpapi.dll
+7ff600112528 %s\%s.dll
+7ff600112557 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Curr
+7ff6001125de WinDefend
+7ff600112646 NT AUTHORITY\NETWORK SERVICE
+7ff60011268c [%04d-%02d-%02d %02d:%02d:%02d]
+7ff6001126a5 dll
+7ff6001126e2 C:\Windows\System32\oleaut32.dll
+7ff60011271d C:\Windows\System32\drivers\ndis.sys
+7ff60011280c Error 0x%08X in module %s
+7ff600112833 c48tibXNeq9T9qJsTz6pRl4luKx.GwPnvOm
+7ff600112904 SeImpersonatePrivilege
+7ff6001129ad 7C26fwHT,.nts4kMUxeiLueZ
+7ff600112a3e 5vzXsS6_q5ho
+7ff600112ac0 https://settings-win.data.microsoft.com/settings
+7ff600112b70 Access is denied. (0x%X)
+7ff600112bcc https://fenwick-intranet.local/api/status
+7ff600112c87 C:\Windows\SysWOW64\ntdll.dll
+7ff600112d5a em32\ws2_32.dll
+7ff600112de6 https://outlook.offi
+7ff600112e86 0x%p
+7ff600112f31 FNW-WKS047
+7ff600112f5f C:\Windows\System32\drivers\netio.sys
+7ff600113014 8Qx8NNHPVtglJZR=
+7ff6001130fc Global\CLR_CASYNCPIPE_MUTEX
+7ff600113173 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+7ff6001131da .dll
+7ff6001132a5 %s\%s.dll
+7ff600113347 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff600113387 C:\Windows\System32\imagehlp.dll
+7ff600113449 APJrCHWDPlNIQK2Bvvb0YFHA9
+7ff600113495 viVzf2QD-2TYgR5kTubzJDLr
+7ff60011354d HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff600113585 http://ocsp.digicert.com
+7ff6001135c8 CryptAcquireContextW
+7ff60011360a 6GW_epkjJsDZswHjRKlNWRYJNDv8
+7ff6001136bd https://graph.microsoft.com/v1.0/me
+7ff600113743 C:\Windows\System32\gdi32.dll
+7ff600113825 SeDebugPrivilege
+7ff6001138b3 m32\iphlpapi.dll
+7ff600113944 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff6001139ef /6a-j.GE-4EsRnkuzMXkO,MruUYLc=pZ2k_kSEBPHF1B
+7ff600113a33 C:\Users\d.reyes\AppData\Local\Temp\~DF7C90.tmp
+7ff600113a64 OpenProcessToken
+7ff600113b0b myN6x3-wwMSDb
+7ff600113b28 lYLEfch6
+7ff600113bf4 C:\Windows\System32\drivers\afd.sys
+7ff600113c02 C:\Windows\WinSxS\amd64_mic
+7ff600113c5a https://ctldl.windowsupdate.com/msdownload/update
+7ff600113d05 C:\Windows\System32\services.exe
+7ff600113d1f aMalH_fZsJPAqyzvO6fZytf6bN_/tTsb/Zt,
+7ff600113d44 C:\Windows\System32\crypt32.dll
+7ff600113e1c =.vRQbd2xeVyz_Sk=KYv
+7ff600113e3e VirtualAllocEx
+7ff600113ea7 BBl,+=.eBRR90QNMIvs1H8kLDaqvw-3d5G3WcDuItJB
+7ff600113f00 C:\Windows\SysWOW64\shlwapi.dll
+7ff600113f86 DZSkpdIHu9,q,
+7ff600114019 C:\Windows\SysWOW64\oleaut32.dll
+7ff6001140db C:\Windows\System32\user32.dll
+7ff600114143 C:\Windows\System32\ntdll.dll
+7ff6001141a0 d.reyes
+7ff600114201 C:\Windows\System32\powrprof.
+7ff6001142a2 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff600114391 C:\Windo
+7ff6001143e4 NCryptOpenStorageProvider
+7ff6001143f6 C:\Windows\System32\wintrust.dll
+7ff6001144a3 WriteProcessMemory
+7ff60011453d C:\Windows\System3
+7ff60011457b C:\Windows\System32\ws2_32.dll
+7ff600114648 C:\Windows\System32\drivers\tcpip.sys
+7ff6001146e6 STATUS_ACCESS_VIOLATION
+7ff60011472b indows\System32\wininet.dll
+7ff6001147b2 BUILTIN\Administrators
+7ff60011484b TlBmylAvgJuIads=kgHaPkRI5ZFY-oFMkLoklnu5-
+7ff6001148cf 2\user32.dll
+7ff600114975 http://ocsp.digicert.com
+7ff6001149f9 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff600114a1d MsSense.exe
+7ff600114a68 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff600114abe [%04d-%02d-%02d %02d:%02d:%02d]
+7ff600114afd 93Cdw6lDrCK,i16Vf9Nvgl5
+7ff600114bd1 /f,XE4FoW/4oDEZf7SKMN7.n-CKG.Xc4SGFbKUh=tNirIF
+7ff600114c09 Wi5Krh,j9nvps3S,7P_vIAx+FMrgyHh
+7ff600114c55 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff600114d1a Error 0x%08X in module %s
+7ff600114d85 NCryptOpenStorageProvider
+7ff600114dbc HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff600114dca v1.0/me
+7ff600114e44 rdGHloNQ.3olQZ-PLF=jFQ_63P1ao
+7ff600114ec3 vMTGu5ojTJohSdYqi
+7ff600114f83 w9M1Sdgjfz+gjcK
+7ff600115011 Local\MSCTF.Shared.MUTEX.SFM
+7ff60011501a BfpYzN5ItQxPKWN8LVp=,oGA=kvae
+7ff600115094 WinDefend
+7ff60011512f HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff6001151dd dll
+7ff600115296 C:\Users\d.reyes\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+7ff6001152b5 ZL_F+.clSRKaynmZ
+7ff600115332 Kaf8laqtKjdC_754F0G20,vq
+7ff600115372 BUILTIN\Administrators
+7ff6001153ac C:\Windows\System32\bcryptprimitives.dll
+7ff6001153cb ies\Microsoft\Windows Defender
+7ff6001153f2 qma/=E-WdJuesrZ4PqjGt7HBp/Eq
+7ff600115451 C:\Windows\System32\imag
+7ff600115526 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff60011556c STATUS_ACCESS_VIOLATION
+7ff600115652 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff60011571b C:\Windows\System32\wininet.dll
+7ff6001157cd %s (0x%08lX)
+7ff60011582f C:\Windows\System32\drivers\netio.sys
+7ff600115919 Tab2K,9u.+N1NOSbfxNkdGb_7TDILwugoF0MQyq6M+V
+7ff6001159c0 C:\Windows\System32\windows.storage.dll
+7ff600115a31 https://fenwick-intranet.local/api/status
+7ff600115add SeDebugPrivilege
+7ff600115bb2 gwvN.c1tgzTbPZ,9V.lvHkdtWaJhq.4eBtintkOST
+7ff600115c2f C:\Windows\SysWOW64\user32.dll
+7ff600115c8f C:\Window
+7ff600115cb2 \System32\MsMpEng.exe
+7ff600115d92 ps://settings-win.data.microsoft.com/settings
+7ff600115da5 AncillaryDynamics_TechnicalAssessment
+7ff600115dd0 n5cWT7gCT/P,tFM7.u0gB+mr+Uy1dbI9j3UAJIJ
+7ff600115e65 0x%p
+7ff600115f1f C:\Windows\System32\windows.storage.dll
+7ff600115fa8 https://graph.microsoft.com/v1.0/me
+7ff600115ff4 C:\Users\d.reyes\AppData\Local\Temp\~DF7C90.tmp
+7ff6001160ad /update
+7ff60011617f FNW-WKS047
+7ff60011622e X.CaD-_mDlBUdp-Ej.aTYbdcb=4Ji0eek2
+7ff60011625f HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff60011631e RPC_S_SERVER_UNAVAILABLE
+7ff6001163bb HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff6001163d8 C:\Windows\System32\lsass.exe
+7ff6001163fa C:\Windows\System32\combase.dll
+7ff6001164ca C:\Windows\System32\imagehlp.dll
+7ff600116558 akUpX2FSHRdTkCmOCtV0+XSy/-t
+7ff600116622 C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df
+7ff6001166ec 5YPrmzJlE/ciOFqDsD1_GAzYiPXHxciRXtyl
+7ff60011672a C:\Windows\System32\ucrtbase.dll
+7ff6001167e8 https://teams.microsoft.com/api/mt/part
+7ff60011680a 6N/0UtbH3PrPy-Iox5Yu7aHS7NHN9f+rhpUoRJZ
+7ff6001168cf %s (0x%08lX)
+7ff60011699d C:\Windows\
+7ff600116a3b Local\MSCTF.Shared.MUTEX.SFM
+7ff600116a84 -9KePzELupD19hKV7Dibkex-+Jd_tXa9xfOez7mld4M7We_
+7ff600116ab4 C:\Pr
+7ff600116ae6 %s\%s.dll
+7ff600116b3f Thread 0x%X exited with code %d
+7ff600116bd6 CreateRemoteThread
+7ff600116bdf jgi6o=Lr2wl
+7ff600116c2c CreateRemoteThread
+7ff600116c82 %d.%d.%d.%d
+7ff600116cb3 C:\Windows\System32\config\SYSTEM
+7ff600116ce3 C:\Windows\System32\ucrtbase.dll
+7ff600116da2 C:\Windows\System32\crypt32.dll
+7ff600116e7a HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff600116f68 C:\Windows\System32\dnsapi.dll
+7ff60011703f FG6pnMMVWI,W2GpiN9x5xTf
+7ff6001170da YF-flNsWooS=OAhpS+hFMgJnoLwI8N8Ud+vNz36Pghrh
+7ff600117102 https://teams.microsoft.com/api/mt/part
+7ff60011710e Sense
+7ff6001171df HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff6001171fc BUILTIN\Administrators
+7ff600117275 Sense
+7ff600117325 oKFNBs_g/Ln6dPES.D5JVTy/
+7ff6001173ab MsMpEng.exe
+7ff6001173f0 Thread 0x%X exited with code %d
+7ff60011740b hUT3e0x95MxFX
+7ff600117422 C:\Windows\System32\crypt32.dll
+7ff600117474 ld=I3upX.auOLmw+G=_.rlI
+7ff600117554 MsMpEng.exe
+7ff60011756d C:\Windows\System32\ws2_32.dll
+7ff6001175dd C:\Windows\SysWOW64\shlwapi.dll
+7ff600117602 C:\Windows\System32\drivers\netio.sys
+7ff60011768c [%04d-%02d-%02d %02d:%02d:%02d]
+7ff60011774b http://ocsp.digicert.com
+7ff600117808 C:\Windows\System32\gdi32full.dll
+7ff600117867 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff600117878 %d.%d.%d.%d
+7ff60011790a DZZOUWWUXAZ
+7ff60011796d AdjustTokenPrivileges
+7ff60011799f R,WaJtyLQEgk1wjuPQ7
+7ff600117a16 SeDebugPrivilege
+7ff600117ad7 https://ctldl.windowsupdate.com/msdownload/update
+7ff600117b33 Windows\System32\windows.storage.dll
+7ff600117b8b SeAssignPrimaryTokenPrivilege
+7ff600117c45 C:\Windows\System32\shlwapi.dll
+7ff600117d1a https://ctldl.windowsupdate.com/msdownload/update
+7ff600117d83 Sessions\1\BaseNamedObjects
+7ff600117d9b U85OPPm,dPRP8vGpDzXLaZ=J9E+pu
+7ff600117dc0 q_G/CRsJuwTXn67dbJh,61ma5stdxvOGT-zhQ1G
+7ff600117dd1 dows.storage.dll
+7ff600117e1b https://teams.microsoft.com/api/mt/part
+7ff600117e65 C:\Windows\System32\sechost.dll
+7ff600117f28 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff600117fa1 Error 0x%08X in module %s
+7ff600117faf C:\Windows\System32\drivers\afd.sys
+7ff600117fd1 C:\
+7ff6001180a5 C:\Windows\Sy
+7ff60011818a HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff6001181aa t.dll
+7ff600118255 C:\Windows\System32\urlmon.dll
+7ff6001182c5 8,LCUfja
+7ff600118359 C:\Windows\System32\drivers\netio.sys
+7ff6001183b3 OpenProcessToken
+7ff6001183d3 AdjustTokenPrivileges
+7ff600118420 k.office365.com/owa/
+7ff600118444 fenwick.local
+7ff6001184fb OpenProcessToken
+7ff60011852b fedgyZEb6LuoGWi_Xi6Iva=.jAAN=SVy0HDdWHFo/WRooyhD
+7ff60011860f The parameter is incorrect.
+7ff600118673 C:\Windows\System32\winhttp.dll
+7ff60011869b C:\Users\d.reyes\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+7ff6001186d6 opEv,8vKglfbV3He.0=FPGq3y=zPXmrF
+7ff600118728 Local\MSCTF.Shared.MUTEX.SFM
+7ff6001187d7 OpenProcessToken
+7ff600118870 DuplicateTokenEx
+7ff6001188ec ieTT7Nvgn9gHinPLIDdgtdt6CzB9-DoA,
+7ff6001188fe HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff600118996 HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff600118a04 https://settings-win.data.microsoft.com/settings
+7ff600118a22 Error 0x%08X in module %s
+7ff600118a2d Thread 0x%X exited with code %d
+7ff600118b08 C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df
+7ff600118bc6 https://login.microsoftonline.com/common/oauth2/authorize
+7ff600118c34 ernel32.dll
+7ff600118cf5 0x%p
+7ff600118d33 CAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff600118de8 C:\Windows\SysWOW64\msvcrt.dll
+7ff600118e0b HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff600118ec7 CryptImportKey
+7ff600118f28 C:\Windows\System32\crypt32.dll
+7ff600118f36 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff600118fdc WinDefend
+7ff6001190bf C:\Windows\SysWOW64\msvcrt.dll
+7ff600119137 C:\Windows\System32\wi
+7ff6001191bd \Microsoft\Windows Defender
+7ff60011926e https://graph.microsof
+7ff600119289 RPC_S_SERVER_UNAVAILABLE
+7ff6001192ff =qTf-bVqPpv+_Zom=veOm.PX8vyZ/eb4_J
+7ff600119379 5c2-unKj
+7ff60011944c C:\
+7ff6001194bb Toulouse
+7ff600119590 C:\Windows\System32\win32u.dll
+7ff60011962c HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff600119651 C:\Windows\System32\gdi32
+7ff6001196e8 [%04d-%02d-%02d %02d:%02d:%02d]
+7ff6001197ca viSRKPqK0s9rQE=vuOBOM8BMvRh
+7ff600119875 ++mMa2mj
+7ff600119958 m32\lsass.exe
+7ff600119a0d C:\Windows\System32\netapi32.dll
+7ff600119a1c _6Lv,tN-1C6pTS+kkRy9JVB=g3P9i-BKG+HdTIaU
+7ff600119b08 ows\System32\ws2_32.dll
+7ff600119b95 C:\Windows\System32\winhttp.dll
+7ff600119bb0 i32.dll
+7ff600119c31 Local\MSCTF.Shared.MUTEX.SFM
+7ff600119cfe 5-Up1qK-rLFFizaP=uFiQCj20Ha0z-MHZ83SmMGv
+7ff600119dd5 https://graph.microsoft.com/v1.0/me
+7ff600119e70 SeDebugPrivilege
+7ff600119e9c NCryptOpenStorageProvider
+7ff600119eac CreateRemoteThread
+7ff600119f1f HttpSendRequestW
+7ff600119f9d https://login.microsoftonline.com/common/oauth2/authorize
+7ff60011a00e SeImpersonatePrivilege
+7ff60011a03d %s (0x%08lX)
+7ff60011a099 Error 0x%08X in module %s
+7ff60011a103 TSEROF
+7ff60011a19f C:\Windows\System32\crypt32.dll
+7ff60011a1b4 connect
+7ff60011a282 _LKOFNZL5W-zq9lkCgvlU4RR
+7ff60011a367 e32.dll
+7ff60011a40d [%04d-%02d-%02d %02d:%02d:%02d]
+7ff60011a495 https://settings-win.data.microsoft.com/settings
+7ff60011a54f C:\Users\d.reyes\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+7ff60011a5a5 https://graph.microsoft.com/v1.0/me
+7ff60011a657 4_RJf9O=-
+7ff60011a6dc https://outlook.office365.com/owa/
+7ff60011a701 C:\Windows\System32\dnsapi.dll
+7ff60011a70c u6rBE49LQHCEE
+7ff60011a7a8 Thread 0x%X exited with code %d
+7ff60011a897 C:\Windows\Syst
+7ff60011a90c RPC_S_SERVER_UNAVAILABLE
+7ff60011a926 C:\Windows\Prefetch\CHROME.EXE-9D8E1204.pf
+7ff60011a9d3 0glbINh6SAFvn1x0mKvAKB
+7ff60011aa78 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff60011aabc C:\Windows\System32\urlmon.d
+7ff60011aba1 https://ctldl.windowsupdate.com/msdownload/update
+7ff60011ac20 HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff60011ace2 C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df
+7ff60011ad97 C:\Windows\System32\advapi32.dll
+7ff60011ada0 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff60011ae3f HKEY_USERS\S-1-5-21-2847362910-
+7ff60011af1c C:\Windows\SysWOW64\KERNELBASE.dll
+7ff60011af5f kernel32.dll
+7ff60011af8c MsSense.exe
+7ff60011b065 YgGhE9cSpQJX2M6e+
+7ff60011b155 7DwSbw6BJQmH8tKlD1q7wTN+1WF/84q+uaByu3H_gudqQ
+7ff60011b19a vAiL5.dEaY2.
+7ff60011b1da C:\Windows\System32\MsMpEng.exe
+7ff60011b22b HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff60011b25d AncillaryDynamics_TechnicalAssessment
+7ff60011b2f0 https://login.microsoftonline.com/common/oauth2/authorize
+7ff60011b309 OFTWARE\Microsoft\Cryptography
+7ff60011b3d3 XBQZpFm-+R/,YJa,wOgE
+7ff60011b48a %s\%s.dll
+7ff60011b4db EVow98luZ4Rw0kcxSH75
+7ff60011b4fb C:\Windows\System32\ntdll.dll
+7ff60011b50f C:\Windows\Prefetch\OUTLOOK.EXE-3F2A1B90.pf
+7ff60011b55f C:\Windows\System32\setupapi.dll
+7ff60011b59b NCryptOpenStorageProvider
+7ff60011b62c i+Ojhlapb-8u,h45-/BSxqLAG/rSe
+7ff60011b6f0 %s\%s.dll
+7ff60011b710 3F2A1B90.pf
+7ff60011b75e CreateRemoteThread
+7ff60011b80c https://teams.microsoft.com/api/mt/part
+7ff60011b8ee CreateRemoteThread
+7ff60011b90c HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+7ff60011b94f HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff60011b9de C:\Users\d.reyes\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+7ff60011bac6 https://outlook.office365.com/owa/
+7ff60011bace LGK,DAi1Yn-kVXBdcuQ=S+
+7ff60011bb36 WinDefend
+7ff60011bc22 HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff60011bd0d C:\Windows\Prefetch\O
+7ff60011bdc1 C:\Windows\System32\SecurityHealthService.exe
+7ff60011be46 C:\Windows\System32\combase.dll
+7ff60011be6d Sense
+7ff60011bf2b e.dll
+7ff60011bf5a CryptAcquireContextW
+7ff60011c028 C:\Windows\SysWOW64\KERNELBASE.dll
+7ff60011c093 Oo_ptGRe,sEd+B=n9+fSaR.gIjwU/OTG.cTYYCwFppRkF
+7ff60011c179 OSbeYZKsS6JjECA6WvkXGJ4cUEdpgZ
+7ff60011c1b6 BXm/Bs0td1
+7ff60011c204 http://ocsp.digicert.com
+7ff60011c2a0 RPC_S_SERVER_UNAVAILABLE
+7ff60011c2d5 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff60011c2f0 C:\Windows\System32
+7ff60011c36e C:\Windows\System3
+7ff60011c394 Thread 0x%X exited with code %d
+7ff60011c42c NT AUTHORITY\LOCAL SERVICE
+7ff60011c50e C:\Windows\System32\wintrust.dll
+7ff60011c5a7 Error 0x%08X in module %s
+7ff60011c5b9 C:\Windows\System32\config\SOFTWARE
+7ff60011c68e C:\Windows\SysWOW64\shell32.dll
+7ff60011c6e0 on.dll
+7ff60011c77b Thread 0x%X exited with code %d
+7ff60011c7d3 %s (0x%08lX)
+7ff60011c8ae WinDefend
+7ff60011c98b d.reyes
+7ff60011c9c5 Error 0x%08X in module %s
+7ff60011ca1f m32\imagehlp.dll
+7ff60011ca4a C:\Windows\System32
+7ff60011cb1b Cf5+SFbvYKFFFKxUapWWTgfaD6z/ldP
+7ff60011cb49 C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2410.
+7ff60011cbd0 C:\Windows\Syst
+7ff60011cc43 C:\Windows\System32\windows.storage.dll
+7ff60011ccad https://ctldl.windowsupdate.com/msdownload/update
+7ff60011cd2e C:\Windows\SysWOW64\ole32.dll
+7ff60011cd42 C:\Windows\System32\drivers\ndis.sys
+7ff60011cdfe ofOETQv6
+7ff60011ce71 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff60011cf3f HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff60011cf6f MsMpEng.exe
+7ff60011d01e \System32\MsMpEng.exe
+7ff60011d094 C:\Users\d.reyes\AppData\Local\Microsoft\Windows\INetCache
+7ff60011d0cf SecurityHealthService
+7ff60011d19c Global\CLR_CASYNCPIPE_MUTEX
+7ff60011d286 wscsvc
+7ff60011d359 stem32\clbcatq.dll
+7ff60011d431 NT AUTHORITY\SYSTEM
+7ff60011d46d hSrV09DWHIlfQ
+7ff60011d4ba HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff60011d577 https://teams.microsoft.com/api/mt/part
+7ff60011d5db SeDebugPrivilege
+7ff60011d6b7 r2ZWF3Zq9P90P
+7ff60011d78f AdjustTokenPrivileges
+7ff60011d805 VirtualAllocEx
+7ff60011d87b MsSense.exe
+7ff60011d8b4 C:\Windows\SysWOW64\user32.dll
+7ff60011d965 J.IJGg9XW2xttXXquzg2Xil5rdPyu6xAu-BFAbTUxSbr
+7ff60011da40 WinDefend
+7ff60011dad0 WinDefend
+7ff60011dae8 hJo4Vh51.
+7ff60011db5e C:\Windows\explorer.exe
+7ff60011dc2d HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+7ff60011dcce C:\Windows\S
+7ff60011ddad Sessions\1\BaseNamedObjects
+7ff60011ddc9 C:\Windows\Syste
+7ff60011de0f %s (0x%08lX)
+7ff60011dea2 WriteProcessMemory
+7ff60011df34 Error 0x%08X in module %s
+7ff60011dfe1 S4,KTWe=3Tho_sO8N7IRvO-qxOTXrKJUSWW66tN,n
+7ff60011e0d0 stem32\wintrust.dll
+7ff60011e1aa The parameter is incorrect.
+7ff60011e25f C:\Users\d.reyes\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+7ff60011e338 aUxC0-Q1h-Oe4JYSV9P9eVArqEitsuJFsM3p
+7ff60011e3c4 https://ctldl.windowsupdate.com/msdownload/update
+7ff60011e487 y7z2PaS60Z5QHW0,HDJ8kz44F
+7ff60011e4d7 C:\Windows\System32\winhttp.dll
+7ff60011e57e 6zn=WtagI6+Eh/H.TwIOu2zWDnb0j10w2nmjE+
+7ff60011e601 C:\Windows\System32\bcryptprimit
+7ff60011e60c ows\System32\gdi32.dll
+7ff60011e667 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff60011e6fe wintrust.dll
+7ff60011e754 https://c
+7ff60011e75f WriteProcessMemory
+7ff60011e79d Sense
+7ff60011e88c C:\Windows\System32\shcore.dll
+7ff60011e969 N2lu/R/8Iyqp72ud/-bn
+7ff60011e980 Zw7S1IHwcggOCA=KgW159Fn8sPWtHJERwItacAvQ-
+7ff60011e99f C:\Wi
+7ff60011ea40 C:\Windows\System32\ntdll.dll
+7ff60011ea76 NT AUTHORITY\LOCAL SERVICE
+7ff60011eaf0 HttpSendRequestW
+7ff60011eafc P_5utRoT5uC+gGMwSvJXXeg
+7ff60011ebec C:\Windows\System32\drivers\Wdf01000.sys
+7ff60011ec78 https://login.microsoftonline.com/common/oauth2/authorize
+7ff60011eced C:\Windows\System32\drivers\ndis.sys
+7ff60011ed72 RPC_S_SERVER_UNAVAILABLE
+7ff60011ed88 SeTcbPrivilege
+7ff60011ee55 C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2410.7-0
+7ff60011ef00 C:\Windows\Sy
+7ff60011efd5 %s (0x%08lX)
+7ff60011f096 C:\Windows\System32\wintrust.dll
+7ff60011f13d NT AUTHORITY\NETWORK SERVICE
+7ff60011f198 VirtualAllocEx
+7ff60011f20f https://fenwick-intranet.local/api/status
+7ff60011f2ac %d.%d.%d.%d
+7ff60011f324 C:\Windows\SysWOW64\gdi32.dll
+7ff60011f37b C:\Windows\System32\gdi32.dll
+7ff60011f384 svchost.exe -k netsvcs
+7ff60011f3f6 HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff60011f478 SeImpersonatePrivilege
+7ff60011f4c3 z_RehhxEK1zibzPtSYqiX7A.rChoMpPl/XgZrOCGp3c.UFr.
+7ff60011f50b C:\Windows\System32\ucrtbase.dll
+7ff60011f5b4 https://teams.microsoft.com/api/mt/part
+7ff60011f602 https://login.microsoftonline.com/common/oauth2/authorize
+7ff60011f62a HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff60011f633 X/K-4sc289egyfAORhj2wygdHgYhq53BdGzaEt8Evh
+7ff60011f65e C:\Windows\System32\bcryptprimitives.dll
+7ff60011f70e C:\ProgramData\Microsoft\Windows Defender\Scans\History
+7ff60011f74b https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff60011f7b8 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff60011f846 SecurityHealthService
+7ff60011f92f HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff60011f9df https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff60011fac7 C:\Windows\System32
+7ff60011fb0c C:\Windows\System32\netapi32
+7ff60011fb3b https://graph.microsoft.com/v1.0/me
+7ff60011fb85 C:\Windows\System32\advapi32.dll
+7ff60011fc34 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff60011fc7e Q6PX4ZyC6LNp,sD1=abGNP7OHhL2HVHuf1CZPg9Lei
+7ff60011fd04 s\SysWOW64\ole32.dll
+7ff60011fd9c C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2410.7-0
+7ff60011fe6b C:\Windows\System32\config\SYSTEM
+7ff60011ff03 %d.%d.%d.%d
+7ff60011ffab QrrBR49WaiMr3v/uj-au+=jSP0ONmZg1NaNUjYm_SK
+7ff60011ffcf C:\Windows\System32\shcore.dll
+7ff600120098 .I.tGK93h+dbqgnQ-R/O1m-
+7ff60012014d svchost.exe -k netsvcs
+7ff6001201ca C:\Windo
+7ff6001201dd NT AUTHORITY\NETWORK SERVICE
+7ff600120241 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6001202da B+dIweQ,J
+7ff600120377 indows\System32\drivers\netio.sys
+7ff6001203c8 AncillaryDynamics_TechnicalAssessment
+7ff60012048d https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff60012055d https://teams.microsoft.com/api/mt/part
+7ff600120602 connect
+7ff6001206e5 YMk+/yFCm-mVyOftofc0TG,vF8eETYtl0fw/
+7ff6001207b4 C:\Windows\System32\propsys.dll
+7ff600120820 C:\Windows\SysWOW64\ws2_32.dll
+7ff6001208cb tL3==LJC9DWk
+7ff600120960 http://ocsp.digicert.com
+7ff6001209b9 https://ctldl.windowsupdate.com/msdownload/update
+7ff6001209dd C:\Windows\SysWOW64\oleaut32.dll
+7ff600120a6f rt.dll
+7ff600120a9e bmSiy-WPXt=7W7t6FeXqI8UTYPF/Kbax1fUkC91nqFvW1
+7ff600120b8d C:\Windows\System32\ws2_32
+7ff600120c53 C:\Windows\System32\wininet.dll
+7ff600120caf HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff600120d33 %d.%d.%d.%d
+7ff600120e02 SeTcbPrivilege
+7ff600120ecf HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff600120f4b %s (0x%08lX)
+7ff60012100d Sense
+7ff6001210de MpCmdRun.exe
+7ff600121165 DqZBgiWbUK80T_5rs,3-Ie,r4Cde2UVuW1edqs/zEyuhj
+7ff6001211bb __bK8I2ujz
+7ff6001211eb stem32\drivers\netio.sys
+7ff6001212d7 Global\CLR_CASYNCPIPE_MUTEX
+7ff600121352 DuplicateTokenEx
+7ff6001213c0 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff600121429 C:\Windo
+7ff60012148a wscsvc
+7ff60012150e NCryptOpenStorageProvider
+7ff6001215ea +Kv9gZuf42kruzOpKVP7p/tGPkbiZzGYU.rX
+7ff6001216b1 C:\Window
+7ff60012178a C:\Windows\System32\lsass.exe
+7ff600121831 WBLyvVmm0+jCCfCuBpyTKfoo3CVnWIbShib
+7ff600121893 svchost.exe -k netsvcs
+7ff600121968 32IPWrxDhhkJ/SD3_qCiSp+FPdLqCyvSlD-5mjr0-s
+7ff600121a15 CreateRemoteThread
+7ff600121b05 MsMpEng.exe
+7ff600121b49 STATUS_ACCESS_VIOLATION
+7ff600121b7a C:\Windows\System32\winhttp.dll
+7ff600121bae g.ewoFTnnE_jL2rNI-c7MDgN6vYV4
+7ff600121c9c SeImpersonatePrivilege
+7ff600121d8a ows\System32\propsys.dll
+7ff600121dc9 C:\Windows\System32\ws2_32.dll
+7ff600121e23 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff600121e4c HttpSendRequestW
+7ff600121eb3 HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff600121edc https://graph.microsoft.com/v1.0/me
+7ff600121f58 WSASocketW
+7ff60012200c d.reyes
+7ff6001220c4 C:\Windows\SysWOW64\nt
+7ff600122174 STATUS_ACCESS_VIOLATION
+7ff6001221c8 CreateRemoteThread
+7ff600122248 HttpSendRequestW
+7ff6001222db XGHnkwtUoi+henGWR7re05a+gf0_quZVHicS/0IUz6v
+7ff60012238a Local\MSCTF.Shared.MUTEX.SFM
+7ff600122426 C:\Window
+7ff6001224dd Error 0x%08X in module %s
+7ff6001225b3 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6001225ec NT AUTHORITY\SYSTEM
+7ff60012266b C:\Windows\System32\setupapi.d
+7ff6001226bd indows\System32\wininet.dll
+7ff600122728 MsSense.exe
+7ff6001227ee b-jdO_zWj8NNg4K+wR8xr
+7ff6001228c5 C:\Windows\System32\propsys.dll
+7ff6001229a3 lIlB,Rw6+9cPQXrh.CNXul1o
+7ff6001229b3 7_pvdiLkXyAhDZtCVsE9
+7ff600122a49 2\drivers\Wdf01000.sys
+7ff600122b0d HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo
+7ff600122b28 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff600122b5a HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff600122bc4 C:\Windows\System32\ole32.dll
+7ff600122c51 %s (0x%08lX)
+7ff600122c6c d.reyes
+7ff600122cea HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff600122dcf rivers\tcpip.sys
+7ff600122e56 Xn8Mg=Dq-zVhKbZtjN6r+11tBrQFIpwEKIbGdAoUTlBe1
+7ff600122ed0 MsSense.exe
+7ff600122fa0 C:\Windows\System32\win32u.dll
+7ff60012301a HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff600123071 C:\Windows\System32\drivers\afd.sys
+7ff6001230f2 rFJSZfsBslG68xmPN5x
+7ff60012310b zW8gaIEFLxUq3RrdM+N-EF5xVMpFAd9QGwwTb-aw
+7ff600123164 [%04d-%02d-%02d %02d:%02d:%02d]
+7ff60012324f C:\Windows\SysWOW64\kernel32.dll
+7ff60012333b C:\Windows\Sy
+7ff600123359 Error 0x%08X in module %s
+7ff6001233b7 https://teams.microsoft.com/api/mt/part
+7ff6001233df C:\Windows\System32\KERNELBASE.dll
+7ff600123484 +e1i,F2bD
+7ff600123498 Global\CLR_CASYNCPIPE_MUTEX
+7ff6001234f0 -9J,vLZD9h-tZQGsPv=NnjCQ1
+7ff60012359a C:\Windows\System32
+7ff6001235f1 DuplicateTokenEx
+7ff6001235fe SecurityHealthService
+7ff6001236d5 http://ocsp.digicert.com
+7ff600123727 https://ctldl.windowsupdate.com/msdownload/update
+7ff6001237ca C:\Windows\
+7ff600123848 I,KWk404/2.Uti3kUD
+7ff600123905 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff60012396d Error 0x%08X in module %s
+7ff60012399f HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff600123a8e MsMpEng.exe
+7ff600123ab7 -wi6x+pMClJJC1.xr9S1f87Lqd25hYTDmPT6MvM3k0-X+nFd
+7ff600123b2c HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff600123ba6 i5VuOg/L4UmG78
+7ff600123c1e djK_nHJQt-lpt
+7ff600123c75 DuplicateTokenEx
+7ff600123d40 C:\Windows\Syst
+7ff600123d9f https://teams.microsoft.com/api/mt/part
+7ff600123db2 C:\Windows\SysWOW64\advapi32.dll
+7ff600123e93 C:\Windows\System32\win32u.dll
+7ff600123f7f C:\Windows\System32\win32u.dll
+7ff600123f97 [%04d-%02d-%02d %02d:%02d:%02d]
+7ff600124034 %d.%d.%d.%d
+7ff600124043 WSAStartup
+7ff6001240a3 AdjustTokenPrivileges
+7ff6001240fb Access is denied. (0x%X)
+7ff600124165 C:\Users\d.reyes\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+7ff60012420d https://outlook.office365.com/owa/
+7ff6001242a5 C:\Windows\System32\ole32.dll
+7ff600124381 C:\Users\d.reyes\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+7ff60012443c WinDefend
+7ff600124468 4.dll
+7ff600124540 WriteProcessMemory
+7ff60012460b HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff600124668 [%04d-%02d-%02d %02d:%02d:%02d]
+7ff600124746 Z1a/g_z.-ufRpthRxdte6JFG6BnxyChmQ=,S7,t1YT+zy
+7ff60012474f C:\Windows\System32\urlmon.dll
+7ff60012483e Error 0x%08X in module %s
+7ff6001248e5 C:\Windows\SysWOW64\shlwapi.dll
+7ff600124988 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff600124a4b CreateRemoteThread
+7ff600124ab7 C:\Windows\
+7ff600124b61 OndPhLtgx9L/-aD_+2GOCMvLCH0_ubYLt7iCWV_9BfF5pGw,
+7ff600124c14 -,CLONM5z9uGR,Tnc653JwY4lfLN47ukyuKDJFPzlBn
+7ff600124c4f Thread 0x%X exited with code %d
+7ff600124ca4 SeAssignPrimaryTokenPrivilege
+7ff600124d30 C:\Windows\System32\MsMpEng.exe
+7ff600124d59 lS=OPx9mpZt/q/2+Bf
+7ff600124e27 .exe
+7ff600124e9c 0.sys
+7ff600124ee8 DCKfp45EGVnboyD0T9=rpXHgHI4S.qO_ZfVO4gKpRr
+7ff600124f8c https://fenwick-intranet.local/api/status
+7ff600125067 https://ctldl.windowsupdate.com/msdownload/update
+7ff6001250ae HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff60012518a https://ctldl.wind
+7ff60012525d STATUS_ACCESS_VIOLATION
+7ff6001252a7 %s\%s.dll
+7ff600125337 %s (0x%08lX)
+7ff60012536a C:\Users\d.reyes\AppData\Local\Temp\~DF7C90.tmp
+7ff600125455 InternetOpenW
+7ff6001254f4 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff6001255b3 MNEZAFJFY
+7ff6001255d2 vices.exe
+7ff6001256ac SeAssignPrimaryTokenPrivilege
+7ff60012578e connect
+7ff6001257de SeTcbPrivilege
+7ff6001257ec C:\Users\d.reyes\AppData\Local\Temp\~DF3A21.tmp
+7ff600125883 Access is denied. (0x%X)
+7ff600125924 CryptAcquireContextW
+7ff6001259c3 _96ApqvqCf5xg.fWv1Yn/b-9tj
+7ff6001259fb C:\Windows\System32\drivers\netio.sys
+7ff600125a0b Sessions\1\BaseNamedObjects
+7ff600125ae9 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff600125ba6 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff600125c3c svchost.exe -k netsvcs
+7ff600125c48 OOK.EXE-3F2A1B90.pf
+7ff600125c97 d.reyes
+7ff600125d2f NT AUTHORITY\NETWORK SERVICE
+7ff600125d5b C:\Windows\System32\wininet.dll
+7ff600125d87 M\CurrentControlSet\Control\Lsa
+7ff600125e5f HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff600125ebc %s (0x%08lX)
+7ff600125f11 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff600125f74 CLvMfX10bwqQS
+7ff600125fc5 WSAStartup
+7ff600126023 C:\Windows\System32\powrprof.dll
+7ff600126101 Xw52llIvO99UjEWOJs0
+7ff6001261d1 C:\Windows\System32\s
+7ff600126244 https://graph.microsoft.com/v1.0/me
+7ff6001262de pi32.dll
+7ff6001263a7 q1RvklYiH6Q
+7ff6001263ec HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff6001263f5 C:\Windows\System32\oleaut32.dll
+7ff6001264b4 https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff600126536 m32\userenv.dll
+7ff60012654c STATUS_INVALID_HANDLE
+7ff6001265b1 C:\Windows\System32\user32.dll
+7ff600126647 .sys
+7ff60012669f wMAIa07L-LtX4evw99oOZ0
+7ff60012673c KmNK2AYYIwmlXPs50Rs93bOHahFib
+7ff600126768 DCYOft0M_x+SE/a6DP=Y/iX.u6rFS5bmJP,wE+_
+7ff6001267db C:\Users\d.reyes\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+7ff600126850 C:\Windows\System32\drivers\afd.sys
+7ff60012690a RwZUS77BaqeDwsFEaExeX523B168cF4-lMWmAjkYagSW.6
+7ff6001269d0 C:\Windows\System32\kernel32.dll
+7ff600126a50 2taa_22oBbMlMJZKNXEKVgGoBDhDeeHOU
+7ff600126ade C:\Windows\System32\clbcatq.dll
+7ff600126b9a Access is denied. (0x%X)
+7ff600126bf3 C:\Windows\System32\dnsapi.dll
+7ff600126c0d C:\Windows\SysWOW
+7ff600126c34 YLRtp04ifRE0j_HnKXyxv3q,xNCZsTRDQAxLmfRNCnGos5O
+7ff600126cdf indows\System32\gdi32full.dll
+7ff600126d40 JZPQNNBDDAR
+7ff600126dfc C:\Windows\System32\rpcrt4.dll
+7ff600126ec0 NtQuerySystemInformation
+7ff600126f22 DuplicateTokenEx
+7ff600126f53 xdEPNmmw.Q4Sz.BdIi
+7ff600126fba =GDodr/1l37w1eC5_6JTfJV0U=J
+7ff600126fcc C:\Windows\SysWOW64\gdi32.dll
+7ff600127056 SecurityHealthService
+7ff6001270b3 C:\Users\d.reyes\AppData\Lo
+7ff60012718f HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff600127213 http://ocsp.digicert.com
+7ff6001272c5 C:\W
+7ff6001272f2 Toulouse
+7ff60012731d The parameter is incorrect.
+7ff600127408 The parameter is incorrect.
+7ff6001274b2 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff6001274f6 C:\Windows\System32\winhttp.dll
+7ff6001275c6 e7Qggby2v.o7=X96dQyEY.ZStG4.rl
+7ff600127631 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff6001276cf xe
+7ff6001276f9 C:\Windows\Prefetch\CHROME.EXE-9D8E1204.pf
+7ff6001277dd Global\CLR_CASYNCPIPE_MUTEX
+7ff6001278ca Ho10WlF1hyFQS037f67K46goL/wkni3
+7ff6001279b2 https://outl
+7ff600127a13 NT AUTHORITY\SYSTEM
+7ff600127afa HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft
+7ff600127bdc C:\Windows\System32\mswsock.dll
+7ff600127c3b 0x%p
+7ff600127d0f 4,s4Sg7JIA.NG1p=p,aK0tVi=WyN/w6ciRUgMmaRtK_f
+7ff600127ddb https://outlook.office365.com/owa/
+7ff600127e45 Sense
+7ff600127ee2 https://teams.microsoft.com/api/mt/part
+7ff600127f6e Global\CLR_CASYNCPIPE_MUTEX
+7ff600127f89 C:\Windows
+7ff60012802c Thread 0x%X exited with code %d
+7ff60012809a C:\Windows\System32\windows.storage.dll
+7ff600128128 BQKRSSVMESX
+7ff600128169 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff600128219 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff60012826f C:\Windows\System32\drivers\ndis.sys
+7ff6001282a1 Access is denied. (0x%X)
+7ff6001282e7 SeAssignPrimaryTokenPrivilege
+7ff600128372 MpCmdRun.exe
+7ff600128417 yc-_rc8/nLNJ6MQntv1b2BlxQHdJduU
+7ff600128472 %s (0x%08lX)
+7ff6001284b5 STATUS_ACCESS_VIOLATION
+7ff60012859e HKEY_LOCAL_MACHINE\SYSTEM\Curre
+7ff6001285c4 C:\Windows\Sy
+7ff6001285fd F_pdL5Erosfr_VoukoIZXLkFsUS7HAI_7lunBPn16GZBS2
+7ff6001286e6 fenwick.local
+7ff60012871e C:\Windows\System32\user32.dll
+7ff6001287cf X4uecVO_V5+cJwJme.x9Wk=Ctf+7
+7ff60012885b Sessions\1\BaseNamedObjects
+7ff6001288ce C:\Windows\System
+7ff600128962 C:\Windows\System32\win
+7ff6001289cb MsSense.exe
+7ff600128a0a C:\Windows\System32\drivers\tcpip.sys
+7ff600128ad1 C:\Windows\SysWOW64\ntdll.dll
+7ff600128ba5 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff600128c86 mswsock.dll
+7ff600128d38 ooCerAut.crl
+7ff600128d76 C:\Windows\SysWOW64\advapi32.dll
+7ff600128e45 https://teams
+7ff600128ee0 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff600128f56 HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff600128f87 V-ZkG35,FJlMZaxt+N3k/BhOsgC6Nv,4OsqU8
+7ff600128f9c HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff600128fc7 tyk2XtXz
+7ff600129082 Error 0x%08X in module %s
+7ff6001290d5 d.reyes
+7ff60012914a C:\Windows\System32\rpcrt4.dll
+7ff6001291c0 Access is denied. (0x%X)
+7ff6001291f6 NtQuerySystemInformation
+7ff600129263 https://teams.microsoft.com/api/mt/part
+7ff600129331 p.rmwCshc2Cd1wx5VE2OpahoqyfJyA
+7ff60012940f HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff600129444 9q-PnHsynU=p1C3t
+7ff6001294b9 xqD_oMdXWb9WYsaHEBuBbDD,XR=jDi1_ExiOs3h_
+7ff60012959a C:\Windows\System32\ol
+7ff60012964c HttpSendRequestW
+7ff6001296dd C:\Windows\System32\drivers\tcpip.sys
+7ff6001296f2 http://ocsp.digicert.com
+7ff600129767 Error 0x%08X in module %s
+7ff600129780 C:\Windows\System32\drivers
+7ff600129825 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff6001298c8 HttpSendRequestW
+7ff6001298e8 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff60012995f C:\Windows\System32\profapi.dll
+7ff6001299c3 C:\Windows\System32\bcryptprimitives.dll
+7ff600129aa2 mK8PiZQ+p,CdPu5rZ.,bSyQPkcFf+KNEBhA4H
+7ff600129b24 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff600129c08 https://outlook.office365.com/owa/
+7ff600129c36 dows\System32\shell32.dll
+7ff600129c68 MsMpEng.exe
+7ff600129c77 C:\Windows\SysWOW64\ole32.dll
+7ff600129c86 C:\Windows\Sys
+7ff600129c94 d+0dL/BcK8PJMvvN4dk.xrbrcJTc7HILGWT1RrXJav6ru
+7ff600129d63 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff600129dd2 SeImpersonatePrivilege
+7ff600129eab svchost.exe -k netsvcs
+7ff600129ed5 https://fenwick-intranet.local/api/status
+7ff600129fbb 8f,n7=WV5DId3DSwmBEoZcr4hEDB9mJPQmmSG+_9-sn8pY
+7ff60012a050 Gn-yhvX6sXh_w8VJp3DLhy9p/quGm
+7ff60012a0c3 https://graph.microsoft.com/v1.0/me
+7ff60012a1a0 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff60012a246 https://fenwick-intranet.local/api/status
+7ff60012a291 d=j_jNONE8d+zc6hPQ5SLe-NB43yTxl
+7ff60012a2a6 C:\Windows\System32\svchost.exe
+7ff60012a306 b3P.GkLPBtwwvA9_oYEwX=fN8
+7ff60012a363 CU9fC/PxoM5392gWuBmF0QKDQso-4u4n9
+7ff60012a405 SeAssignPrimaryTokenPrivilege
+7ff60012a4c5 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff60012a57d HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff60012a593 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+7ff60012a64a 0x%p
+7ff60012a6be MFp1GWoO
+7ff60012a7a0 .BsQ1V9VizRr8PI9BwwUIkXIzXXuAVq.FoskW3U
+7ff60012a840 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff60012a87a hzFO0rglf,4stbEUPUF.6yOUt51HU0LWDsRW7--J1fPxpWLf
+7ff60012a8f1 C:\Windows\System32\gdi32.dll
+7ff60012a957 s\Prefetch\OUTLOOK.EXE-3F2A1B90.pf
+7ff60012a987 j9wbKEFp-JLx
+7ff60012aa36 C:\Users\d.reyes\AppData\Local\Temp\~DF3A21.tmp
+7ff60012aadf HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff60012ab67 %s (0x%08lX)
+7ff60012aba3 C:\Windows\System32\setupapi.dll
+7ff60012abd9 C:\Windows\System32\SecurityHealthService.exe
+7ff60012acc7 https://ctldl.windowsupdate.com/msdownload/update
+7ff60012ad2e HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+7ff60012adee AdjustTokenPrivileges
+7ff60012ae5b HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff60012ae7b Fj_dlf8Hk3HdD2LR8AEotV25s177D1GUgRLwMB1bF
+7ff60012ae99 SeDebugPrivilege
+7ff60012aedf C:\Windows\SysWOW64\kernel3
+7ff60012af85 https://ctldl.windowsupdate.com/msdownload/update
+7ff60012afcf I4DIK0i4l,ikhm=iNDWZ713Rczjq4N
+7ff60012b0b6 C:\Windows\SysWOW64\user32
+7ff60012b183 connect
+7ff60012b1f2 TdbOV/F_H.B2YrLMk3BHMrMjr8HHsTiFpOFI38rcaowisX
+7ff60012b2b0 X5.BIWOxVvw+--.c6USsh
+7ff60012b2e7 C:\Windows\System32\ws2_32.dll
+7ff60012b30c HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff60012b3bb 6/FFwf/9
+7ff60012b471 DfQ/HRYNtZGVX04y4H,u8xnDgbwpW17R4g7p-AVlM
+7ff60012b55b BUILTIN\Administrators
+7ff60012b5dc HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders
+7ff60012b5f3 067XoAyn
+7ff60012b657 JV+m_b-V.A_GNYmBFwzb=BiSd3H2HK.D
+7ff60012b661 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff60012b6e7 C:\Windows\System32\SecurityHealthService.exe
+7ff60012b7cf 8udgi4vvIaBS3mP8HpT0jweUlMC9snfP=AMCc-XoWdY/8D
+7ff60012b87d C:\Windows\System32\userenv.dll
+7ff60012b8c8 HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff60012b98c https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff60012b9f9 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff60012baa6 NP+Gm=I.yFzXswFGkdNmX7VaCvok,BS8JDY9Nf1d0
+7ff60012bb4b C:\Windows\System32\msvcrt.dll
+7ff60012bbbd HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff60012bc3c %s (0x%08lX)
+7ff60012bc98 EqH7.K7.GD-ChvgE,fuQ_pMMG8Xqc.lYes7tb426WO
+7ff60012bd7b 5..SYNg69UJRWinMmNWjqv4y1AO.73jS_lVTM=d6u4
+7ff60012bdfc CryptImportKey
+7ff60012be6c https://ctldl.windowsupdate.com/msdownload
+7ff60012be96 NT AUTHORITY\LOCAL SERVICE
+7ff60012beeb C:\Windows\System32\ws2_32.dll
+7ff60012bf01 C:\Windows\System32\ucrtbase.dll
+7ff60012bf2c C:\Windows\System32\user32.dll
+7ff60012bfb6 connect
+7ff60012c033 BIyfct7GH6Zsucu80KD
+7ff60012c055 C:\Windows\SysWOW64\msvcrt.dll
+7ff60012c072 settings-win.data.microsoft.com/settings
+7ff60012c0db s\d.reyes\AppData\Local\Microsoft\Windows\INetCache
+7ff60012c12e https://fenwick-intranet.local/api/status
+7ff60012c149 connect
+7ff60012c1e4 C:\Users\d.reyes\AppData\Local\Microsoft\Windows\INetCache
+7ff60012c248 ll
+7ff60012c2a8 https://graph.microsoft.com/v1.0/me
+7ff60012c2d9 KSPEYALVPR
+7ff60012c35d ZBJMRGLWSF
+7ff60012c3d5 https://graph.microsoft.com/v1.0/me
+7ff60012c49b https://settings-win.data.microsoft.com/settings
+7ff60012c586 C:\Users\d.reyes\AppData\Local\Temp\~DF3A21.tmp
+7ff60012c599 https://graph.microsoft.com/v1.0/me
+7ff60012c5c0 C:\Window
+7ff60012c5e6 ELNYw,5PpWm
+7ff60012c6b8 SSIGUG
+7ff60012c738 ZNZIKGEIRRS
+7ff60012c77f C:\Users\d.reyes\AppData\Local\Temp\~DF7C90.tmp
+7ff60012c7fc SeImpersonatePrivilege
+7ff60012c876 https://outlook.office365.com/owa/
+7ff60012c95b CPNRQEHTWI
+7ff60012ca12 U3iYPYosc,HfftTNzh.Uus7REoN7NhokI_
+7ff60012cad9 C:\Windows\System32\ole32.dll
+7ff60012cb4c Toulouse
+7ff60012cb8e indows\System32\powrprof.dll
+7ff60012cba7 connect
+7ff60012cbd2 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff60012cc70 %s (0x%08lX)
+7ff60012ccfa C:\Windows\S
+7ff60012cdbf SecurityHealthService
+7ff60012ce70 https://teams.microsoft.com/api/mt/part
+7ff60012cf21 C:\Windows\System32\shlwapi.dll
+7ff60012cf3b HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff60012cfa1 3ov/TKTYau1hl_L6XwSICta9Y
+7ff60012cfb2 C:\Windows\SysWOW64
+7ff60012d05a HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff60012d130 UAvrFH5yzTJ=w7Bma5P-L2f7kE
+7ff60012d167 C:\Windows\SysWOW64\user32.dll
+7ff60012d228 Bkg=JXjgfaSsZ7+z7JnQek4KFLD8IQ04.hKZ
+7ff60012d291 NT AUTHORITY\SYSTEM
+7ff60012d351 C:\Windows\SysWOW64\kerne
+7ff60012d377 OkF2Ixsz0KvxoLibYh
+7ff60012d3a2 MsSense.exe
+7ff60012d452 C:\Windows\System32\ws2_32.dll
+7ff60012d482 %s\%s.dll
+7ff60012d50d HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff60012d5ce NT AUTHORITY\NETWORK SERVICE
+7ff60012d620 dows\System32\winhttp.dll
+7ff60012d70c The parameter is incorrect.
+7ff60012d782 C:\Windows\System32\MsMpEng.exe
+7ff60012d7e5 RPC_S_SERVER_UNAVAILABLE
+7ff60012d807 C:\Windows\SysWOW64\ole32.dll
+7ff60012d855 C:\Windows\System32\ntdll.dll
+7ff60012d886 em32\shcore.dll
+7ff60012d8c1 DuplicateTokenEx
+7ff60012d925 STATUS_INVALID_HANDLE
+7ff60012d9ce z,.hrsl/LyCeVNzKNfZg6v_
+7ff60012d9f0 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff60012dad1 C:\Windows\SysWOW64\kernel32.dll
+7ff60012dbad C:\Windows\Sys
+7ff60012dc60 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff60012dd50 WinDefend
+7ff60012dda3 https://settings-win.data.microsoft.com/settings
+7ff60012de88 ZWCAIEPZ
+7ff60012df53 oIXpp9hu=NI09=
+7ff60012dfd3 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+7ff60012e0b5 HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff60012e183 https://settings-win.data.microsoft.com/sett
+7ff60012e1cc The parameter is incorrect.
+7ff60012e21b SeImpersonatePrivilege
+7ff60012e244 SecurityHealthService
+7ff60012e308 C:\Windows\SysWOW64\ole32.dll
+7ff60012e31a C:\Windows\System32\oleaut32.dll
+7ff60012e32e https://ctldl.windowsupdate.com/msdownload/update
+7ff60012e36c HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff60012e37d HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff60012e3e6 ws\SysWOW64\gdi32.dll
+7ff60012e489 SecurityHealthService
+7ff60012e575 BUILTIN\Administrators
+7ff60012e644 WSAStartup
+7ff60012e65c l32.dll
+7ff60012e740 C:\Windows\System32\
+7ff60012e81a HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff60012e904 CryptImportKey
+7ff60012e99e C:\Windows\System32\KERNELBASE.dll
+7ff60012ea52 AdjustTokenPrivileges
+7ff60012ea9e C:\Windows\System32
+7ff60012eb44 STATUS_INVALID_HANDLE
+7ff60012eb5b C:\Windows\SysWOW64\oleaut32.dll
+7ff60012ec36 C:\Windows\Prefetch\CHROME.EXE-9D8E1204.pf
+7ff60012ec5f Sense
+7ff60012ecd9 aTOSrJ0pye=id
+7ff60012ed6a SecurityHealthService
+7ff60012eddf %d.%d.%d.%d
+7ff60012ee4e tF-hjgaW-x7mYKyrzApC_fsZYM70q8Xo1x8/
+7ff60012eeaf C:\Windows\Prefetch\OUTLOOK.EXE-3F2A1B90.pf
+7ff60012eee8 tem32\psapi.dll
+7ff60012ef41 +,f+6cD8qxEB6dOfVSU9EJvKTb-zz3PbVE01
+7ff60012ef4b Error 0x%08X in module %s
+7ff60012efac C:\Windows\System32\SecurityHealthService.exe
+7ff60012f05c SeImpersonatePrivilege
+7ff60012f105 https://settings-win.data.microsoft.com/settings
+7ff60012f1af RHWYZYUPIF
+7ff60012f260 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff60012f2bd C:\Windows\System32\bcrypt.dll
+7ff60012f2fe C:\Windows\System32\imagehlp.dll
+7ff60012f3c9 https://ctldl.windowsupdate.com/msdownload/update
+7ff60012f418 %d.%d.%d.%d
+7ff60012f43f C:\Window
+7ff60012f4ea AdjustTokenPrivileges
+7ff60012f592 VirtualAllocEx
+7ff60012f5b8 The parameter is incorrect.
+7ff60012f648 PAFZO
+7ff60012f6fc Ql4sLPAKlDosw8YWZb5Jiigm7pD=Nf8X_Tlha4KOzZ
+7ff60012f78b C:\Windows\SysWOW64\KERNELBASE.dll
+7ff60012f86b JGBYYKSDRN
+7ff60012f8ca KA-LBJzW-//-IAh6POCSwN
+7ff60012f95d lhPV9CeQhrRI.tyUnNHERx2-
+7ff60012f985 C:\Windows\System32\drivers
+7ff60012fa32 C:\Users\d.reyes\AppData\Local\Temp\~DF7C90.tmp
+7ff60012fada C:\Windows\System32\sechost.dll
+7ff60012fb73 C:\Windows\System32\urlmon.dll
+7ff60012fc50 C:\Windows\System32\dnsapi.dll
+7ff60012fce6 http://ocsp.digicert.com
+7ff60012fd81 C:\Windows\System32\config\SYSTEM
+7ff60012fdb6 0x%p
+7ff60012fe50 0Kvr-K4mGR-vAT6KeBvUj-P1Ruk=gZnr-V
+7ff60012ff39 C:\Windows\Prefetch\OUTLOOK.EXE-3F2A1B90.pf
+7ff60012ff5d ,tZJHnFgfiM6CfHuzm0yaGX3QdpLa=pSRWs
+7ff60012ffb8 ser32.dll
+7ff60013004d C:\
+7ff600130115 WriteProcessMemory
+7ff600130151 CQSYFVP
+7ff6001301b6 NtQuerySystemInformation
+7ff6001301da =TpOGzfK
+7ff6001302bf Toulouse
+7ff600130327 /Q+nI+Ncialk7UazRfOI3oUNB.siXF
+7ff600130405 GAXSOPG
+7ff600130451 DMOLd0ptOJl
+7ff6001304b5 Users\d.reyes\AppData\Local\Temp\~DF3A21.tmp
+7ff6001304c1 https://settings-win.data.microsoft.com/settings
+7ff6001304e2 ws\System32\drivers\fltmgr.sys
+7ff6001305c9 C:\Windows\System32\win32u.dll
+7ff6001305fd C:\Windows\SysWOW64\gdi32.dll
+7ff600130649 https://teams.microsoft.com/api/mt/part
+7ff60013070c HKE
+7ff600130715 C:\Windows\SysWOW64\ntdll.dll
+7ff600130756 https:/
+7ff600130766 C:\Windows\explorer.exe
+7ff60013080d OW64\ole32.dll
+7ff60013082d C:\Windows\Sys
+7ff600130907 C:\Windows\System32\
+7ff60013092d C:\Windows\System32\drivers\netio.sys
+7ff600130a01 C:\Win
+7ff600130a26 C:\Windows\System32\sechost.dll
+7ff600130aeb u.dll
+7ff600130bc3 C:\Windows\System32\oleaut32.dll
+7ff600130c5c HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff600130d31 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff600130dc4 ZQR-0DOT5ueut8BBO1vGfxftstJ.o4vz0tLpoag2z
+7ff600130e96 BUILTIN\Administrators
+7ff600130ee2 dows\System32\windows.storage.dll
+7ff600130f3b HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+7ff600130f8c gpyEL1eehghb
+7ff600130fd6 C:\Windows\System32\gdi32.dll
+7ff600131037 d.reyes
+7ff6001310b3 HttpSendRequestW
+7ff600131197 HttpSendRequestW
+7ff6001311f3 Thread 0x%X exited with code %d
+7ff60013124b 2akitMjqxy9P2jK,IF6dzkSqL-DVciEDZx
+7ff60013131f NCryptOpenStorageProvider
+7ff600131375 \System32\wintrust.dll
+7ff600131452 AncillaryDynamics_TechnicalAssessment
+7ff60013150f C:\Windows\System32\gdi32full.dll
+7ff600131538 s://fenwick-intranet.local/api/status
+7ff60013157f C:\Wi
+7ff6001315ea d.reyes
+7ff60013162a https://www.microsoft.com/pkiops/certs/Microsoft%20RSA.crt
+7ff600131692 C:\Users\d.reyes\AppData\Local\Temp\~DF7C90.tmp
+7ff600131711 RPC_S_SERVER_UNAVAILABLE
+7ff60013174e HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff600131799 %s (0x%08lX)
+7ff600131820 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff6001318b0 C:\Windows\System32\KERNELBASE.
+7ff60013192e C:\Windows\System32\msvcrt.dll
+7ff6001319eb https://ctldl.windowsupdate.com/msdownload/update
+7ff600131aac Thread 0x%X exited with code %d
+7ff600131b72 WriteProcessMemory
+7ff600131c5c C:\Windows\System32\ole32.dll
+7ff600131d1f C:\Windows\System32\ntdll.dll
+7ff600131d83 rYUpaRMMhCaXO0Vh.l9=
+7ff600131e03 The parameter is incorrect.
+7ff600131eaf SeDebugPrivilege
+7ff600131f5b Ahfb9NBq=Ie+ivNb-bQxGk9UMa
+7ff600131fd2 https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff60013207a HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+7ff6001320da y7L=MqNEJTtXQm7SfQan.IbJjK_nBYT-Q
+7ff600132112 Local\MSCTF.Shared.MUTEX.SFM
+7ff600132166 https://graph.microsoft.com/v1.0/me
+7ff60013216f Error 0x%08X in module %s
+7ff600132233 C:\Windows\System32\clbcatq.dll
+7ff60013231f HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+7ff600132408 HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff600132418 C:\Windows\System32\bc
+7ff60013248c C:\Windows\System32\shell32.dll
+7ff60013253d RPC_S_SERVER_UNAVAILABLE
+7ff600132578 .4J,RGi.7rCcihuCZQWBu.67+niCe90FI
+7ff6001325a2 Qe/RFsE9GqcLbWd-
+7ff600132627 Thread 0x%X exited with code %d
+7ff600132693 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff6001326f8 DuplicateTokenEx
+7ff6001327a9 BUILTIN\Administrators
+7ff600132810 Local\MSCTF.Shared.MUTEX.SFM
+7ff6001328d4 HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff6001329b2 VirtualAllocEx
+7ff6001329e0 r8B3JByOoEjBfTeJqCUogQFh1x_lXNPA22629S+Az/U
+7ff600132a71 LrreBnqfwfgveYj
+7ff600132b17 C:\Users\d.reyes\AppData\Local\Temp\~DF3A21.tmp
+7ff600132b53 R6etMSA6o.Wi6JCa
+7ff600132bdf C:\Windows\System32\shlwapi.d
+7ff600132cae HttpSendRequestW
+7ff600132d25 CreateRemoteThread
+7ff600132d5e AvAh+KkdljfDivP_IgzQVe
+7ff600132dbb C:\Windows\System32\shell32.dll
+7ff600132e68 C:\Users\d.reyes\AppData\Local\Temp\~DF7C90.tmp
+7ff600132f47 L0jhZC+/vwO+R_nr4Q2uZBRp-hxIned97x2l=sK
+7ff600132f6c ndows\System32\psapi.dll
+7ff600132f96 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Afd
+7ff600133008 https://www.microsoft.com/pkiops/certs/Mic
+7ff600133041 Jx+NLuS9Z
+7ff600133109 SeDebugPrivilege
+7ff6001331d8 ser32.dll
+7ff6001331eb HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff6001332c8 2/Sv_1+Sp6T0g-DAil
+7ff6001332ff C:\Users\d.reyes\AppData\Local\Temp\~DF7C90.tmp
+7ff6001333bc 2.dll
+7ff6001333fe HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook
+7ff6001334ba C:\Windows\SysWOW64\KERNELBASE.dll
+7ff600133581 RPC_S_SERVER_UNAVAILABLE
+7ff60013362f UZZIMLHLOK
+7ff6001336f9 %s\%s.dll
+7ff6001337bc ols_6595b64144ccf1df
+7ff60013386a https://ctldl.windowsupdate.com/msdownload/update
+7ff600133929 QaQsPVbOrD.Z_ReEpWOe1hDr6n/HZn9fC1lgftItU7JWguTO
+7ff600133998 =3IsNp35x0=OKYdfsLjqGb9sLXy5gi-B+p76lZo52l.lOY
+7ff6001339b0 HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff600133a3c rt
+7ff600133af3 C:\Windows\S
+7ff600133b2a C:\Windows\System32\combase.dll
+7ff600133c17 [%04d-%02d-%02d %02d:%02d:%02d]
+7ff600133c55 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff600133cef NT AUTHORITY\LOCAL SERVICE
+7ff600133db1 C:\Windows\System32\cfgmgr32.dll
+7ff600133e2f SeDebugPrivilege
+7ff600133e91 HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff600133eb6 %s\%s.dll
+7ff600133f4c C:\Windows\System32\userenv.dll
+7ff600133f89 NT AUTHORITY\NETWORK SERVICE
+7ff600134017 C:\Windows\System32\clbcatq.dll
+7ff6001340a0 619+fDy0Gq3OI-EVGEzO
+7ff6001340d2 dll
+7ff60013418b X1n9=ogL-HnT-JbojM=Ag/7Bf.OOQOyw9tmAenrd+
+7ff6001341bc C:\Windows
+7ff60013427a .pf
+7ff6001342bc H=Lw9UwOtjlYcphj9+BZfi0TMUR/pdE
+7ff600134329 OpenProcessToken
+7ff6001343ce C:\Windows\System32\bcryptprimitives.dll
+7ff60013441e https://settings-win.data.microsoft.com/settings
+7ff60013449e C:\Windows\SysWOW64\ole32.dll
+7ff6001344b9 The parameter is incorrect.
+7ff6001344c9 41NO.+frag,z8ib-oA79-D0ISvkhNLlg+YxN,tT1Fi
+7ff6001345a8 https://login.microsoftonline.com/common/oauth2/authorize
+7ff600134696 C:\Windows\explorer.exe
+7ff6001346ef https://set
+7ff6001347b1 C:\Windows\System32\wininet.dll
+7ff60013483a C:\Windows\Sy
+7ff6001348f3 ows\System32\drivers\tcpip.sys
+7ff60013493b %s (0x%08lX)
+7ff6001349b0 The parameter is incorrect.
+7ff600134a98 WSASocketW
+7ff600134b79 MX42Ynuz2rk.8JBNSvpo+4qP3-wmth.E/hAxM8i
+7ff600134c26 C:\Windows\System32\bcrypt.dll
+7ff600134c67 CryptAcquireContextW
+7ff600134d0a 5Yi4xp53CkVB0sun+87FWq+VI2LB+j=Cf
+7ff600134d28 C:\Windows\System32\iphlpapi.d
+7ff600134d91 https://ctldl.windowsupdate.com/msdownload/update
+7ff600134d9b \Windows\Recent\AutomaticDestinations
+7ff600134e1e VirtualAllocEx
+7ff600134e27 HoqnWusX1nKly9_5Yum1hWZMImN6yvlk8XUheY5=+Mm_c+L0
+7ff600134eee HKEY_L
+7ff600134fcd %s\%s.dll
+7ff60013504c HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+7ff60013508c HKEY_LOCAL_MACHINE\SOFT
+7ff600135115 https://graph.microsoft.com/v1.0/me
+7ff6001351ab WinDefend
+7ff600135280 C:\Users\d.reyes\AppData\Local\Temp\~DF3A21.tmp
+7ff6001352ad HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff600135372 C:\Windows\System32\shlwapi.dll
+7ff6001353c8 C:\Windows\
+7ff600135426 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff600135482 https://settings-win.data.microsoft.com/settings
+7ff6001354f9 C:\Windows\System32\propsys.dll
+7ff600135589 MsMpEng.exe
+7ff6001355ef S=3-uYq+YCbDbLuDxz16GPAtHmVG.m_
+7ff6001356a7 NT AUTHORITY\SYSTEM
+7ff60013578b VyG6p6/Hpe=Wif0_4_xG=t6-ZQAOLUGYO
+7ff600135810 https://settings-win.data.microsoft.com/settings
+7ff600135848 RPC_S_SERVER_UNAVAILABLE
+7ff60013589b C:\Windows\System32\iphlpapi.dll
+7ff6001358e7 C:\Windows\System32\iphlpapi.dll
+7ff6001359be FNW-WKS047
+7ff600135a86 SeImpersonatePrivilege
+7ff600135ae6 fenwick.local
+7ff600135bac DuplicateTokenEx
+7ff600135c99 [%04d-%02d-%02d %02d:%02d:%02d]
+7ff600135cd5 Sessions\1\BaseNamedObjects
+7ff600135d1b C:\Windows\System32\drivers\ndis.sys
+7ff600135dd1 soft.com/v1.0/me
+7ff600135e7c C:\Windows\System32\cfgmgr32.dll
+7ff600135ed5 C:\Windows\System3
+7ff600135f29 C:\Users\d.reyes\AppData\Local\Temp\~DF3A21.tmp
+7ff600135fbb STATUS_ACCESS_VIOLATION
+7ff600135fe8 EM
+7ff600136091 https://teams.microsoft.com/api/mt/part
+7ff6001360e3 dows\System32\dnsapi.dll
+7ff600136155 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\
+7ff6001361d2 VirtualAllocEx
+7ff600136257 m1GL3hfzfAax0A,askozKAm
+7ff6001362de PE69YgaYRhooEbByO87ryealK+cskS-xh4DlTWVhO1sQt
+7ff60013634c CryptImportKey
+7ff60013635c C:\Windows\System32\winhttp.dll
+7ff6001363f9 MUF4tIlpcz.EEJ2yFTSKWBZmoG-fPdd=+,asOdWA
+7ff600136486 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+7ff6001364fa https://crl.microsoft.com/pki/crl/products/MicRooCerAut.crl
+7ff6001365d7 Access is denied. (0x%X)
+7ff6001365eb C:\Windows\System32\wbem\wmiprvse.exe
+7ff60013660c C:\Windows\System32\winhttp.dll
+7ff6001366ca InternetOpenW
+7ff60013670a https://outlook.office365.com/owa/
+7ff60013679a LvqkOGroURHsPnm4bliOWKkI5W3GeiO.BecyJjmpdeQj4an
+7ff6001367d8 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SecurityHealthService
+7ff600136844 gC8o/I6ePer-Y-/N0JziWl_E9F6hGP_jS7+
+7ff6001368e2 C:\Windows\System32\dnsapi.dll
+7ff600136917 1A2R5_BGXmS0M7+qf
+7ff600136950 C:\Windows\Syst
+7ff60013697c jrzlgHr6=6vCPO4dhsTjHfs5g/.i1=F
+7ff6001369b5 https://graph.microsoft.com/v1.0/me
+7ff6001369d0 Error 0x%08X in module %s
+7ff6001369e5 C:\Windows\System32\ole32.dll
+7ff600136a1a C:\Windows\System32\drivers\tcpip.sys
+7ff600136aa1 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+7ff600136b2c HKEY_USERS\S-1-5-21-2847362910-1938475620-3092817465-1001
+7ff600136be8 ,61tkNB8yf.Mb6r1Y_Y2u
+7ff600136cba RPC_S_SERVER_UNAVAILABLE

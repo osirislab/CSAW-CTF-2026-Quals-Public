@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collection — Avispa Country Club</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@200;300;400&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --cream:#f4efe6;--forest:#1a2a18;--gold:#b49a5e;
+      --ink:#0c140c;--white:#fafaf7;--mid:#4a5e48;--text:#1a2a18;
+      --border:rgba(26,42,24,.1);
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    html{scroll-behavior:smooth;}
+
+    /* ── custom cursor ── */
+    body{
+      background:var(--white);color:var(--text);
+      font-family:'Montserrat',sans-serif;font-weight:300;letter-spacing:.05em;
+      cursor:none;
+    }
+    #cursor{position:fixed;z-index:9999;pointer-events:none;width:28px;height:28px;transform:translate(-50%,-50%);transition:transform .08s ease;}
+    #cursor svg{width:100%;height:100%;}
+    #cursor-dot{position:fixed;z-index:10000;pointer-events:none;width:4px;height:4px;background:var(--gold);border-radius:50%;transform:translate(-50%,-50%);transition:transform .04s ease;}
+    body.cursor-hover #cursor{transform:translate(-50%,-50%) scale(1.4);}
+    a,button,[onclick]{cursor:none;}
+
+    /* ── nav ── */
+    nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:1.3rem 4vw;background:rgba(250,250,247,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+    .nav-logo{text-decoration:none;display:flex;flex-direction:column;}
+    .nav-logo-main{font-family:'IM Fell English SC',serif;font-size:1.1rem;color:var(--forest);letter-spacing:.12em;line-height:1;}
+    .nav-logo-sub{font-size:.5rem;letter-spacing:.35em;color:var(--gold);text-transform:uppercase;margin-top:3px;}
+    .nav-links{display:flex;gap:2.5rem;list-style:none;align-items:center;}
+    .nav-links>li{position:relative;}
+    .nav-links>li>a,.nav-links>li>span{font-size:.65rem;letter-spacing:.22em;text-transform:uppercase;color:var(--forest);text-decoration:none;display:flex;align-items:center;gap:.3rem;transition:color .2s;}
+    .nav-links>li>a:hover,.nav-links>li>span:hover{color:var(--gold);}
+    .chevron{font-size:.45rem;transition:transform .25s;}
+    .nav-links>li.open .chevron{transform:rotate(180deg);}
+    .dropdown{display:none;position:absolute;top:calc(100% + .6rem);left:50%;transform:translateX(-50%);background:var(--white);border:1px solid rgba(26,42,24,.12);min-width:185px;padding:.4rem 0;box-shadow:0 8px 32px rgba(0,0,0,.1);z-index:300;}
+    .dropdown::before{content:'';position:absolute;top:-.7rem;left:0;right:0;height:.7rem;}
+    .nav-links>li.open .dropdown{display:block;}
+    .dropdown a{display:block;padding:.65rem 1.4rem;font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--forest);text-decoration:none;transition:background .15s,color .15s;}
+    .dropdown a:hover{background:var(--cream);color:var(--gold);}
+    .dropdown .sep{height:1px;background:rgba(26,42,24,.08);margin:.3rem 0;}
+
+    /* ── disclaimer banner ── */
+    .disclaimer{
+      background:var(--forest);color:rgba(201,185,154,.8);
+      text-align:center;font-size:.58rem;letter-spacing:.22em;text-transform:uppercase;
+      padding:.7rem 4vw;
+      border-bottom:1px solid rgba(180,154,94,.2);
+    }
+    .disclaimer strong{color:var(--gold);}
+
+    /* ── page header ── */
+    .page-header{
+      padding:8rem 4vw 2.5rem;border-bottom:1px solid var(--border);
+      display:flex;align-items:flex-end;justify-content:space-between;
+    }
+    .ph-eyebrow{font-size:.56rem;letter-spacing:.4em;text-transform:uppercase;color:var(--gold);margin-bottom:.7rem;}
+    .ph-h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.2rem,3.5vw,3.6rem);font-weight:300;color:var(--forest);}
+    .ph-h1 em{font-style:italic;}
+    .ph-count{font-size:.62rem;letter-spacing:.18em;color:var(--mid);}
+
+    /* ── filter bar ── */
+    .filter-bar{display:flex;border-bottom:1px solid var(--border);}
+    .ftab{
+      padding:1rem 2.5vw;font-size:.6rem;letter-spacing:.25em;text-transform:uppercase;
+      color:var(--mid);border:none;background:none;border-bottom:2px solid transparent;
+      margin-bottom:-1px;transition:color .2s,border-color .2s;
+    }
+    .ftab:hover{color:var(--forest);}
+    .ftab.active{color:var(--forest);border-bottom-color:var(--forest);}
+
+    /* ── product grid ── */
+    .grid{display:grid;grid-template-columns:repeat(4,1fr);}
+    .card{
+      border-right:1px solid var(--border);border-bottom:1px solid var(--border);
+      display:flex;flex-direction:column;overflow:hidden;
+      transition:background .2s;position:relative;
+    }
+    .card:nth-child(4n){border-right:none;}
+    .card:hover{background:var(--cream);}
+
+    /* image container — no right click, no drag */
+    .card-img{
+      height:260px;overflow:hidden;background:var(--cream);
+      position:relative;flex-shrink:0;
+    }
+    .card-img img{
+      width:100%;height:100%;object-fit:cover;
+      transition:transform .5s ease;
+      -webkit-user-drag:none;user-select:none;
+      pointer-events:none;/* block right-click on img via CSS too */
+    }
+    .card:hover .card-img img{transform:scale(1.04);}
+
+    .card-badge{
+      position:absolute;top:.9rem;left:.9rem;z-index:2;
+      font-size:.48rem;letter-spacing:.22em;text-transform:uppercase;
+      padding:.22rem .55rem;
+    }
+    .card-badge.new{background:var(--gold);color:var(--ink);}
+    .card-badge.member{background:var(--forest);color:rgba(201,185,154,.85);}
+
+    .card-body{padding:1.4rem 1.6rem 1.8rem;display:flex;flex-direction:column;gap:.35rem;flex:1;}
+    .card-cat{font-size:.5rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);}
+    .card-name{font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--forest);}
+    .card-detail{font-size:.62rem;color:var(--mid);line-height:1.65;}
+    .card-price{font-size:.75rem;color:var(--forest);margin-top:auto;padding-top:.5rem;font-weight:400;}
+
+    .card-view{
+      display:block;width:calc(100% - 3.2rem);margin:0 1.6rem 1.4rem;
+      padding:.55rem;border:1px solid rgba(26,42,24,.2);
+      font-size:.55rem;letter-spacing:.22em;text-transform:uppercase;
+      color:var(--forest);background:none;text-align:center;
+      transition:all .2s;
+    }
+    .card:hover .card-view{border-color:var(--forest);background:var(--forest);color:var(--cream);}
+
+    .foot-bar{padding:1.6rem 4vw;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;}
+    .foot-bar span{font-size:.58rem;letter-spacing:.18em;color:var(--mid);}
+    .foot-bar a{font-size:.58rem;letter-spacing:.18em;color:var(--gold);text-decoration:none;}
+
+    /* ── MODAL ── */
+    .modal-bg{
+      display:none;position:fixed;inset:0;z-index:500;
+      background:rgba(8,12,8,.88);backdrop-filter:blur(6px);
+      align-items:center;justify-content:center;
+    }
+    .modal-bg.on{display:flex;}
+    .modal{
+      background:var(--white);max-width:880px;width:92vw;
+      max-height:92vh;display:grid;grid-template-columns:1fr 360px;
+      position:relative;overflow:hidden;
+      box-shadow:0 32px 80px rgba(0,0,0,.4);
+    }
+
+    /* image pane — pan & zoom */
+    .modal-img-pane{
+      background:var(--cream);overflow:hidden;position:relative;
+      min-height:460px;
+    }
+    .modal-img-wrap{
+      width:100%;height:100%;
+      display:flex;align-items:center;justify-content:center;
+      overflow:hidden;touch-action:none;
+    }
+    .modal-img-wrap img{
+      max-width:100%;max-height:100%;object-fit:contain;
+      transform-origin:center center;
+      -webkit-user-drag:none;user-select:none;pointer-events:none;
+      transition:none;
+    }
+    .zoom-hint{
+      position:absolute;bottom:.8rem;left:50%;transform:translateX(-50%);
+      font-size:.5rem;letter-spacing:.2em;text-transform:uppercase;
+      color:rgba(26,42,24,.35);white-space:nowrap;pointer-events:none;
+    }
+    .zoom-controls{
+      position:absolute;top:.8rem;left:.8rem;
+      display:flex;flex-direction:column;gap:.3rem;
+    }
+    .zoom-btn{
+      width:30px;height:30px;background:rgba(250,250,247,.9);
+      border:1px solid rgba(26,42,24,.15);
+      font-size:1rem;line-height:1;display:flex;align-items:center;justify-content:center;
+      transition:background .15s;
+    }
+    .zoom-btn:hover{background:var(--white);}
+
+    /* info pane */
+    .modal-info{
+      padding:2.5rem 2rem;display:flex;flex-direction:column;gap:1rem;
+      border-left:1px solid var(--border);overflow-y:auto;
+    }
+    .modal-close{
+      position:absolute;top:1rem;right:1rem;z-index:10;
+      width:32px;height:32px;background:rgba(250,250,247,.9);
+      border:1px solid rgba(26,42,24,.15);
+      font-size:1.1rem;line-height:1;display:flex;align-items:center;justify-content:center;
+      transition:background .15s;
+    }
+    .modal-close:hover{background:var(--white);}
+    .modal-cat{font-size:.52rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);}
+    .modal-name{font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:300;color:var(--forest);line-height:1.1;}
+    .modal-price{font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--forest);}
+    .modal-detail{font-size:.68rem;line-height:1.9;color:var(--mid);}
+    .modal-divider{height:1px;background:var(--border);}
+    .modal-notice{
+      background:rgba(180,154,94,.08);border:1px solid rgba(180,154,94,.2);
+      border-left:2px solid var(--gold);
+      padding:.8rem 1rem;font-size:.62rem;line-height:1.8;color:var(--mid);
+    }
+    .modal-notice strong{color:var(--forest);}
+    .modal-visit{
+      display:block;padding:.8rem;margin-top:auto;
+      border:1px solid var(--forest);
+      font-size:.6rem;letter-spacing:.25em;text-transform:uppercase;
+      color:var(--forest);background:none;text-align:center;
+      transition:all .2s;
+    }
+    .modal-visit:hover{background:var(--forest);color:var(--cream);}
+
+    @keyframes fadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+    .card{animation:fadeIn .35s ease both;}
+    @keyframes modalIn{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:scale(1)}}
+    .modal-bg.on .modal{animation:modalIn .25s ease both;}
+  </style>
+</head>
+<body>
+
+<div id="cursor"><svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="14" y1="2" x2="14" y2="10" stroke="#b49a5e" stroke-width="1.2"/><line x1="14" y1="18" x2="14" y2="26" stroke="#b49a5e" stroke-width="1.2"/><line x1="2" y1="14" x2="10" y2="14" stroke="#b49a5e" stroke-width="1.2"/><line x1="18" y1="14" x2="26" y2="14" stroke="#b49a5e" stroke-width="1.2"/><circle cx="14" cy="14" r="4" stroke="#b49a5e" stroke-width="1"/></svg></div>
+<div id="cursor-dot"></div>
+
+<!-- disclaimer -->
+<div class="disclaimer" style="position:fixed;top:0;left:0;right:0;z-index:300;">
+  <strong>In-store only</strong> &nbsp;·&nbsp; All items subject to availability &nbsp;·&nbsp; Visit us at Missionary Hill, San Fierro
+</div>
+
+<nav style="top:38px;">
+  <a href="/" class="nav-logo">
+    <span class="nav-logo-main">Avispa Country Club</span>
+    <span class="nav-logo-sub">Where par meets the bar</span>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li data-menu="collection">
+      <span>Collection <span class="chevron">▾</span></span>
+      <div class="dropdown">
+        <a href="/collection?cat=apparel">Apparel</a>
+        <a href="/collection?cat=clubs">Clubs</a>
+        <a href="/collection?cat=balls">Balls</a>
+      </div>
+    </li>
+
+    <li><a href="/#fitting">Fitting</a></li>
+    <li><a href="/#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="page-header" style="padding-top:9.5rem;">
+  <div>
+    <p class="ph-eyebrow" id="catLabel">Collection</p>
+    <h1 class="ph-h1" id="pageTitle">All <em>Arrivals</em></h1>
+  </div>
+  <span class="ph-count" id="itemCount"></span>
+</div>
+
+<div class="filter-bar">
+  <button class="ftab" data-cat="all" onclick="setFilter('all',this)">All</button>
+  <button class="ftab" data-cat="apparel" onclick="setFilter('apparel',this)">Apparel</button>
+  <button class="ftab" data-cat="clubs" onclick="setFilter('clubs',this)">Clubs</button>
+  <button class="ftab" data-cat="balls" onclick="setFilter('balls',this)">Balls</button>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<div class="foot-bar">
+  <span>Avispa Country Club · San Fierro · Est. 1921</span>
+  <a href="/">← Home</a>
+</div>
+
+<!-- MODAL -->
+<div class="modal-bg" id="modalBg" onclick="handleModalBgClick(event)">
+  <div class="modal" id="modal">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+
+    <div class="modal-img-pane">
+      <div class="modal-img-wrap" id="imgWrap">
+        <img id="modalImg" src="" alt="">
+      </div>
+      <div class="zoom-controls">
+        <button class="zoom-btn" onclick="zoom(1.25)" title="Zoom in">+</button>
+        <button class="zoom-btn" onclick="zoom(0.8)" title="Zoom out">−</button>
+        <button class="zoom-btn" onclick="resetZoom()" title="Reset" style="font-size:.65rem;letter-spacing:0;">⟳</button>
+      </div>
+      <div class="zoom-hint">Scroll to zoom · Drag to pan</div>
+    </div>
+
+    <div class="modal-info">
+      <div class="modal-cat" id="mCat"></div>
+      <div class="modal-name" id="mName"></div>
+      <div class="modal-price" id="mPrice"></div>
+      <div class="modal-divider"></div>
+      <div class="modal-detail" id="mDetail"></div>
+      <div class="modal-divider"></div>
+      <div class="modal-notice">
+        <strong>In-store shopping only.</strong><br>
+        This item is available exclusively at the Avispa Country Club pro shop.
+        All pieces are subject to availability and may vary by season.
+        Visit us at Missionary Hill, San Fierro.
+      </div>
+      <button class="modal-visit" onclick="document.getElementById('contact')&&document.getElementById('contact').scrollIntoView(); closeModal(); window.location.href='/#contact'">
+        Visit the Club →
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── Products ──────────────────────────────────────────────────────────────────
+// Apparel = golf shirts/tees only. Images: /static/collection/N.png
+const PRODUCTS = [
+  // Apparel — 15 golf graphic tees (imgs 1–15)
+  {cat:'apparel',img:1,  name:'Avispa Serif Tee',              detail:'White · Bold serif "AVISPA" chest print · Classic fit · XS–XXL',            price:'$42', badge:''},
+  {cat:'apparel',img:2,  name:'Avispa C.C. Script Tee',        detail:'Natural/Cream · Cursive "Avispa C.C." print · Relaxed · XS–XXL',            price:'$44', badge:''},
+  {cat:'apparel',img:3,  name:'Avispa Script Navy Tee',        detail:'Navy · Tonal cursive "Avispa" print · Classic fit · S–XXL',                 price:'$44', badge:''},
+  {cat:'apparel',img:4,  name:'Golf Swing Graphic Tee',        detail:'Olive green · Retro cartoon golfer graphic · Unisex · XS–XL',               price:'$48', badge:'new'},
+  {cat:'apparel',img:5,  name:'Snoopy Golf Tee',               detail:'Silver grey · Snoopy golfer graphic · Unisex · XS–XXL',                     price:'$48', badge:'new'},
+  {cat:'apparel',img:6,  name:'Avispa Madd Dogg Black Tee',    detail:'Black · "AVISPA" serif + Madd Dogg graphic · Oversized · S–XL',             price:'$52', badge:'new'},
+  {cat:'apparel',img:7,  name:'Snoopy & Charlie Brown Tee',    detail:'Forest green · All-over Peanuts golf scene · Boxy fit · XS–XXL',            price:'$50', badge:'new'},
+  {cat:'apparel',img:8,  name:'Madd Dogg A.C.C. Tee',         detail:'Sand/Khaki · Cursive "Madd Dogg A.C.C." + graphic · Relaxed · S–XXL',       price:'$52', badge:''},
+  {cat:'apparel',img:9,  name:'Green Stripe Block Tee',        detail:'White · Single green chest stripe · Unisex · XS–XL',                        price:'$38', badge:''},
+  {cat:'apparel',img:10, name:'Double Stripe Tee',             detail:'Grey · Green double chest stripe · Classic fit · S–XXL',                    price:'$40', badge:''},
+  {cat:'apparel',img:11, name:'AV Monogram Tee',               detail:'Steel blue · Large serif "AV" monogram · Classic fit · XS–XXL',             price:'$44', badge:''},
+  {cat:'apparel',img:12, name:'Golf Cart Graphic Tee',         detail:'White · Bold blue golf cart illustration · Unisex · XS–XXL',                price:'$46', badge:''},
+  {cat:'apparel',img:13, name:'Avispa Maroon Tee',             detail:'Maroon · Gold serif "AVISPA" chest print · Classic fit · S–XXL',            price:'$44', badge:''},
+  {cat:'apparel',img:14, name:'Avispa Country Club Script Tee',detail:'White · Gold cursive "Avispa Country Club" · Relaxed · XS–XXL',             price:'$46', badge:'new'},
+
+  // Clubs (imgs 16–20)
+  {cat:'clubs',  img:16,name:'Forged Iron Set (4–PW)',     detail:'Japanese carbon steel · Club fitting included',                            price:'$2,400',badge:'member'},
+  {cat:'clubs',  img:17,name:'Titanium Driver 460cc',      detail:'9° / 10.5° · Low-spin matrix shaft',                                       price:'$599',badge:'new'},
+  {cat:'clubs',  img:18,name:'Milled Putter 34″',          detail:'303 SS face milling · Plumber neck hosel',                                 price:'$380',badge:''},
+  {cat:'clubs',  img:19,name:'Sand Wedge 56°',             detail:'Full face grooves · Forged bounce sole',                                   price:'$168',badge:''},
+  {cat:'clubs',  img:20,name:'Hybrid Rescue 3-iron',       detail:'19° loft · Adjustable hosel · Graphite shaft',                            price:'$245',badge:''},
+
+  // Balls (imgs 21–24)
+  {cat:'balls',  img:21,name:'Tour Velocity Pro · Dozen',  detail:'4-piece urethane cover · 330 dimple pattern',                              price:'$54', badge:'new'},
+  {cat:'balls',  img:22,name:'Avispa Distance · Dozen',    detail:'2-piece ionomer · High launch · Low spin',                                 price:'$34', badge:''},
+  {cat:'balls',  img:23,name:'Soft Feel Ladies · Dozen',   detail:'Low compression · Align print · Pastel colors',                           price:'$38', badge:''},
+  {cat:'balls',  img:24,name:'Optic Yellow · 3-Pack',      detail:'High-visibility · Tour Velocity core',                                     price:'$18', badge:''},
+];
+
+let currentFilter='all';
+
+function getParam(k){return new URLSearchParams(window.location.search).get(k);}
+
+// Fire all three 418 endpoints silently — shows up in DevTools Network tab
+function ping418s(){
+  fetch('/pro-shop/inventory/clubs').catch(()=>{});
+  fetch('/pro-shop/inventory/balls').catch(()=>{});
+  fetch('/pro-shop/inventory/bags').catch(()=>{});
+}
+
+function setFilter(cat,btn){
+  currentFilter=cat;
+  document.querySelectorAll('.ftab').forEach(t=>t.classList.remove('active'));
+  btn.classList.add('active');
+  renderGrid();
+  // Fire 418 requests on every category switch so they appear in Network tab
+  ping418s();
+  const labels={all:'Collection',apparel:'Apparel',clubs:'Clubs',balls:'Balls'};
+  const titles={all:'All <em>Arrivals</em>',apparel:'<em>Apparel</em> Collection',clubs:'Club <em>Equipment</em>',balls:'Tour <em>Balls</em>'};
+  document.getElementById('catLabel').textContent=labels[cat]||labels.all;
+  document.getElementById('pageTitle').innerHTML=titles[cat]||titles.all;
+  const u=new URL(window.location);u.searchParams.set('cat',cat);history.replaceState({},'',u);
+}
+
+function renderGrid(){
+  const items=currentFilter==='all'?PRODUCTS:PRODUCTS.filter(p=>p.cat===currentFilter);
+  document.getElementById('itemCount').textContent=items.length+' items';
+  document.getElementById('grid').innerHTML=items.map((p,i)=>{
+    const badge=p.badge==='new'
+      ?'<span class="card-badge new">New</span>'
+      :p.badge==='member'?'<span class="card-badge member">Member</span>':'';
+    return `
+    <div class="card" style="animation-delay:${i*.04}s" onclick="openModal(${PRODUCTS.indexOf(p)})">
+      <div class="card-img">
+        ${badge}
+        <img src="/static/collection/${p.img}.png" alt="${p.name}"
+          onerror="this.style.display='none';this.parentElement.style.background='var(--cream)'"
+          draggable="false">
+      </div>
+      <div class="card-body">
+        <div class="card-cat">${p.cat}</div>
+        <div class="card-name">${p.name}</div>
+        <div class="card-detail">${p.detail}</div>
+        <div class="card-price">${p.price}</div>
+      </div>
+      <button class="card-view">View Item</button>
+    </div>`;
+  }).join('');
+}
+
+// ── Modal with pan & zoom ─────────────────────────────────────────────────────
+let scale=1, tx=0, ty=0, dragging=false, lastX=0, lastY=0;
+
+function openModal(idx){
+  const p=PRODUCTS[idx];
+  document.getElementById('mCat').textContent=p.cat;
+  document.getElementById('mName').textContent=p.name;
+  document.getElementById('mPrice').textContent=p.price;
+  document.getElementById('mDetail').textContent=p.detail;
+  const img=document.getElementById('modalImg');
+  img.src=`/static/collection/${p.img}.png`;
+  img.alt=p.name;
+  resetZoom();
+  document.getElementById('modalBg').classList.add('on');
+  document.body.style.overflow='hidden';
+}
+
+function closeModal(){
+  document.getElementById('modalBg').classList.remove('on');
+  document.body.style.overflow='';
+}
+
+function handleModalBgClick(e){
+  if(e.target===document.getElementById('modalBg')) closeModal();
+}
+
+// escape key
+document.addEventListener('keydown',e=>{if(e.key==='Escape') closeModal();});
+
+function applyTransform(){
+  document.getElementById('modalImg').style.transform=`scale(${scale}) translate(${tx/scale}px,${ty/scale}px)`;
+}
+
+function zoom(factor){
+  scale=Math.min(Math.max(scale*factor,0.5),6);
+  applyTransform();
+}
+
+function resetZoom(){scale=1;tx=0;ty=0;applyTransform();}
+
+// scroll to zoom
+document.getElementById('modalBg').addEventListener('wheel',e=>{
+  if(!document.getElementById('modalBg').classList.contains('on')) return;
+  e.preventDefault();
+  zoom(e.deltaY<0?1.12:0.89);
+},{passive:false});
+
+// drag to pan
+const wrap=document.getElementById('imgWrap');
+wrap.addEventListener('mousedown',e=>{
+  if(scale<=1) return;
+  dragging=true; lastX=e.clientX; lastY=e.clientY;
+  wrap.style.cursor='grabbing';
+});
+document.addEventListener('mousemove',e=>{
+  if(!dragging) return;
+  tx+=e.clientX-lastX; ty+=e.clientY-lastY;
+  lastX=e.clientX; lastY=e.clientY;
+  applyTransform();
+});
+document.addEventListener('mouseup',()=>{dragging=false; wrap.style.cursor='';});
+
+// touch zoom (pinch)
+let initDist=0,initScale=1;
+wrap.addEventListener('touchstart',e=>{
+  if(e.touches.length===2){
+    initDist=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);
+    initScale=scale;
+  }
+},{passive:true});
+wrap.addEventListener('touchmove',e=>{
+  if(e.touches.length===2){
+    e.preventDefault();
+    const d=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);
+    scale=Math.min(Math.max(initScale*(d/initDist),0.5),6);
+    applyTransform();
+  }
+},{passive:false});
+
+// ── No right-click on images ──────────────────────────────────────────────────
+document.addEventListener('contextmenu',e=>{
+  if(e.target.tagName==='IMG') e.preventDefault();
+});
+
+// ── Custom cursor ─────────────────────────────────────────────────────────────
+(function(){
+  const cur=document.getElementById('cursor');
+  const dot=document.getElementById('cursor-dot');
+  let mx=0,my=0,cx=0,cy=0;
+  document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;dot.style.left=mx+'px';dot.style.top=my+'px';});
+  function animate(){cx+=(mx-cx)*.18;cy+=(my-cy)*.18;cur.style.left=cx+'px';cur.style.top=cy+'px';requestAnimationFrame(animate);}
+  animate();
+  document.querySelectorAll('a,button,[onclick]').forEach(el=>{
+    el.addEventListener('mouseenter',()=>document.body.classList.add('cursor-hover'));
+    el.addEventListener('mouseleave',()=>document.body.classList.remove('cursor-hover'));
+  });
+})();
+
+// ── Nav dropdown with 1.5s delay ─────────────────────────────────────────────
+(function(){
+  const items=document.querySelectorAll('#navLinks>li[data-menu]');
+  items.forEach(li=>{
+    let t=null;
+    const open=()=>{clearTimeout(t);items.forEach(o=>{if(o!==li)o.classList.remove('open');});li.classList.add('open');};
+    const sched=()=>{t=setTimeout(()=>li.classList.remove('open'),1500);};
+    li.addEventListener('mouseenter',open);li.addEventListener('mouseleave',sched);
+    const dd=li.querySelector('.dropdown');
+    if(dd){dd.addEventListener('mouseenter',()=>clearTimeout(t));dd.addEventListener('mouseleave',sched);}
+  });
+  document.addEventListener('click',e=>{if(!e.target.closest('#navLinks'))items.forEach(li=>li.classList.remove('open'));});
+})();
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+const initCat=getParam('cat')||'all';
+currentFilter=initCat;
+const initBtn=document.querySelector(`.ftab[data-cat="${initCat}"]`)||document.querySelector('.ftab');
+if(initBtn)initBtn.classList.add('active');
+const labels={all:'Collection',apparel:'Apparel',clubs:'Clubs',balls:'Balls'};
+const titles={all:'All <em>Arrivals</em>',apparel:'<em>Apparel</em> Collection',clubs:'Club <em>Equipment</em>',balls:'Tour <em>Balls</em>'};
+document.getElementById('catLabel').textContent=labels[initCat]||labels.all;
+document.getElementById('pageTitle').innerHTML=titles[initCat]||titles.all;
+renderGrid();
+// Fire all three 418s on page load — visible in DevTools Network tab immediately
+ping418s();
+</script>
+</body>
+</html>

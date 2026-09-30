@@ -1,0 +1,12 @@
+#N canvas 844 35 845 997 12;
+#X obj 40 70 loadbang;
+#X obj 110 150 csirac;
+#X obj 40 150 del 100;
+#X obj 40 179 s init;
+#X obj 40 100 t b b b;
+#X text 40 20 csirac - cdj interface;
+#X text 70 210 initializing decks...;
+#X connect 0 0 4 0;
+#X connect 2 0 3 0;
+#X connect 4 0 2 0;
+#X connect 4 1 1 0;

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}{{ listing.title }} | CSALE{% endblock %}
+{% block content %}
+<article class="detail">
+    <img src="/listings/{{ listing.id }}/image" alt="">
+    <div>
+        <small>{{ listing.owner }} · ${{ "%.2f"|format(listing.price_cents / 100) }}</small>
+        <h1>{{ listing.title }}</h1>
+        <iframe src="/listings/{{ listing.id }}/description-frame" sandbox="allow-scripts"></iframe>
+        {% if listing.owner_id != current_user.id %}
+            <form method="post" action="/cart/items">
+                <input type="hidden" name="listing_id" value="{{ listing.id }}">
+                <button>Add to cart</button>
+            </form>
+            <a href="/messages">Message seller</a>
+        {% else %}
+            <p>This is your listing</p>
+        {% endif %}
+    </div>
+</article>
+{% endblock %}

@@ -1,0 +1,6 @@
+> explore all products, inspect element network tab to see 418 responses, bodies of which give 3 base64 encoded messages
+> find admin access on bottom right of homepage or through /api/docs, see 'enigma machine'
+> decode the base64 encoded messages to 3 numbers for 3 rotors
+> find the passkey from enigma machine that's the secret to the vault
+> vault is still not enough. notice admin panel mentions a CVE, view CVE's pull request on GitHub to learn from PoC that X-User-Role is injectible
+> try injecting on vault login page, fail. notice 'admin-item' endpoint from /api/docs exposed swagger docs, use payload with phrase and injected header X-User-Role: admin, get flag

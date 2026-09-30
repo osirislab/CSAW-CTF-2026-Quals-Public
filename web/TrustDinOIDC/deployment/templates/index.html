@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TrustDinOIDC</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
+<style>
+body { background: #170b1f; color: #fff; font-family: 'Merriweather', sans-serif; }
+.jumbotron { background: #5c1f52; color: #fff; text-align: center; }
+.jumbotron p { color: #fff; font-size: 22px; }
+img { margin-top: 20px; max-width: 80%; border-radius: 4px; }
+dialog { background: #241129; color: #fff; border: 1px solid #3a1f3d; border-radius: 6px; padding: 1.5rem; }
+nav.navbar.bg-dark { background-color: #20101f !important; }
+dialog a { display: block; margin-bottom: 0.75rem; }
+.tier { padding: 0.15rem 0.6rem; border-radius: 3px; font-size: 0.8rem; margin-right: 0.5rem; }
+.tier-member { background: #3a2f27; color: #ccc; }
+.tier-curator { background: #d1548f; color: #fff; }
+</style>
+</head>
+<body>
+<nav class="navbar navbar-dark bg-dark navbar-expand-md">
+  <div class="container">
+    <a class="navbar-brand" href="/">TrustDinOIDC</a>
+    {% if claims %}
+    <span class="tier {{ 'tier-curator' if admin else 'tier-member' }}">{{ 'Curator' if admin else 'Member' }}</span>
+    <span class="nav-link">{{ claims.sub }} via {{ claims.iss }}</span>
+    <a class="nav-link" href="/logout">Logout</a>
+    {% else %}
+    <a class="nav-link" href="#" onclick="login.showModal(); return false;">Login</a>
+    {% endif %}
+    {% if member %}
+    <a class="nav-link" href="#freeosaurus">Freeosaurus</a>
+    {% else %}
+    <a class="nav-link" href="#" onclick="freeosaurus_login.showModal(); return false;">Freeosaurus</a>
+    {% endif %}
+    <a class="nav-link" href="#flagosaurus">Flagosaurus</a>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>What's your favorite dinosaur poster?</h1>
+    <img src="{{ hero }}" alt="dinosaur poster">
+  </div>
+</div>
+
+<div class="container text-center" id="freeosaurus">
+  <h2>Freeosaurus print (members only)</h2>
+  {% if member %}
+  <p>Included with your membership.</p>
+  {% else %}
+  <p>Sign in to view pricing.</p>
+  {% endif %}
+</div>
+
+<div class="container text-center" id="flagosaurus">
+  <h2>Flagosaurus print (admins only)</h2>
+  {% if admin %}
+  <p>{{ flag }}</p>
+  {% else %}
+  <p>Not an admin account.</p>
+  {% endif %}
+</div>
+
+<dialog id="login">
+  <a href="{{ idp_urls.paleoid }}">Continue with PaleoID</a>
+  <a href="{{ idp_urls.strataid }}">Continue with StrataID</a>
+  <span style="opacity:0.5; text-decoration:line-through;">Create an account</span>
+  <div style="font-size:12px; opacity:0.6; margin-top:0.5rem;">Registration is closed. Sign in via a partner above.</div>
+</dialog>
+
+<dialog id="freeosaurus_login">
+  <a href="{{ freeosaurus_urls.paleoid }}">Continue with PaleoID</a>
+  <a href="{{ freeosaurus_urls.strataid }}">Continue with StrataID</a>
+</dialog>
+</body>
+</html>

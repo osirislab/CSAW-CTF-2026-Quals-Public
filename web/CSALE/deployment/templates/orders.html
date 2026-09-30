@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Orders | CSALE{% endblock %}
+{% block content %}
+<h1>Orders</h1>
+<section class="list">
+    {% for order in orders %}
+        <article>
+            <div>
+                <small>Order {{ order.id }} · {{ order.seller }}</small>
+                <h2>{{ order.title_snapshot }}</h2>
+                <p>${{ "%.2f"|format(order.unit_price_cents / 100) }} · {{ order.quantity }}</p>
+            </div>
+            <a href="/orders/{{ order.id }}">Open</a>
+        </article>
+    {% else %}
+        <p>No orders.</p>
+    {% endfor %}
+</section>
+{% endblock %}

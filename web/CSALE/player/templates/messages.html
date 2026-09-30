@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Messages | CSALE{% endblock %}
+{% block content %}
+<h1>Messages</h1>
+<form class="panel" method="post">
+    {% if error %}<p class="error">{{ error }}</p>{% endif %}
+    <label>To<input name="recipient_username" required></label>
+    <label>Message<textarea name="body" rows="5" required></textarea></label>
+    <button>Send</button>
+</form>
+<section class="list messages">
+    {% for message in messages %}
+        <article>
+            <div>
+                <small>{% if message.sender_id == current_user.id %}To {{ message.recipient }}{% else %}From {{ message.sender }}{% endif %}</small>
+                <iframe src="/messages/{{ message.id }}/body-frame" sandbox="allow-scripts"></iframe>
+            </div>
+        </article>
+    {% else %}
+        <p>No messages.</p>
+    {% endfor %}
+</section>
+{% endblock %}

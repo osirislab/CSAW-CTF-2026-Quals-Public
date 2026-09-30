@@ -1,0 +1,16 @@
+arrow
+bleach
+cachetools
+colorlog
+flask
+flask-cors
+flask-limiter
+humanize
+inputval
+python-dotenv
+python-slugify
+reqmeta
+shortuuid
+structlog
+user-agents
+validators

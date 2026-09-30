@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Caddy — Avispa CC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@200;300;400;500&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:     #0c0f0c;
+      --panel:  #111411;
+      --card:   #161a16;
+      --border: #232823;
+      --border2:#2e362e;
+      --text:   #c8d4c8;
+      --muted:  #5a6e5a;
+      --gold:   #b49a5e;
+      --cream:  #f4efe6;
+      --green:  #4a7c59;
+      --greenl: #6aad7a;
+      --red:    #8c3a3a;
+      --redl:   #c45a5a;
+      --white:  #e8ede8;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    html,body{height:100%;overflow:hidden;}
+    body{background:var(--bg);color:var(--text);font-family:'Montserrat',sans-serif;font-weight:300;font-size:13px;letter-spacing:.03em;}
+
+    /* ── GATE ── */
+    #gate{
+      position:fixed;inset:0;z-index:1000;
+      background:var(--bg);
+      display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2.5rem;
+    }
+    .gate-logo{display:flex;flex-direction:column;align-items:center;gap:.5rem;}
+    .gate-logo-main{font-family:'IM Fell English SC',serif;font-size:1.6rem;color:var(--gold);letter-spacing:.2em;}
+    .gate-logo-sub{font-size:.55rem;letter-spacing:.4em;text-transform:uppercase;color:var(--muted);}
+    .gate-divider{width:40px;height:1px;background:var(--border2);}
+    .gate-label{font-size:.6rem;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);margin-bottom:.5rem;}
+    .gate-box{display:flex;flex-direction:column;gap:.8rem;width:280px;}
+    .gate-input{
+      background:var(--card);border:1px solid var(--border2);
+      color:var(--text);font-family:'Montserrat',monospace;font-size:.85rem;
+      padding:.75rem 1rem;text-align:center;outline:none;letter-spacing:.15em;
+      transition:border-color .2s;
+    }
+    .gate-input:focus{border-color:var(--gold);}
+    .gate-input::placeholder{color:var(--muted);letter-spacing:.1em;}
+    .gate-btn{
+      padding:.7rem;background:transparent;border:1px solid var(--gold);
+      color:var(--gold);font-family:'Montserrat',sans-serif;font-size:.6rem;
+      letter-spacing:.3em;text-transform:uppercase;cursor:pointer;transition:all .2s;
+    }
+    .gate-btn:hover{background:var(--gold);color:var(--bg);}
+    .gate-err{font-size:.6rem;color:var(--redl);text-align:center;min-height:1rem;letter-spacing:.1em;}
+    .gate-hint{font-size:.55rem;color:var(--border2);text-align:center;letter-spacing:.1em;margin-top:.5rem;}
+
+    /* ── SHELL ── */
+    #shell{display:none;height:100vh;grid-template-rows:54px 1fr;grid-template-columns:220px 1fr;}
+    #shell.on{display:grid;}
+
+    /* ── TOPBAR ── */
+    .topbar{
+      grid-column:1/-1;
+      background:var(--panel);border-bottom:1px solid var(--border);
+      display:flex;align-items:center;justify-content:space-between;
+      padding:0 1.5rem;
+    }
+    .tb-left{display:flex;align-items:center;gap:1rem;}
+    .tb-logo{font-family:'IM Fell English SC',serif;font-size:.95rem;color:var(--gold);letter-spacing:.15em;}
+    .tb-sub{font-size:.5rem;letter-spacing:.25em;text-transform:uppercase;color:var(--muted);}
+    .tb-beta{
+      font-size:.48rem;letter-spacing:.2em;text-transform:uppercase;
+      padding:.2rem .5rem;border:1px solid var(--border2);color:var(--muted);
+    }
+    .tb-right{display:flex;align-items:center;gap:1rem;}
+    .tb-user{font-size:.58rem;letter-spacing:.2em;color:var(--muted);}
+    .tb-logout{
+      font-size:.55rem;letter-spacing:.2em;text-transform:uppercase;
+      color:var(--muted);cursor:pointer;border:none;background:none;
+      transition:color .2s;padding:.3rem .6rem;border:1px solid transparent;
+    }
+    .tb-logout:hover{color:var(--gold);border-color:var(--border2);}
+
+    /* ── SIDEBAR ── */
+    .sidebar{
+      background:var(--panel);border-right:1px solid var(--border);
+      overflow-y:auto;padding:1.5rem 0;
+      display:flex;flex-direction:column;
+    }
+    .nav-section{
+      padding:.8rem 1.4rem .3rem;
+      font-size:.5rem;letter-spacing:.35em;text-transform:uppercase;color:var(--border2);
+    }
+    .nav-item{
+      display:flex;align-items:center;gap:.7rem;
+      padding:.65rem 1.4rem;cursor:pointer;
+      font-size:.62rem;letter-spacing:.1em;color:var(--muted);
+      border-left:2px solid transparent;transition:all .15s;
+    }
+    .nav-item:hover{color:var(--text);background:rgba(255,255,255,.02);}
+    .nav-item.active{color:var(--cream);border-left-color:var(--gold);background:rgba(180,154,94,.05);}
+    .nav-icon{font-size:.9rem;width:16px;text-align:center;}
+
+    /* ── CONTENT ── */
+    .content{overflow-y:auto;padding:2rem;}
+
+    .tab{display:none;}
+    .tab.active{display:block;}
+
+    /* ── SECTION TITLES ── */
+    .sec-title{
+      font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:300;
+      color:var(--cream);margin-bottom:.25rem;
+    }
+    .sec-title em{font-style:italic;color:var(--gold);}
+    .sec-sub{font-size:.6rem;letter-spacing:.18em;color:var(--muted);margin-bottom:1.8rem;text-transform:uppercase;}
+
+    /* ── CARDS ── */
+    .card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-bottom:1.5rem;}
+    .info-card{background:var(--card);border:1px solid var(--border);padding:1.2rem 1.4rem;}
+    .ic-label{font-size:.52rem;letter-spacing:.28em;text-transform:uppercase;color:var(--muted);margin-bottom:.4rem;}
+    .ic-val{font-family:'Cormorant Garamond',serif;font-size:1.6rem;color:var(--cream);font-weight:300;}
+    .ic-val.ok{color:var(--greenl);}
+    .ic-val.warn{color:var(--gold);}
+    .ic-val.bad{color:var(--redl);}
+
+    /* ── BUTTONS ── */
+    .btn{
+      display:inline-block;padding:.55rem 1.2rem;
+      border:1px solid;font-family:'Montserrat',sans-serif;
+      font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;
+      cursor:pointer;background:transparent;transition:all .2s;
+    }
+    .btn-gold{border-color:var(--gold);color:var(--gold);}
+    .btn-gold:hover{background:var(--gold);color:var(--bg);}
+    .btn-red{border-color:var(--red);color:var(--redl);}
+    .btn-red:hover{background:var(--red);color:var(--cream);}
+    .btn-muted{border-color:var(--border2);color:var(--muted);}
+    .btn-muted:hover{border-color:var(--muted);color:var(--text);}
+    .btn-row{display:flex;gap:.7rem;margin-bottom:1.5rem;}
+
+    /* ── NOTICE BOX ── */
+    .notice{
+      background:rgba(180,154,94,.05);border:1px solid rgba(180,154,94,.18);
+      border-left:3px solid var(--gold);padding:1rem 1.2rem;
+      font-size:.65rem;line-height:1.9;color:rgba(180,154,94,.7);
+      margin-top:1.5rem;
+    }
+    .notice strong{color:var(--gold);}
+
+    /* ── COURSE NAVIGATOR ── */
+    .course-map{
+      background:var(--card);border:1px solid var(--border);
+      padding:1.5rem;margin-bottom:1.5rem;
+    }
+    .holes-grid{display:grid;grid-template-columns:repeat(9,1fr);gap:.4rem;margin-bottom:1rem;}
+    .hole-btn{
+      background:var(--panel);border:1px solid var(--border);
+      padding:.5rem .3rem;text-align:center;cursor:pointer;transition:all .15s;
+    }
+    .hole-btn:hover,.hole-btn.sel{background:rgba(74,124,89,.2);border-color:var(--green);}
+    .hole-btn .hnum{font-size:.55rem;letter-spacing:.1em;color:var(--muted);display:block;}
+    .hole-btn .hpar{font-family:'Cormorant Garamond',serif;font-size:1rem;color:var(--greenl);}
+    .hole-btn .hyds{font-size:.52rem;color:var(--muted);display:block;}
+
+    .hole-detail{background:var(--panel);border:1px solid var(--border);padding:1.2rem;display:none;}
+    .hole-detail.visible{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;}
+    .hd-item{display:flex;flex-direction:column;gap:.25rem;}
+    .hd-label{font-size:.52rem;letter-spacing:.25em;text-transform:uppercase;color:var(--muted);}
+    .hd-val{font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--cream);}
+
+    /* ── DISTANCE CALC ── */
+    .calc-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;}
+    .calc-box{background:var(--card);border:1px solid var(--border);padding:1.5rem;}
+    .calc-title{font-size:.6rem;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;}
+    .calc-row{display:flex;flex-direction:column;gap:.3rem;margin-bottom:.8rem;}
+    .calc-label{font-size:.55rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);}
+    .calc-input{
+      background:var(--panel);border:1px solid var(--border);
+      color:var(--text);font-family:'Montserrat',sans-serif;font-size:.8rem;
+      padding:.5rem .8rem;outline:none;transition:border-color .2s;width:100%;
+    }
+    .calc-input:focus{border-color:var(--gold);}
+    select.calc-input option{background:var(--panel);}
+    .calc-result{
+      background:var(--panel);border:1px solid var(--border2);
+      padding:.8rem 1rem;margin-top:.8rem;
+      font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--greenl);
+      min-height:2.8rem;
+    }
+    .calc-note{font-size:.58rem;color:var(--muted);margin-top:.4rem;line-height:1.7;}
+
+    /* ── CLUB SELECTOR ── */
+    .clubs-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.7rem;}
+    .club-card{
+      background:var(--card);border:1px solid var(--border);padding:1rem .8rem;
+      text-align:center;cursor:pointer;transition:all .2s;
+    }
+    .club-card:hover,.club-card.picked{background:rgba(74,124,89,.15);border-color:var(--green);}
+    .club-icon{font-size:1.4rem;margin-bottom:.4rem;}
+    .club-name{font-size:.58rem;letter-spacing:.15em;text-transform:uppercase;color:var(--cream);margin-bottom:.2rem;}
+    .club-range{font-size:.5rem;color:var(--muted);}
+    .club-pick{font-size:.52rem;color:var(--greenl);margin-top:.3rem;min-height:.8rem;}
+
+    /* ── COURSE MAINTENANCE ── */
+    .maint-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+    .maint-card{background:var(--card);border:1px solid var(--border);padding:1.2rem;}
+    .maint-head{font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:.8rem;}
+    .maint-status{
+      display:flex;align-items:center;gap:.5rem;
+      font-size:.62rem;color:var(--muted);margin-bottom:.5rem;
+      padding:.4rem .7rem;background:var(--panel);border:1px solid var(--border);
+    }
+    .dot{width:6px;height:6px;border-radius:50%;background:var(--muted);flex-shrink:0;}
+    .dot.ok{background:var(--greenl);}
+    .dot.warn{background:var(--gold);}
+    .dot.bad{background:var(--redl);animation:blink 1.2s ease infinite;}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+    .maint-btn{
+      width:100%;margin-top:.8rem;padding:.55rem;
+      background:transparent;border:1px solid var(--border2);
+      color:var(--muted);font-family:'Montserrat',sans-serif;
+      font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;
+      cursor:pointer;transition:all .2s;
+    }
+    .maint-btn:hover{border-color:var(--greenl);color:var(--greenl);}
+    .maint-log{
+      font-size:.6rem;color:var(--muted);margin-top:.6rem;
+      line-height:1.8;min-height:1.2rem;
+    }
+
+    /* ── MEMBERS TABLE ── */
+    table{width:100%;border-collapse:collapse;font-size:.65rem;}
+    th{background:var(--card);border:1px solid var(--border);padding:.6rem .9rem;
+       font-size:.52rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);
+       text-align:left;font-weight:400;}
+    td{border:1px solid var(--border);padding:.55rem .9rem;color:var(--text);}
+    tr:hover td{background:rgba(255,255,255,.015);}
+    .badge-tier{
+      display:inline-block;padding:.15rem .5rem;font-size:.48rem;
+      letter-spacing:.18em;text-transform:uppercase;
+    }
+    .badge-tier.Platinum{background:rgba(180,154,94,.15);color:var(--gold);border:1px solid rgba(180,154,94,.3);}
+    .badge-tier.Gold{background:rgba(180,154,94,.08);color:rgba(180,154,94,.7);border:1px solid rgba(180,154,94,.2);}
+    .badge-tier.Silver{background:rgba(200,212,200,.05);color:var(--muted);border:1px solid var(--border2);}
+    .status-dot{width:5px;height:5px;border-radius:50%;display:inline-block;margin-right:.3rem;}
+    .s-active{background:var(--greenl);}
+    .s-hold{background:var(--gold);}
+    .mem-actions{display:flex;gap:.4rem;}
+    .mem-btn{
+      padding:.25rem .55rem;font-size:.5rem;letter-spacing:.15em;text-transform:uppercase;
+      border:1px solid var(--border2);color:var(--muted);background:transparent;
+      cursor:pointer;transition:all .15s;
+    }
+    .mem-btn:hover{border-color:var(--text);color:var(--text);}
+    .mem-btn.del:hover{border-color:var(--redl);color:var(--redl);}
+
+    .mem-toolbar{display:flex;gap:.7rem;margin-bottom:1rem;align-items:center;}
+    .mem-search{
+      background:var(--card);border:1px solid var(--border);
+      color:var(--text);font-family:'Montserrat',sans-serif;font-size:.65rem;
+      padding:.5rem .9rem;outline:none;flex:1;transition:border-color .2s;
+    }
+    .mem-search:focus{border-color:var(--gold);}
+    .mem-search::placeholder{color:var(--muted);}
+
+    /* ── ENIGMA MACHINE ── */
+    .enigma-wrap{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:1.5rem;}
+    .enigma-machine{background:var(--card);border:1px solid var(--border);padding:1.8rem;}
+    .enigma-step{font-size:.52rem;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);margin-bottom:1.2rem;}
+    .rotors-row{display:flex;gap:1.5rem;justify-content:center;margin:1.2rem 0;}
+    .rotor-unit{display:flex;flex-direction:column;align-items:center;gap:.5rem;}
+    .rotor-lbl{font-size:.52rem;letter-spacing:.25em;text-transform:uppercase;color:var(--muted);}
+    .rotor-drum{
+      width:72px;height:72px;
+      background:var(--panel);border:1px solid var(--border2);
+      display:flex;align-items:center;justify-content:center;
+      font-family:'Cormorant Garamond',serif;font-size:2rem;
+      color:var(--greenl);cursor:pointer;user-select:none;
+      position:relative;transition:border-color .2s;
+    }
+    .rotor-drum:hover{border-color:var(--green);}
+    .rotor-arrows{display:flex;gap:.3rem;}
+    .rotor-arrow{
+      padding:.25rem .6rem;font-size:.75rem;
+      background:var(--panel);border:1px solid var(--border);
+      color:var(--muted);cursor:pointer;transition:all .15s;line-height:1;
+    }
+    .rotor-arrow:hover{border-color:var(--greenl);color:var(--greenl);}
+    .rotor-manual{
+      width:72px;background:var(--bg);border:1px solid var(--border);
+      color:var(--text);font-family:'Montserrat',monospace;font-size:.8rem;
+      padding:.3rem;text-align:center;outline:none;
+    }
+    .rotor-manual:focus{border-color:var(--gold);}
+    .enigma-sep{display:flex;align-items:center;justify-content:center;color:var(--border2);font-size:1.2rem;padding-top:1.5rem;}
+    .encode-btn{
+      width:100%;margin-top:1rem;padding:.7rem;
+      background:transparent;border:1px solid var(--green);
+      color:var(--greenl);font-family:'Montserrat',sans-serif;
+      font-size:.6rem;letter-spacing:.3em;text-transform:uppercase;
+      cursor:pointer;transition:all .2s;
+    }
+    .encode-btn:hover{background:var(--green);color:var(--cream);}
+    .enigma-output{
+      background:var(--panel);border:1px solid var(--border2);
+      padding:1.2rem;margin-top:1rem;display:none;
+    }
+    .enigma-output.on{display:block;}
+    .out-label{font-size:.52rem;letter-spacing:.28em;text-transform:uppercase;color:var(--muted);margin-bottom:.6rem;}
+    .out-letters{display:flex;gap:1rem;margin-bottom:.8rem;}
+    .out-letter{
+      width:48px;height:48px;
+      background:rgba(74,124,89,.15);border:1px solid var(--green);
+      display:flex;align-items:center;justify-content:center;
+      font-family:'Cormorant Garamond',serif;font-size:2rem;color:var(--greenl);
+    }
+    .out-hint{font-size:.6rem;color:var(--muted);line-height:1.8;}
+    /* word table panel */
+    .wt-panel{background:var(--card);border:1px solid var(--border);padding:1.8rem;}
+    .wt-scroll{overflow-x:auto;}
+    table.wt{width:100%;border-collapse:collapse;font-size:.62rem;}
+    table.wt th{background:var(--panel);border:1px solid var(--border);padding:.45rem .7rem;
+      font-size:.5rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);font-weight:400;text-align:left;}
+    table.wt td{border:1px solid var(--border);padding:.4rem .7rem;color:var(--text);}
+    table.wt tr:hover td{background:rgba(255,255,255,.015);}
+    table.wt td:first-child{color:var(--greenl);font-family:'Cormorant Garamond',serif;font-size:1rem;text-align:center;width:32px;}
+    .wt-hl td{background:rgba(74,124,89,.12)!important;color:var(--cream)!important;}
+    .wt-hl td:first-child{color:var(--gold)!important;}
+    .wt-idx{
+      display:inline-block;width:18px;height:18px;border-radius:50%;
+      background:var(--green);color:var(--cream);
+      font-size:.5rem;text-align:center;line-height:18px;margin-left:.3rem;
+      font-weight:500;
+    }
+    .phrase-box{
+      background:var(--panel);border:1px solid var(--border2);
+      padding:1rem 1.2rem;margin-top:1rem;display:none;
+    }
+    .phrase-box.on{display:block;}
+    .pb-label{font-size:.52rem;letter-spacing:.28em;text-transform:uppercase;color:var(--muted);margin-bottom:.4rem;}
+    .pb-phrase{font-family:'Cormorant Garamond',serif;font-size:1.4rem;color:var(--gold);letter-spacing:.1em;}
+    .pb-note{font-size:.58rem;color:var(--muted);margin-top:.4rem;line-height:1.7;}
+
+    /* ── MODAL ── */
+    .modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:500;align-items:center;justify-content:center;}
+    .modal-bg.on{display:flex;}
+    .modal{background:var(--panel);border:1px solid var(--border2);padding:2rem;min-width:360px;max-width:500px;width:90%;}
+    .modal-title{font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--cream);margin-bottom:1.2rem;}
+    .modal-row{display:flex;flex-direction:column;gap:.3rem;margin-bottom:.8rem;}
+    .modal-label{font-size:.52rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+    .modal-input{
+      background:var(--bg);border:1px solid var(--border2);
+      color:var(--text);font-family:'Montserrat',sans-serif;font-size:.8rem;
+      padding:.5rem .8rem;outline:none;transition:border-color .2s;width:100%;
+    }
+    .modal-input:focus{border-color:var(--gold);}
+    .modal-input option{background:var(--bg);}
+    .modal-btns{display:flex;gap:.7rem;margin-top:1.2rem;}
+  </style>
+</head>
+<body>
+
+<!-- ── GATE ── -->
+<div id="gate">
+  <div class="gate-logo">
+    <div class="gate-logo-main">The Caddy</div>
+    <div class="gate-logo-sub">Avispa Country Club · Caddy Operations</div>
+  </div>
+  <div class="gate-divider"></div>
+  <div class="gate-box">
+    <div class="gate-label">Caddy Clearance Token</div>
+    <input class="gate-input" id="gateInput" type="password" placeholder="· · · · · ·" autocomplete="off">
+    <button class="gate-btn" onclick="checkGate()">Sign In</button>
+    <div class="gate-err" id="gateErr"></div>
+    <div class="gate-hint">Clearance required for course access</div>
+  </div>
+</div>
+
+<!-- ── SHELL ── -->
+<div id="shell">
+
+  <div class="topbar">
+    <div class="tb-left">
+      <div>
+        <div class="tb-logo">The Caddy</div>
+        <div class="tb-sub">Avispa Country Club · Operations</div>
+      </div>
+      <span class="tb-beta">Beta</span>
+    </div>
+    <div class="tb-right">
+      <span class="tb-user" id="tbUser">Caddy on duty</span>
+      <button class="tb-logout" onclick="logout()">Sign Out</button>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="nav-section">Course</div>
+    <div class="nav-item active" onclick="show('navigator',this)"><span class="nav-icon">🗺️</span>Course Navigator</div>
+    <div class="nav-item" onclick="show('clubs',this)"><span class="nav-icon">⛳</span>Club Selector</div>
+    <div class="nav-item" onclick="show('maintenance',this)"><span class="nav-icon">🔧</span>Course Maintenance</div>
+
+    <div class="nav-section">Vault Tools</div>
+    <div class="nav-item" onclick="show('enigma',this)"><span class="nav-icon">⚙️</span>Enigma Machine</div>
+
+    <div class="nav-section">Club</div>
+    <div class="nav-item" onclick="show('members',this)"><span class="nav-icon">👤</span>Member Register</div>
+    <div class="nav-item" onclick="show('calculator',this)"><span class="nav-icon">📐</span>Distance Calculator</div>
+  </div>
+
+  <div class="content">
+
+    <!-- COURSE NAVIGATOR -->
+    <div class="tab active" id="tab-navigator">
+      <div class="sec-title">Course <em>Navigator</em></div>
+      <div class="sec-sub">Avispa CC · Par 72 · 18 Holes · 6,840 yards</div>
+
+      <div class="course-map">
+        <div style="font-size:.55rem;letter-spacing:.25em;text-transform:uppercase;color:var(--muted);margin-bottom:.8rem;">Select a hole to view details</div>
+        <div class="holes-grid" id="holesGrid"></div>
+        <div class="hole-detail" id="holeDetail"></div>
+      </div>
+
+      <div class="notice">
+        <strong>Caddy Note:</strong> Wind reading is updated every 15 minutes from the hilltop anemometer on Missionary Hill.
+        The southeast prevailing wind adds 8–12 yards to approach shots on holes 12–15. Adjust club selection accordingly.
+      </div>
+
+      <div class="notice">
+        <strong>Webmaster Notice:</strong> 2026.30851 (CVE) is known. Update caddy version.
+      </div>
+
+      <div class="notice" style="margin-top:1rem;border-left-color:var(--gold);">
+        <strong>Infrastructure:</strong> Club web services run on
+        <strong style="color:var(--cream);">Caddy v2.11.1</strong>.
+        Vault access is gated via the <code>forward_auth</code> directive.
+        Identity headers are propagated to backend applications via <code>copy_headers</code>.
+        <br><br>
+        <textarea disabled style="
+          width:100%;margin-top:.8rem;
+          background:var(--bg);border:1px solid var(--border);
+          color:var(--text);font-family:'Share Tech Mono',monospace;
+          font-size:.68rem;line-height:1.8;padding:.8rem 1rem;
+          resize:none;outline:none;height:160px;opacity:.85;
+        ">{
+    admin off
+    auto_https off
+}
+
+:8000 {
+    forward_auth 127.0.0.1:9091 {
+        uri /auth
+        copy_headers X-User-Id X-User-Role
+    }
+    reverse_proxy 127.0.0.1:9092
+}</textarea>
+        <a href="/api/engineer/caddyfile" download="Caddyfile"
+           style="display:inline-block;margin-top:.6rem;color:var(--gold);font-size:.55rem;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid rgba(180,154,94,.3);">
+          ↓ Download Caddyfile
+        </a>
+      </div>
+    </div>
+
+    <!-- CLUB SELECTOR -->
+    <div class="tab" id="tab-clubs">
+      <div class="sec-title">Club <em>Selector</em></div>
+      <div class="sec-sub">Select distance · Caddy recommends optimal club</div>
+
+      <div style="background:var(--card);border:1px solid var(--border);padding:1.5rem;margin-bottom:1.2rem;">
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;margin-bottom:1rem;">
+          <div class="calc-row">
+            <div class="calc-label">Distance to flag (yards)</div>
+            <input class="calc-input" id="clubDist" type="number" placeholder="e.g. 165" oninput="recommendClub()">
+          </div>
+          <div class="calc-row">
+            <div class="calc-label">Wind (mph)</div>
+            <input class="calc-input" id="clubWind" type="number" placeholder="e.g. 12" oninput="recommendClub()">
+          </div>
+          <div class="calc-row">
+            <div class="calc-label">Wind direction</div>
+            <select class="calc-input" id="clubWindDir" onchange="recommendClub()">
+              <option value="0">Calm</option>
+              <option value="h">Headwind</option>
+              <option value="t">Tailwind</option>
+              <option value="c">Crosswind</option>
+            </select>
+          </div>
+        </div>
+        <div style="background:var(--panel);border:1px solid var(--border2);padding:1rem 1.2rem;min-height:3rem;">
+          <div style="font-size:.52rem;letter-spacing:.25em;text-transform:uppercase;color:var(--muted);margin-bottom:.3rem;">Caddy Recommendation</div>
+          <div id="clubRec" style="font-family:'Cormorant Garamond',serif;font-size:1.4rem;color:var(--greenl);">Enter distance to receive a recommendation</div>
+        </div>
+      </div>
+
+      <div class="clubs-grid" id="clubsGrid"></div>
+
+      <div class="notice" style="margin-top:1.2rem;">
+        <strong>Note:</strong> Club recommendations account for elevation change on Missionary Hill.
+        Downhill lies (holes 4–7): subtract one club. Uphill lies (holes 14–17): add one club.
+        Always confirm yardage with your laser rangefinder before committing.
+      </div>
+    </div>
+
+    <!-- COURSE MAINTENANCE -->
+    <div class="tab" id="tab-maintenance">
+      <div class="sec-title">Course <em>Maintenance</em></div>
+      <div class="sec-sub">Bunker raking · Divot repair · Flagstick status</div>
+
+      <div class="maint-grid">
+        <div class="maint-card">
+          <div class="maint-head">🏖️ Bunker Raking</div>
+          <div class="maint-status"><div class="dot warn"></div>Hole 3 — Greenside bunker needs raking</div>
+          <div class="maint-status"><div class="dot bad"></div>Hole 7 — Fairway bunker: priority flag raised</div>
+          <div class="maint-status"><div class="dot ok"></div>Holes 1,2,4–6: Clear</div>
+          <div class="maint-status"><div class="dot ok"></div>Back nine: All clear</div>
+          <button class="maint-btn" onclick="doMaintenance('rake','Bunker raking dispatched to holes 3 & 7')">Dispatch Raking Crew</button>
+          <div class="maint-log" id="log-rake"></div>
+        </div>
+        <div class="maint-card">
+          <div class="maint-head">🌿 Divot Repair</div>
+          <div class="maint-status"><div class="dot bad"></div>Fairway 12 — Heavy divot pattern from tournament</div>
+          <div class="maint-status"><div class="dot warn"></div>Approach 18 — Moderate wear near 100-yard marker</div>
+          <div class="maint-status"><div class="dot ok"></div>Front nine fairways: Repaired</div>
+          <div class="maint-status"><div class="dot ok"></div>All putting surfaces: No damage</div>
+          <button class="maint-btn" onclick="doMaintenance('divot','Divot repair crew scheduled for holes 12 & 18')">Schedule Divot Crew</button>
+          <div class="maint-log" id="log-divot"></div>
+        </div>
+        <div class="maint-card">
+          <div class="maint-head">🚩 Flagstick Status</div>
+          <div class="maint-status"><div class="dot ok"></div>Holes 1–9: All pins set, cups confirmed</div>
+          <div class="maint-status"><div class="dot warn"></div>Hole 11 — Pin placement pending (tournament prep)</div>
+          <div class="maint-status"><div class="dot ok"></div>Holes 12–18: Standard placement</div>
+          <button class="maint-btn" onclick="doMaintenance('flags','Flagstick check complete — hole 11 pin set to Sunday position')">Run Flagstick Check</button>
+          <div class="maint-log" id="log-flags"></div>
+        </div>
+        <div class="maint-card">
+          <div class="maint-head">💧 Irrigation</div>
+          <div class="maint-status"><div class="dot ok"></div>Greens: Last watered 05:30 — moisture optimal</div>
+          <div class="maint-status"><div class="dot ok"></div>Fairways: Cycle complete at 06:15</div>
+          <div class="maint-status"><div class="dot warn"></div>Hole 16 rough: Low flow alert — check valve 16-C</div>
+          <button class="maint-btn" onclick="doMaintenance('irr','Irrigation diagnostic run — valve 16-C queued for inspection')">Run Irrigation Check</button>
+          <div class="maint-log" id="log-irr"></div>
+        </div>
+      </div>
+
+      <div class="notice">
+        <strong>Groundskeeper Note:</strong> Post-round maintenance window is 6:00 PM – 7:30 AM daily.
+        Any urgent repairs during play hours require Course Superintendent approval.
+        Current superintendent: <em>M. Fuentes</em> · ext. 214
+      </div>
+    </div>
+
+    <!-- ENIGMA MACHINE -->
+    <div class="tab" id="tab-enigma">
+      <div class="sec-title">Enigma <em>Machine</em></div>
+      <div class="sec-sub">Three rotors · G-O-L seed · Decode the teapot hints to find the vault phrase</div>
+
+      <div class="enigma-wrap">
+        <!-- LEFT: machine -->
+        <div class="enigma-machine">
+          <div class="enigma-step">Step 1 — Set rotor positions from the three 418 hints</div>
+          <div style="font-size:.6rem;color:var(--muted);line-height:1.8;margin-bottom:1rem;">
+            Visit <code style="color:var(--greenl)">/pro-shop/inventory/clubs</code>, <code style="color:var(--greenl)">/balls</code>, <code style="color:var(--greenl)">/bags</code> and inspect the
+            <code style="color:var(--gold)">X-Golf-Hint</code> response header in your browser's Network tab.
+            Base64-decode each value → strip leading zeros → that number is the rotor position.
+          </div>
+
+          <div class="rotors-row">
+            <div class="rotor-unit">
+              <div class="rotor-lbl">Rotor I</div>
+              <div class="rotor-drum" id="rd0">0</div>
+              <div class="rotor-arrows">
+                <button class="rotor-arrow" onclick="adjRotor(0,-1)">▼</button>
+                <button class="rotor-arrow" onclick="adjRotor(0,+1)">▲</button>
+              </div>
+              <input class="rotor-manual" id="rm0" type="number" min="0" max="25" value="0" oninput="setRotor(0,this.value)">
+            </div>
+            <div class="enigma-sep">⚙</div>
+            <div class="rotor-unit">
+              <div class="rotor-lbl">Rotor II</div>
+              <div class="rotor-drum" id="rd1">0</div>
+              <div class="rotor-arrows">
+                <button class="rotor-arrow" onclick="adjRotor(1,-1)">▼</button>
+                <button class="rotor-arrow" onclick="adjRotor(1,+1)">▲</button>
+              </div>
+              <input class="rotor-manual" id="rm1" type="number" min="0" max="25" value="0" oninput="setRotor(1,this.value)">
+            </div>
+            <div class="enigma-sep">⚙</div>
+            <div class="rotor-unit">
+              <div class="rotor-lbl">Rotor III</div>
+              <div class="rotor-drum" id="rd2">0</div>
+              <div class="rotor-arrows">
+                <button class="rotor-arrow" onclick="adjRotor(2,-1)">▼</button>
+                <button class="rotor-arrow" onclick="adjRotor(2,+1)">▲</button>
+              </div>
+              <input class="rotor-manual" id="rm2" type="number" min="0" max="25" value="0" oninput="setRotor(2,this.value)">
+            </div>
+          </div>
+
+          <button class="encode-btn" onclick="runEnigma()">[ ENCODE ]</button>
+
+          <div class="enigma-output" id="enigmaOut">
+            <div class="out-label">Output Letters (G · O · L encoded)</div>
+            <div class="out-letters" id="outLetters">
+              <div class="out-letter">?</div>
+              <div class="out-letter">?</div>
+              <div class="out-letter">?</div>
+            </div>
+            <div class="out-hint" id="outHint"></div>
+          </div>
+
+          <div class="phrase-box" id="phraseBox">
+            <div class="pb-label">Derived Vault Phrase</div>
+            <div class="pb-phrase" id="pbPhrase">— — —</div>
+            <div class="pb-note">Letter<sub>1</sub>[0] · Letter<sub>2</sub>[1] · Letter<sub>3</sub>[0] from the Word Table</div>
+          </div>
+        </div>
+
+        <!-- RIGHT: word table -->
+        <div class="wt-panel">
+          <div class="enigma-step">Step 2 — Map letters to vault words</div>
+          <div style="font-size:.6rem;color:var(--muted);line-height:1.8;margin-bottom:1rem;">
+            Each output letter picks a row. Take word at index <strong style="color:var(--cream)">0</strong>,
+            <strong style="color:var(--cream)">1</strong>, <strong style="color:var(--cream)">0</strong> from
+            letters 1, 2, 3. Highlighted rows are your current output.
+          </div>
+          <div class="wt-scroll">
+            <table class="wt" id="wordTable">
+              <thead><tr><th>·</th><th>Index 0</th><th>Index 1</th><th>Index 2</th></tr></thead>
+              <tbody id="wtBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="notice">
+        <strong>How it works:</strong> The three inventory endpoints (<code>/clubs</code>, <code>/balls</code>, <code>/bags</code>)
+        each return HTTP 418 with an <code>X-Golf-Hint</code> header. Base64-decode the value, strip leading zeros — the result
+        is the rotor position for that slot. Set the three rotors above, click Encode, and the output letters map to rows in the
+        Word Table. The vault phrase is <em>row[0] · row[1] · row[0]</em> for the three letters in order.
+      </div>
+    </div>
+
+    <!-- MEMBERS -->
+    <div class="tab" id="tab-members">
+      <div class="sec-title">Member <em>Register</em></div>
+      <div class="sec-sub">Club membership management</div>
+
+      <div class="mem-toolbar">
+        <input class="mem-search" id="memSearch" placeholder="Search members…" oninput="filterMembers()">
+        <button class="btn btn-gold" onclick="openAddMember()">+ Add Member</button>
+      </div>
+
+      <table id="memTable">
+        <thead>
+          <tr>
+            <th>Member</th><th>Handicap</th><th>Tier</th><th>Since</th><th>Status</th><th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="memBody"><tr><td colspan="6" style="color:var(--muted);text-align:center;padding:1.5rem;">Loading…</td></tr></tbody>
+      </table>
+    </div>
+
+    <!-- DISTANCE CALCULATOR -->
+    <div class="tab" id="tab-calculator">
+      <div class="sec-title">Distance <em>Calculator</em></div>
+      <div class="sec-sub">Yardage · Elevation · Adjusted carry</div>
+
+      <div class="calc-grid">
+        <div class="calc-box">
+          <div class="calc-title">Carry Distance Adjuster</div>
+          <div class="calc-row">
+            <div class="calc-label">GPS Yardage (yards)</div>
+            <input class="calc-input" id="cGps" type="number" placeholder="185" oninput="calcCarry()">
+          </div>
+          <div class="calc-row">
+            <div class="calc-label">Elevation change (ft) · +uphill / -downhill</div>
+            <input class="calc-input" id="cElev" type="number" placeholder="-12" oninput="calcCarry()">
+          </div>
+          <div class="calc-row">
+            <div class="calc-label">Wind (mph)</div>
+            <input class="calc-input" id="cWind" type="number" placeholder="8" oninput="calcCarry()">
+          </div>
+          <div class="calc-row">
+            <div class="calc-label">Wind direction</div>
+            <select class="calc-input" id="cWindDir" onchange="calcCarry()">
+              <option value="0">Calm / No adjustment</option>
+              <option value="h">Headwind (add yards)</option>
+              <option value="t">Tailwind (subtract yards)</option>
+            </select>
+          </div>
+          <div class="calc-result" id="carryResult">—</div>
+          <div class="calc-note">Every 10 ft of elevation ≈ 1 yard carry adjustment. Headwind: +1 yd per 2 mph. Tailwind: −1 yd per 3 mph.</div>
+        </div>
+
+        <div class="calc-box">
+          <div class="calc-title">Shot Shape Planner</div>
+          <div class="calc-row">
+            <div class="calc-label">Carry needed (yards)</div>
+            <input class="calc-input" id="sCarry" type="number" placeholder="170" oninput="calcShape()">
+          </div>
+          <div class="calc-row">
+            <div class="calc-label">Shot shape</div>
+            <select class="calc-input" id="sShape" onchange="calcShape()">
+              <option value="straight">Straight</option>
+              <option value="draw">Draw (+5%)</option>
+              <option value="fade">Fade (−5%)</option>
+              <option value="punch">Punch (−15%)</option>
+              <option value="flop">Flop (+20% height, −10% distance)</option>
+            </select>
+          </div>
+          <div class="calc-row">
+            <div class="calc-label">Lie type</div>
+            <select class="calc-input" id="sLie" onchange="calcShape()">
+              <option value="fair">Fairway</option>
+              <option value="semi">Semi-rough (−5%)</option>
+              <option value="rough">Rough (−12%)</option>
+              <option value="bunker">Bunker (−20%)</option>
+              <option value="tight">Tight/Links (+3%)</option>
+            </select>
+          </div>
+          <div class="calc-result" id="shapeResult">—</div>
+          <div class="calc-note">Lie penalties compound with shot shape. Flop shot height increases dispersion — confirm landing zone before committing.</div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /content -->
+</div><!-- /shell -->
+
+<!-- MEMBER MODAL -->
+<div class="modal-bg" id="memberModal">
+  <div class="modal">
+    <div class="modal-title" id="modalTitle">Add Member</div>
+    <div class="modal-row"><div class="modal-label">Full Name</div><input class="modal-input" id="mName" placeholder="Reginald Ashworth"></div>
+    <div class="modal-row"><div class="modal-label">Handicap Index</div><input class="modal-input" id="mHandicap" type="number" placeholder="12"></div>
+    <div class="modal-row">
+      <div class="modal-label">Membership Tier</div>
+      <select class="modal-input" id="mTier">
+        <option>Platinum</option><option>Gold</option><option>Silver</option>
+      </select>
+    </div>
+    <div class="modal-row">
+      <div class="modal-label">Status</div>
+      <select class="modal-input" id="mStatus">
+        <option>Active</option><option>On Hold</option>
+      </select>
+    </div>
+    <div class="modal-btns">
+      <button class="btn btn-gold" onclick="saveMember()">Save</button>
+      <button class="btn btn-muted" onclick="closeModal()">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── Gate ──────────────────────────────────────────────────────────────────────
+window.addEventListener('load', () => {
+  if (!localStorage.getItem('clearance')) localStorage.setItem('clearance', 'none');
+  if (localStorage.getItem('clearance') === 'caddy') unlock();
+});
+
+function checkGate() {
+  const val = document.getElementById('gateInput').value.trim();
+  if (val === 'caddy' || localStorage.getItem('clearance') === 'caddy') {
+    localStorage.setItem('clearance', 'caddy');
+    unlock();
+  } else {
+    const err = document.getElementById('gateErr');
+    err.textContent = 'Invalid clearance token.';
+    setTimeout(() => err.textContent = '', 2000);
+  }
+}
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('gateInput').addEventListener('keydown', e => { if (e.key==='Enter') checkGate(); });
+});
+
+function unlock() {
+  document.getElementById('gate').style.display = 'none';
+  document.getElementById('shell').classList.add('on');
+  initCourse(); initClubs(); loadMembers(); initWordTable();
+}
+
+function logout() {
+  localStorage.setItem('clearance', 'none');
+  document.getElementById('gate').style.display = 'flex';
+  document.getElementById('shell').classList.remove('on');
+  document.getElementById('gateInput').value = '';
+}
+
+// ── Tabs ─────────────────────────────────────────────────────────────────────
+function show(name, el) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  el.classList.add('active');
+}
+
+// ── Course Data ───────────────────────────────────────────────────────────────
+const HOLES = [
+  {n:1, par:4, yds:418, hcp:7,  notes:'Slight dogleg right. Bunkers guard both sides of the landing zone at 240y.'},
+  {n:2, par:3, yds:182, hcp:15, notes:'Coastal views. Flag tucked behind front-left bunker. Club up in onshore breeze.'},
+  {n:3, par:5, yds:535, hcp:3,  notes:'Reachable in two for long hitters. Greenside bunker (right) is deep — avoid.'},
+  {n:4, par:4, yds:392, hcp:11, notes:'Downhill tee shot. 7-iron to top of ridge, short iron to elevated green.'},
+  {n:5, par:4, yds:445, hcp:1,  notes:'Hardest hole on the course. Strong headwind typical. Two-putt and move on.'},
+  {n:6, par:3, yds:148, hcp:17, notes:'Short but deceptive. Plateau green falls off sharply on all sides.'},
+  {n:7, par:5, yds:558, hcp:5,  notes:'Fairway bunker at 260y on left — lay up to 100y marker for best angle in.'},
+  {n:8, par:4, yds:405, hcp:9,  notes:'Tree-lined corridor. Premium on accuracy off the tee. Cut or draw works.'},
+  {n:9, par:4, yds:378, hcp:13, notes:'Scoring hole. Open fairway, receptive green. Birdie opportunity.'},
+  {n:10,par:4, yds:432, hcp:2,  notes:'First of the Missionary Hill climbers. Add 1–2 clubs. Green tilts back-to-front.'},
+  {n:11,par:3, yds:210, hcp:16, notes:'Longest par 3. Into the prevailing wind this plays as a driver for some.'},
+  {n:12,par:5, yds:568, hcp:6,  notes:'Downhill par 5. Driver + mid-iron can set up eagle putt. Avoid left rough.'},
+  {n:13,par:4, yds:388, hcp:12, notes:'Driveable for big hitters (carry 320y over creek). Conservative is sensible.'},
+  {n:14,par:4, yds:461, hcp:4,  notes:'Uphill dogleg left. Favour left side off tee. Green protected by deep swale.'},
+  {n:15,par:3, yds:193, hcp:18, notes:'Ocean backdrop. Stunning — and distracting. Aim centre of green always.'},
+  {n:16,par:5, yds:523, hcp:8,  notes:'Classic risk/reward. Carry the inlet or lay up. No in-between today.'},
+  {n:17,par:4, yds:422, hcp:10, notes:'Penultimate. Tight drive between eucalyptus. Leave approach below the hole.'},
+  {n:18,par:4, yds:382, hcp:14, notes:'Finishing hole alongside the clubhouse. Grandstand right. Play to the crowd.'},
+];
+
+function initCourse() {
+  const grid = document.getElementById('holesGrid');
+  grid.innerHTML = HOLES.map(h => `
+    <div class="hole-btn" onclick="showHole(${h.n-1})" id="hbtn-${h.n}">
+      <span class="hnum">HOLE ${h.n}</span>
+      <div class="hpar">P${h.par}</div>
+      <span class="hyds">${h.yds}y</span>
+    </div>`).join('');
+}
+
+function showHole(idx) {
+  const h = HOLES[idx];
+  document.querySelectorAll('.hole-btn').forEach(b => b.classList.remove('sel'));
+  document.getElementById('hbtn-'+(idx+1)).classList.add('sel');
+  const det = document.getElementById('holeDetail');
+  det.className = 'hole-detail visible';
+  const wind = Math.floor(Math.random()*14+4);
+  const dirs = ['SSE','SW','W','NW','SE'];
+  det.innerHTML = `
+    <div class="hd-item"><div class="hd-label">Par</div><div class="hd-val">${h.par}</div></div>
+    <div class="hd-item"><div class="hd-label">Yardage</div><div class="hd-val">${h.yds} yds</div></div>
+    <div class="hd-item"><div class="hd-label">Stroke Index</div><div class="hd-val">${h.hcp}</div></div>
+    <div class="hd-item"><div class="hd-label">Wind</div><div class="hd-val">${wind} mph ${dirs[idx%5]}</div></div>
+    <div class="hd-item"><div class="hd-label">Green Speed</div><div class="hd-val">11.2 Stimp</div></div>
+    <div class="hd-item"><div class="hd-label">Condition</div><div class="hd-val" style="color:var(--greenl)">Excellent</div></div>
+    <div style="grid-column:1/-1;font-size:.65rem;color:var(--muted);line-height:1.8;padding-top:.5rem;border-top:1px solid var(--border);">
+      <strong style="color:var(--cream);font-size:.58rem;letter-spacing:.15em;text-transform:uppercase;">Caddy Notes:</strong><br>${h.notes}
+    </div>`;
+}
+
+// ── Club Selector ─────────────────────────────────────────────────────────────
+const CLUBS = [
+  {name:'Driver',icon:'🏌️',min:220,max:290},
+  {name:'3-Wood',icon:'🌳',min:195,max:240},
+  {name:'5-Wood',icon:'🌲',min:175,max:220},
+  {name:'3-Hybrid',icon:'⛳',min:190,max:215},
+  {name:'4-Iron',icon:'🔩',min:170,max:195},
+  {name:'5-Iron',icon:'🔩',min:155,max:180},
+  {name:'6-Iron',icon:'🔩',min:145,max:168},
+  {name:'7-Iron',icon:'🔩',min:132,max:155},
+  {name:'8-Iron',icon:'🔩',min:118,max:142},
+  {name:'9-Iron',icon:'🔩',min:105,max:128},
+  {name:'PW',icon:'🔩',min:90,max:115},
+  {name:'GW',icon:'🔩',min:75,max:100},
+  {name:'SW',icon:'🏖️',min:55,max:85},
+  {name:'LW',icon:'🏖️',min:40,max:70},
+  {name:'Putter',icon:'🚩',min:0,max:30},
+];
+
+function initClubs() {
+  document.getElementById('clubsGrid').innerHTML = CLUBS.map(c=>`
+    <div class="club-card" id="cc-${c.name}" onclick="pickClub('${c.name}')">
+      <div class="club-icon">${c.icon}</div>
+      <div class="club-name">${c.name}</div>
+      <div class="club-range">${c.min}–${c.max} yds</div>
+      <div class="club-pick" id="cp-${c.name}"></div>
+    </div>`).join('');
+}
+
+function recommendClub() {
+  let dist = parseInt(document.getElementById('clubDist').value)||0;
+  const wind = parseInt(document.getElementById('clubWind').value)||0;
+  const dir = document.getElementById('clubWindDir').value;
+  if (dir==='h') dist += Math.round(wind*0.5);
+  else if (dir==='t') dist -= Math.round(wind*0.33);
+  const match = CLUBS.find(c=>dist>=c.min&&dist<=c.max);
+  const rec = document.getElementById('clubRec');
+  document.querySelectorAll('.club-card').forEach(c=>c.classList.remove('picked'));
+  document.querySelectorAll('.club-pick').forEach(p=>p.textContent='');
+  if (match&&dist>0) {
+    rec.textContent=`${match.name} — adjusted ${dist} yards`;
+    const cc=document.getElementById('cc-'+match.name);
+    if(cc){cc.classList.add('picked');document.getElementById('cp-'+match.name).textContent='✓ Selected';}
+  } else if(dist>0) {
+    rec.textContent='Out of standard range — check lie and conditions';
+  }
+}
+
+function pickClub(name) {
+  document.querySelectorAll('.club-card').forEach(c=>c.classList.remove('picked'));
+  document.querySelectorAll('.club-pick').forEach(p=>p.textContent='');
+  document.getElementById('cc-'+name).classList.add('picked');
+  document.getElementById('cp-'+name).textContent='✓ Selected';
+}
+
+// ── Maintenance ───────────────────────────────────────────────────────────────
+function doMaintenance(key, msg) {
+  const log = document.getElementById('log-'+key);
+  const now = new Date().toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'});
+  log.textContent = `[${now}] ${msg}`;
+  log.style.color = 'var(--greenl)';
+}
+
+// ── Distance Calculator ───────────────────────────────────────────────────────
+function calcCarry() {
+  let gps=parseFloat(document.getElementById('cGps').value)||0;
+  let elev=parseFloat(document.getElementById('cElev').value)||0;
+  let wind=parseFloat(document.getElementById('cWind').value)||0;
+  let dir=document.getElementById('cWindDir').value;
+  if(!gps){document.getElementById('carryResult').textContent='—';return;}
+  let adj=gps;
+  adj+=elev/10;
+  if(dir==='h') adj+=wind*0.5;
+  else if(dir==='t') adj-=wind*0.33;
+  document.getElementById('carryResult').textContent=`Play it as ${Math.round(adj)} yards`;
+}
+
+function calcShape() {
+  let carry=parseFloat(document.getElementById('sCarry').value)||0;
+  if(!carry){document.getElementById('shapeResult').textContent='—';return;}
+  const shape=document.getElementById('sShape').value;
+  const lie=document.getElementById('sLie').value;
+  const shapeMult={straight:1,draw:1.05,fade:.95,punch:.85,flop:.9};
+  const lieMult={fair:1,semi:.95,rough:.88,bunker:.8,tight:1.03};
+  const adj=Math.round(carry*shapeMult[shape]*lieMult[lie]);
+  const shapes={straight:'',draw:'drawing',fade:'fading',punch:'punching',flop:'flop shot'};
+  document.getElementById('shapeResult').textContent=`${adj} yards carry ${shapes[shape]?'('+shapes[shape]+')':''}`;
+}
+
+// ── Enigma Machine ────────────────────────────────────────────────────────────
+const ENIGMA_WIRING = {
+  I:   'EKMFLGDQVZNTOWYHXUSPAIBRCJ',
+  II:  'AJDKSIRUXBLHWTMCQGZNPYFVOE',
+  III: 'BDFHJLCPRTXVZNYEIWGAKMUSQO',
+  REF: 'YRUHQSLDPXNGOKMIEBFZCWVJAT',
+};
+const ALPHA = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+const WORD_TABLE = {
+  A:['albatross','approach','ace'],   B:['birdie','bogey','bunker'],
+  C:['caddy','chip','course'],        D:['divot','dogleg','driver'],
+  E:['eagle','embed','escrow'],       F:['fairway','flop','flag'],
+  G:['green','grip','gimme'],         H:['handicap','hazard','hole'],
+  I:['iron','inside','index'],        J:['jigger','juniper','joint'],
+  K:['knock','knoll','keeper'],       L:['links','lie','loft'],
+  M:['mashie','mulligan','marker'],   N:['niblick','net','nap'],
+  O:['open','out','oath'],            P:['par','putt','pin'],
+  Q:['qualify','quest','quad'],       R:['rough','round','ridge'],
+  S:['stroke','scratch','slope'],     T:['tee','tap','triple'],
+  U:['under','uphill','uneven'],      V:['vault','vantage','vector'],
+  W:['wedge','water','waggle'],       X:['xeric','xerox','xenon'],
+  Y:['yardage','yips','yield'],       Z:['zone','zenith','zero'],
+};
+
+const rotorVals = [0, 0, 0];
+
+function adjRotor(idx, delta) {
+  rotorVals[idx] = ((rotorVals[idx] + delta) % 26 + 26) % 26;
+  syncRotorDisplay(idx);
+}
+
+function setRotor(idx, val) {
+  const n = parseInt(val);
+  if (!isNaN(n)) rotorVals[idx] = ((n % 26) + 26) % 26;
+  syncRotorDisplay(idx);
+}
+
+function syncRotorDisplay(idx) {
+  document.getElementById('rd' + idx).textContent = rotorVals[idx];
+  document.getElementById('rm' + idx).value = rotorVals[idx];
+}
+
+function enigmaEncode(r1, r2, r3) {
+  function fwd(ch, wiring, offset) {
+    return wiring[(ALPHA.indexOf(ch) + offset + 26) % 26];
+  }
+  function ref(ch) { return ENIGMA_WIRING.REF[ALPHA.indexOf(ch)]; }
+  return ['G','O','L'].map(seed => {
+    let c = seed;
+    c = fwd(c, ENIGMA_WIRING.I,   r1 % 26);
+    c = fwd(c, ENIGMA_WIRING.II,  r2 % 26);
+    c = fwd(c, ENIGMA_WIRING.III, r3 % 26);
+    c = ref(c);
+    c = fwd(c, ENIGMA_WIRING.III, (26 - r3 % 26) % 26);
+    return c;
+  });
+}
+
+function renderWordTable(highlight = []) {
+  const tbody = document.getElementById('wtBody');
+  if (!tbody) return;
+  // highlight[i] = letter → index rule: [0,1,0]
+  const idxRule = [0, 1, 0];
+  tbody.innerHTML = Object.entries(WORD_TABLE).map(([letter, words]) => {
+    const hi = highlight.indexOf(letter);  // -1 or 0,1,2
+    const isHl = hi !== -1;
+    const cells = words.map((w, i) => {
+      // badge if this is the word selected for the phrase
+      const badge = isHl && idxRule[hi] === i
+        ? `<span class="wt-idx">${i}</span>` : '';
+      return `<td>${w}${badge}</td>`;
+    }).join('');
+    return `<tr class="${isHl ? 'wt-hl' : ''}"><td>${letter}</td>${cells}</tr>`;
+  }).join('');
+}
+
+async function runEnigma() {
+  const [r1, r2, r3] = rotorVals;
+
+  // call the API so it logs
+  let letters;
+  try {
+    const res = await fetch('/api/enigma/encode', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({r1, r2, r3}),
+    });
+    const d = await res.json();
+    letters = d.output;
+  } catch(e) {
+    // fallback: compute locally
+    letters = enigmaEncode(r1, r2, r3);
+  }
+
+  // Display output letters
+  const outEl = document.getElementById('outLetters');
+  outEl.innerHTML = letters.map(l => `<div class="out-letter">${l}</div>`).join('');
+  document.getElementById('outHint').textContent =
+    `Letters: ${letters.join(' · ')}  →  Row ${letters[0]}[0] · Row ${letters[1]}[1] · Row ${letters[2]}[0]`;
+  document.getElementById('enigmaOut').classList.add('on');
+
+  // Derive phrase
+  const phrase = [
+    WORD_TABLE[letters[0]][0],
+    WORD_TABLE[letters[1]][1],
+    WORD_TABLE[letters[2]][0],
+  ];
+  document.getElementById('pbPhrase').textContent = phrase.join(' · ');
+  document.getElementById('phraseBox').classList.add('on');
+
+  // Highlight word table
+  renderWordTable(letters);
+  // Switch to show word table if it's off-screen — just scroll to it
+  document.getElementById('tab-enigma').scrollTop = 9999;
+}
+
+// Init word table on load (no highlights)
+function initWordTable() {
+  renderWordTable([]);
+}
+
+// ── Members ───────────────────────────────────────────────────────────────────
+
+let members=[], editId=null;
+
+async function loadMembers(){
+  try{
+    const r=await fetch('/api/members');
+    const d=await r.json();
+    members=d.members||[];
+    renderMembers(members);
+  }catch(e){document.getElementById('memBody').innerHTML='<tr><td colspan="6" style="color:var(--redl);text-align:center">Failed to load members</td></tr>';}
+}
+
+function renderMembers(list){
+  document.getElementById('memBody').innerHTML=list.map(m=>`
+    <tr>
+      <td>${m.name}</td>
+      <td>${m.handicap}</td>
+      <td><span class="badge-tier ${m.membership}">${m.membership}</span></td>
+      <td>${m.since}</td>
+      <td><span class="status-dot ${m.status==='Active'?'s-active':'s-hold'}"></span>${m.status}</td>
+      <td><div class="mem-actions">
+        <button class="mem-btn" onclick="openEditMember(${m.id})">Edit</button>
+        <button class="mem-btn del" onclick="deleteMember(${m.id})">Remove</button>
+      </div></td>
+    </tr>`).join('');
+}
+
+function filterMembers(){
+  const q=document.getElementById('memSearch').value.toLowerCase();
+  renderMembers(members.filter(m=>m.name.toLowerCase().includes(q)||m.membership.toLowerCase().includes(q)));
+}
+
+function openAddMember(){
+  editId=null;
+  document.getElementById('modalTitle').textContent='Add Member';
+  ['mName','mHandicap'].forEach(id=>document.getElementById(id).value='');
+  document.getElementById('memberModal').classList.add('on');
+}
+
+function openEditMember(id){
+  editId=id;
+  const m=members.find(x=>x.id===id);
+  if(!m)return;
+  document.getElementById('modalTitle').textContent='Edit Member';
+  document.getElementById('mName').value=m.name;
+  document.getElementById('mHandicap').value=m.handicap;
+  document.getElementById('mTier').value=m.membership;
+  document.getElementById('mStatus').value=m.status;
+  document.getElementById('memberModal').classList.add('on');
+}
+
+async function saveMember(){
+  const data={
+    name:document.getElementById('mName').value,
+    handicap:parseInt(document.getElementById('mHandicap').value)||0,
+    membership:document.getElementById('mTier').value,
+    status:document.getElementById('mStatus').value,
+    since:new Date().getFullYear(),
+  };
+  if(editId){
+    await fetch(`/api/members/${editId}`,{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
+    const idx=members.findIndex(m=>m.id===editId);
+    if(idx>=0)members[idx]={...members[idx],...data};
+  } else {
+    const r=await fetch('/api/members',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
+    const d=await r.json();
+    members.push(d.member);
+  }
+  renderMembers(members);
+  closeModal();
+}
+
+async function deleteMember(id){
+  if(!confirm('Remove this member from the register?'))return;
+  await fetch(`/api/members/${id}`,{method:'DELETE'});
+  members=members.filter(m=>m.id!==id);
+  renderMembers(members);
+}
+
+function closeModal(){document.getElementById('memberModal').classList.remove('on');}
+document.getElementById('memberModal').addEventListener('click',e=>{if(e.target===e.currentTarget)closeModal();});
+</script>
+</body>
+</html>

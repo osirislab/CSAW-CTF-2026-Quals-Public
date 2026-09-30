@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}{{ draft.title }} | CSALE{% endblock %}
+{% block content %}
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+<article class="draft">
+    <div class="preview">
+        <img class="protected-draft-image" src="/{{ draft.slug }}/preview" alt="">
+        {% if is_owner %}
+            <form class="release-gate" method="post">
+                <h2>Release listing</h2>
+                <input type="password" name="release_password" placeholder="Release password" required>
+                <button>Release</button>
+            </form>
+        {% endif %}
+    </div>
+    <h1>{{ draft.title }}</h1>
+    <p>{{ draft.description }}</p>
+</article>
+{% endblock %}

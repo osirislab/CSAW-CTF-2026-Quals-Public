@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Vault — Avispa Country Club</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Share+Tech+Mono&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+  <style>
+    :root{--cream:#f5f0e8;--forest:#0d1a0d;--forest2:#1a2e1a;--gold:#b8963e;--sand:#d4c5a9;--red:#c0392b;--green:#27ae60;--ink:#0e1a0e;--dim:rgba(212,197,169,.35);}
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{background:var(--forest);color:var(--cream);font-family:'Share Tech Mono',monospace;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;cursor:crosshair;}
+    body::before{content:'';position:fixed;inset:0;z-index:0;background-image:linear-gradient(rgba(184,150,62,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(184,150,62,.04) 1px,transparent 1px);background-size:40px 40px;animation:gridShift 20s linear infinite;}
+    @keyframes gridShift{from{background-position:0 0}to{background-position:40px 40px}}
+
+    .vault-container{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;gap:2rem;padding:3rem;max-width:540px;width:90%;}
+
+    .vault-door{width:160px;height:160px;border:3px solid var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;position:relative;animation:vaultPulse 4s ease-in-out infinite;}
+    @keyframes vaultPulse{0%,100%{box-shadow:0 0 0 0 rgba(184,150,62,.4),0 0 30px rgba(184,150,62,.1)}50%{box-shadow:0 0 0 15px rgba(184,150,62,0),0 0 60px rgba(184,150,62,.2)}}
+    .vault-door::before{content:'';position:absolute;width:115px;height:115px;border:1px solid rgba(184,150,62,.4);border-radius:50%;}
+    .vault-door::after{content:'';position:absolute;width:70px;height:70px;border:1px solid rgba(184,150,62,.22);border-radius:50%;}
+    .vault-symbol{font-size:2.2rem;z-index:1;}
+    .vault-ring{position:absolute;width:146px;height:146px;border-top:2px solid rgba(184,150,62,.6);border-right:2px solid transparent;border-radius:50%;animation:spin 8s linear infinite;}
+    @keyframes spin{to{transform:rotate(360deg)}}
+
+    .vault-title{font-family:'IM Fell English SC',serif;font-size:1.3rem;color:var(--gold);letter-spacing:.2em;text-align:center;}
+    .vault-subtitle{font-size:.65rem;color:var(--dim);letter-spacing:.18em;text-align:center;margin-top:-.5rem;}
+
+    .word-inputs{display:flex;gap:.7rem;align-items:center;}
+    .word-input{background:rgba(245,240,232,.04);border:1px solid rgba(184,150,62,.3);color:var(--gold);font-family:'Share Tech Mono',monospace;font-size:.82rem;letter-spacing:.08em;padding:.75rem .9rem;width:115px;text-align:center;outline:none;transition:border-color .2s,box-shadow .2s;text-transform:lowercase;}
+    .word-input::placeholder{color:rgba(184,150,62,.28);}
+    .word-input:focus{border-color:var(--gold);box-shadow:0 0 15px rgba(184,150,62,.1);}
+    .word-sep{color:rgba(184,150,62,.35);font-size:1.1rem;}
+
+    .btn-vault{width:100%;padding:.95rem;background:transparent;border:1px solid var(--gold);color:var(--gold);font-family:'Share Tech Mono',monospace;font-size:.7rem;letter-spacing:.3em;text-transform:uppercase;cursor:crosshair;transition:all .3s;position:relative;overflow:hidden;}
+    .btn-vault::before{content:'';position:absolute;inset:0;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .3s;z-index:-1;}
+    .btn-vault:hover{color:var(--ink);}
+    .btn-vault:hover::before{transform:scaleX(1);}
+
+    .status-bar{width:100%;padding:.8rem 1rem;font-size:.68rem;letter-spacing:.1em;border:1px solid transparent;text-align:center;min-height:2.8rem;display:flex;align-items:center;justify-content:center;transition:all .3s;}
+    .status-bar.idle{color:var(--dim);}
+    .status-bar.denied{color:var(--red);border-color:rgba(192,57,43,.3);background:rgba(192,57,43,.05);}
+    .status-bar.open{color:var(--green);border-color:rgba(39,174,96,.3);background:rgba(39,174,96,.05);}
+    .status-bar.burned{color:var(--red);border-color:rgba(192,57,43,.5);background:rgba(192,57,43,.1);animation:burnFlash .5s ease 3;}
+    @keyframes burnFlash{0%,100%{opacity:1}50%{opacity:.3}}
+
+    #tier1{display:none;width:100%;}
+    #tier1.on{display:block;}
+    .welcome-box{border:1px solid rgba(39,174,96,.3);background:rgba(39,174,96,.05);padding:1.4rem;margin-bottom:1rem;}
+    .welcome-label{font-size:.55rem;letter-spacing:.3em;color:var(--green);margin-bottom:.4rem;text-transform:uppercase;}
+    .welcome-msg{font-size:.78rem;color:rgba(245,240,232,.8);line-height:1.8;}
+
+    .special-item{border:1px solid rgba(184,150,62,.2);background:rgba(184,150,62,.04);padding:1.4rem;position:relative;overflow:hidden;}
+    .si-label{font-size:.52rem;letter-spacing:.3em;color:rgba(184,150,62,.5);margin-bottom:.6rem;text-transform:uppercase;}
+    .si-name{font-family:'IM Fell English SC',serif;font-size:1.1rem;color:rgba(184,150,62,.4);margin-bottom:.5rem;filter:blur(3px);user-select:none;}
+    .si-lock{font-size:.65rem;color:rgba(184,150,62,.5);line-height:1.9;}
+    .si-hint{font-size:.58rem;color:rgba(184,150,62,.35);margin-top:.6rem;line-height:1.8;border-top:1px solid rgba(184,150,62,.1);padding-top:.6rem;}
+    /* shimmer over locked item */
+    .special-item::after{content:'🔒 ADMIN CLEARANCE REQUIRED';position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:.6rem;letter-spacing:.25em;color:rgba(184,150,62,.45);background:rgba(13,26,13,.7);}
+
+    #tier2{display:none;width:100%;}
+    #tier2.on{display:block;}
+    .admin-box{border:1px solid rgba(184,150,62,.5);background:rgba(184,150,62,.07);padding:1.4rem;margin-bottom:1rem;}
+    .admin-label{font-size:.52rem;letter-spacing:.3em;color:var(--gold);margin-bottom:.4rem;text-transform:uppercase;}
+    .admin-msg{font-size:.75rem;color:rgba(245,240,232,.85);line-height:1.8;margin-bottom:.8rem;}
+    .item-revealed{border:1px solid rgba(184,150,62,.4);padding:1.2rem;background:rgba(184,150,62,.06);margin-bottom:1rem;}
+    .item-name{font-family:'IM Fell English SC',serif;font-size:1.3rem;color:var(--gold);margin-bottom:.3rem;}
+    .item-desc{font-size:.65rem;color:var(--sand);line-height:1.9;}
+    .item-prov{font-size:.6rem;color:var(--dim);margin-top:.5rem;border-top:1px solid rgba(184,150,62,.15);padding-top:.5rem;}
+    .flag-box{border:1px solid rgba(39,174,96,.4);background:rgba(39,174,96,.06);padding:1rem;}
+    .flag-label{font-size:.52rem;letter-spacing:.3em;color:var(--green);margin-bottom:.3rem;text-transform:uppercase;}
+    .flag-value{font-size:.95rem;color:var(--green);letter-spacing:.05em;}
+    .cve-note{font-size:.58rem;color:var(--dim);margin-top:.6rem;line-height:1.8;}
+
+    .hint-row{font-size:.58rem;color:rgba(212,197,169,.2);letter-spacing:.1em;text-align:center;}
+    .back-link{position:fixed;top:2rem;left:3rem;z-index:10;font-size:.62rem;letter-spacing:.22em;color:rgba(184,150,62,.35);text-decoration:none;text-transform:uppercase;transition:color .2s;cursor:crosshair;}
+    .back-link:hover{color:var(--gold);}
+  </style>
+</head>
+<body>
+<a href="/" class="back-link">← Club</a>
+
+<div class="vault-container">
+  <div class="vault-door">
+    <div class="vault-ring"></div>
+    <span class="vault-symbol" id="vaultSymbol">⛳</span>
+  </div>
+
+  <div class="vault-title">The Vault</div>
+  <p class="vault-subtitle" id="vaultSubtitle">Three words. Golf lexicon. Correct order.</p>
+
+  <div id="entryForm" style="width:100%;display:flex;flex-direction:column;gap:1rem;">
+    <div class="word-inputs">
+      <input class="word-input" id="w1" type="text" placeholder="first"  maxlength="20" autocomplete="off" spellcheck="false">
+      <span class="word-sep">·</span>
+      <input class="word-input" id="w2" type="text" placeholder="second" maxlength="20" autocomplete="off" spellcheck="false">
+      <span class="word-sep">·</span>
+      <input class="word-input" id="w3" type="text" placeholder="third"  maxlength="20" autocomplete="off" spellcheck="false">
+    </div>
+    <button class="btn-vault" onclick="attemptVault()">[ OPEN VAULT ]</button>
+    <div class="status-bar idle" id="status">Awaiting credentials…</div>
+  </div>
+
+  <div id="tier1">
+    <div class="welcome-box">
+      <div class="welcome-label">Access Granted — Privileged User</div>
+      <div class="welcome-msg" id="welcomeMsg"></div>
+    </div>
+    <div class="special-item">
+      <div class="si-label">Special Item — Vault Collection</div>
+      <img src="/static/collection/gold.jpg" alt="The Golden Putter"
+        style="width:100%;height:180px;object-fit:cover;filter:blur(6px) brightness(.5);pointer-events:none;-webkit-user-drag:none;user-select:none;display:block;">
+      <div class="si-name">The Golden Putter</div>
+      <div class="si-lock">This item is restricted to admin clearance only.<br>You are authenticated, but not authorised.</div>
+    </div>
+  </div>
+
+  <div id="tier2">
+    <div class="admin-box">
+      <div class="admin-label">Admin Access — Identity Injected</div>
+      <div class="admin-msg" id="adminMsg"></div>
+    </div>
+    <div class="item-revealed">
+      <img src="/static/collection/gold.jpg" alt="The Golden Putter"
+        style="width:100%;height:220px;object-fit:cover;display:block;margin-bottom:.8rem;-webkit-user-drag:none;user-select:none;pointer-events:none;"
+        oncontextmenu="return false">
+      <div class="item-name" id="itemName"></div>
+      <div class="item-desc" id="itemDesc"></div>
+      <div class="item-prov" id="itemProv"></div>
+    </div>
+    <div class="flag-box">
+      <div class="flag-label">Flag</div>
+      <div class="flag-value" id="flagValue"></div>
+      <div class="cve-note" id="cveNote"></div>
+    </div>
+  </div>
+
+  <div class="hint-row" id="hintRow">The combination lives in the machines. Find the three teapots.</div>
+</div>
+
+<script>
+let unlockedPhrase = '';
+
+async function attemptVault() {
+  const w1 = document.getElementById('w1').value.trim().toLowerCase();
+  const w2 = document.getElementById('w2').value.trim().toLowerCase();
+  const w3 = document.getElementById('w3').value.trim().toLowerCase();
+
+  if (!w1||!w2||!w3) { setStatus('Three words required.','denied'); return; }
+
+  const phrase = `${w1} ${w2} ${w3}`;
+  setStatus('Authenticating…','idle');
+
+  try {
+    const res = await fetch('/api/vault/enter', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({phrase}),
+    });
+    const d = await res.json();
+
+    if (d.burned) {
+      setStatus('🔥 ' + (d.error||'Vault sealed. The daemon is watching.'),'burned');
+      return;
+    }
+
+    if (d.success) {
+      unlockedPhrase = phrase;
+      document.getElementById('welcomeMsg').textContent = d.message;
+      document.getElementById('tier1').classList.add('on');
+      document.getElementById('entryForm').style.display = 'none';
+      document.getElementById('hintRow').style.display = 'none';
+      document.getElementById('vaultSubtitle').textContent = 'Privileged access. Vault open.';
+      document.getElementById('vaultSymbol').textContent = '🏆';
+      setStatus('✓ Vault open. Welcome, privileged user.','open');
+    } else {
+      setStatus('✗ ' + (d.error||'Access denied.'),'denied');
+    }
+  } catch(e) {
+    setStatus('Connection failure.','denied');
+  }
+}
+
+function showTier2(d) {
+  document.getElementById('tier1').classList.remove('on');
+  document.getElementById('adminMsg').textContent = d.message;
+  document.getElementById('itemName').textContent  = d.special_item.name;
+  document.getElementById('itemDesc').textContent  = d.special_item.description;
+  document.getElementById('itemProv').textContent  = d.special_item.provenance;
+  document.getElementById('flagValue').textContent = d.flag;
+  document.getElementById('cveNote').textContent   =
+    `CVE: ${d.cve} — ${d.exploit}`;
+  document.getElementById('tier2').classList.add('on');
+  document.getElementById('vaultSymbol').textContent = '👑';
+  document.getElementById('vaultSubtitle').textContent = 'Admin access. Heist complete.';
+  setStatus('👑 Admin identity injected. Heist complete.','open');
+}
+
+function setStatus(msg,cls) {
+  const el=document.getElementById('status');
+  el.textContent=msg; el.className='status-bar '+cls;
+}
+
+document.querySelectorAll('.word-input').forEach(inp=>{
+  inp.addEventListener('keydown',e=>{if(e.key==='Enter')attemptVault();});
+});
+</script>
+</body>
+</html>

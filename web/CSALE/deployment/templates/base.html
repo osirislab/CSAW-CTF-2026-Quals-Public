@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>{% block title %}CSALE{% endblock %}</title>
+    <link rel="stylesheet" href="/static/site.css">
+</head>
+<body>
+    <nav>
+        <a class="logo" href="/">CSALE</a>
+        {% if current_user %}
+            <a href="/">Shop</a>
+            <a href="/listings/new">Sell</a>
+            <a href="/account/drafts">Drafts</a>
+            <a href="/messages">Messages</a>
+            <a href="/account/orders">Orders</a>
+            <a href="/cart">Cart</a>
+            <span>{{ current_user.username }}</span>
+            <a href="/logout">Log out</a>
+        {% endif %}
+    </nav>
+    <main>{% block content %}{% endblock %}</main>
+</body>
+</html>

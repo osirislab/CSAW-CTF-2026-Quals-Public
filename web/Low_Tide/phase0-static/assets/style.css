@@ -1,0 +1,61 @@
+/* sync.conf note: .htaccess has legacy rewrite rules, mostly dead */
+
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: #ffffff;
+  color: #000000;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.titlebar {
+  background: #000000;
+  color: #ffffff;
+}
+
+.titlebar td {
+  padding: 4px 8px;
+  font-family: "Courier New", monospace;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #000000;
+  margin: 10px 0;
+}
+
+a {
+  color: #000000;
+}
+
+input[type="text"], input[type="password"] {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13px;
+  border: 1px solid #000000;
+  padding: 2px;
+}
+
+input[type="submit"] {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13px;
+  border: 1px solid #000000;
+  background: #d4d4d4;
+  padding: 2px 10px;
+}
+
+#status-light {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #000000;
+}
+
+.down { background: #cc0000; }
+.up { background: #006600; }
+
+small {
+  font-size: 11px;
+}
